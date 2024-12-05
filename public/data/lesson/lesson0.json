@@ -1,0 +1,49 @@
+{
+  "word": [
+    {
+      "symbol": "संस्कृत",
+      "name": "Sanskrit",
+      "image": "/data/images/lesson0/karma-yoga-2.png",
+      "audio": "/data/audio/lesson0/sanskrit.mp3",
+      "pronunciation": "'Sanskrit', as in 'Sanskrit' (the ancient language of India).",
+      "learning_tip": "Sanskrit is not only the foundation of many Indian languages but also a crucial gateway to understanding the depth of ancient Indian knowledge. It is the language in which the oldest spiritual and philosophical texts of India were written, such as the Vedas, Upanishads, and the epics like the Mahabharata and Ramayana. Sanskrit has a unique grammatical structure that is highly systematic and can express complex ideas with precision. By learning Sanskrit, you open the door to thousands of years of wisdom that shaped not only Indian culture but also influenced global thought, particularly in the fields of mathematics, astronomy, and metaphysics.",
+      "hindi_learning_tip": "संस्कृत केवल भारतीय भाषाओं की नींव नहीं है, बल्कि यह प्राचीन भारतीय ज्ञान को समझने की एक महत्वपूर्ण कुंजी भी है। यह वह भाषा है जिसमें भारत के सबसे प्राचीन आध्यात्मिक और दार्शनिक ग्रंथ जैसे वेद, उपनिषद और महाभारत और रामायण जैसी महाकाव्य लिखे गए थे। संस्कृत का एक अद्वितीय व्याकरण संरचना है जो अत्यधिक व्यवस्थित है और जटिल विचारों को सटीकता से व्यक्त कर सकती है। संस्कृत सीखकर, आप हजारों वर्षों का ज्ञान प्राप्त करते हैं, जिसने न केवल भारतीय संस्कृति को आकार दिया बल्कि गणित, खगोलशास्त्र और तात्त्विकता के क्षेत्रों में वैश्विक सोच को भी प्रभावित किया।"
+    },
+    {
+      "symbol": "वेद",
+      "name": "Veda",
+      "image": "/data/images/lesson0/veda.png",
+      "audio": "/data/audio/lesson0/veda.mp3",
+      "pronunciation": "'Veda', as in 'Rigveda' (one of the four Vedas).",
+      "learning_tip": "The Vedas are not just texts, but the embodiment of spiritual knowledge passed down through generations. They were composed in an era where oral transmission was the primary mode of preserving knowledge, and hence, they are meticulously crafted with rhythmic and phonetic precision. The Vedas are divided into four major texts – Rigveda, Samaveda, Yajurveda, and Atharvaveda – each serving a different purpose, from hymns to rituals to philosophical discourse. Studying the Vedas allows one to delve into the foundational concepts of Hinduism, such as the nature of the divine, the purpose of human existence, and the laws of karma and dharma.",
+      "hindi_learning_tip": "वेद केवल ग्रंथ नहीं हैं, बल्कि वे आध्यात्मिक ज्ञान का एक रूप हैं जो पीढ़ी दर पीढ़ी हस्तांतरित किया गया है। इन्हें उस युग में रचा गया था जब ज्ञान को मौखिक रूप से संजोने का मुख्य तरीका था, इसलिए ये अत्यधिक सही ढंग से लयबद्ध और ध्वन्यात्मक रूप से तैयार किए गए हैं। वेद चार प्रमुख ग्रंथों में विभाजित हैं – ऋग्वेद, सामवेद, यजुर्वेद और अथर्ववेद – प्रत्येक का अलग उद्देश्य है, जैसे मंत्रों से लेकर अनुष्ठानों और दार्शनिक चर्चाओं तक। वेदों का अध्ययन करने से आप हिंदू धर्म के मौलिक सिद्धांतों में गहरी समझ प्राप्त करते हैं, जैसे कि ईश्वर का स्वरूप, मानव जीवन का उद्देश्य, और कर्म और धर्म के नियम।"
+    },
+    {
+      "symbol": "धर्म",
+      "name": "Dharma",
+      "image": "/data/images/lesson0/dharma.png",
+      "audio": "/data/audio/lesson0/dharma.mp3",
+      "pronunciation": "'Dharma', as in 'Dharma' (the cosmic law and order).",
+      "learning_tip": "Dharma is a concept that is central to not only Hinduism but also other Indian religions like Buddhism, Jainism, and Sikhism. It refers to the cosmic law and order that governs the universe and the moral duties of individuals. Dharma is deeply interconnected with the idea of righteousness, justice, and duty, and it teaches individuals to act in harmony with the greater cosmic order. Each person’s dharma is determined by their age, social position, and circumstances, making it a highly personalized ethical framework. It also underscores the importance of balance and respect for all living beings.",
+      "hindi_learning_tip": "धर्म केवल हिंदू धर्म ही नहीं, बल्कि बौद्ध धर्म, जैन धर्म और सिख धर्म जैसी अन्य भारतीय धर्मों में भी केंद्रीय सिद्धांत है। यह ब्रह्मांड के क़ानून और व्यवस्था को संदर्भित करता है, जो पूरे ब्रह्मांड और व्यक्तियों के नैतिक कर्तव्यों को नियंत्रित करता है। धर्म का गहरा संबंध सदाचार, न्याय और कर्तव्य के विचार से है, और यह व्यक्तियों को ब्रह्मांडीय व्यवस्था के साथ सामंजस्यपूर्ण तरीके से कार्य करने की शिक्षा देता है। प्रत्येक व्यक्ति का धर्म उसकी उम्र, सामाजिक स्थिति और परिस्थितियों के आधार पर निर्धारित होता है, जिससे यह एक अत्यधिक व्यक्तिगत नैतिक ढांचा बनता है। यह संतुलन और सभी जीवों के प्रति सम्मान का महत्व भी रेखांकित करता है।"
+    },
+    {
+      "symbol": "मंत्र",
+      "name": "Mantra",
+      "image": "/data/images/lesson0/mantra.png",
+      "audio": "/data/audio/lesson0/mantra.mp3",
+      "pronunciation": "'Mantra', as in 'Om Mani Padme Hum' (a sacred Buddhist mantra).",
+      "learning_tip": "Mantras are believed to have immense spiritual power. They are composed of sacred sounds or syllables that, when chanted correctly, are said to bring about profound mental, physical, and spiritual changes. The power of mantras is thought to lie in their vibrational frequency, which can influence the mind and body on a molecular level. In addition to their use in meditation, mantras are often employed during rituals and ceremonies to invoke specific energies, blessings, or deities. Regular repetition of a mantra is said to lead to mental clarity, focus, and a sense of inner peace.",
+      "hindi_learning_tip": "मंत्रों को अपार आध्यात्मिक शक्ति का स्रोत माना जाता है। ये पवित्र ध्वनियाँ या वर्ण होते हैं, जो जब सही तरीके से जाप किए जाते हैं, तो मानसिक, शारीरिक और आध्यात्मिक परिवर्तन लाने की शक्ति रखते हैं। मंत्रों की शक्ति उनके कंपन की आवृत्ति में निहित मानी जाती है, जो मानसिक और शारीरिक स्तर पर शरीर और मन को प्रभावित कर सकती है। ध्यान में उपयोग के अलावा, मंत्रों का उपयोग अक्सर अनुष्ठानों और संस्कारों में विशिष्ट ऊर्जा, आशीर्वाद या देवताओं को आह्वान करने के लिए किया जाता है। नियमित रूप से मंत्र का जाप मानसिक स्पष्टता, एकाग्रता और आंतरिक शांति की भावना को जन्म देता है।"
+    },
+    {
+      "symbol": "योग",
+      "name": "Yoga",
+      "image": "/data/images/lesson0/yoga.png",
+      "audio": "/data/audio/lesson0/yoga.mp3",
+      "pronunciation": "'Yoga', as in 'Hatha Yoga' (a form of physical and spiritual exercise).",
+      "learning_tip": "Yoga, as a spiritual and physical practice, has been central to Indian culture for thousands of years. It encompasses not just physical postures, but also breathing techniques (pranayama), meditation (dhyana), and ethical precepts (yamas and niyamas). Yoga’s ultimate goal is self-realization and union with the divine. There are various paths of yoga, such as Hatha Yoga (which focuses on physical postures), Bhakti Yoga (the path of devotion), Karma Yoga (the path of selfless action), and Jnana Yoga (the path of knowledge). Each path offers a unique approach to spiritual growth and enlightenment, depending on an individual’s nature and inclinations.",
+      "hindi_learning_tip": "योग, एक आध्यात्मिक और शारीरिक अभ्यास के रूप में, हजारों वर्षों से भारतीय संस्कृति का केंद्रीय हिस्सा रहा है। इसमें केवल शारीरिक आसन ही नहीं, बल्कि श्वास-प्रश्वास तकनीक (प्राणायाम), ध्यान (ध्यान) और नैतिक सिद्धांत (यम और नियम) भी शामिल हैं। योग का अंतिम लक्ष्य आत्म-साक्षात्कार और दिव्य के साथ एकता प्राप्त करना है। योग के विभिन्न मार्ग हैं, जैसे हठ योग (जो शारीरिक आसनों पर ध्यान केंद्रित करता है), भक्ति योग (जो भक्ति का मार्ग है), कर्म योग (जो निस्वार्थ क्रियाओं का मार्ग है) और ज्ञान योग (जो ज्ञान का मार्ग है)। प्रत्येक मार्ग आध्यात्मिक विकास और आत्मज्ञान की ओर एक विशिष्ट दृष्टिकोण प्रदान करता है, जो व्यक्ति के स्वभाव और प्रवृत्तियों पर निर्भर करता है।"
+    }
+  ]
+}

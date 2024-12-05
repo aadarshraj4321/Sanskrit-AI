@@ -1,0 +1,726 @@
+{
+  "vowels": [
+      {
+          "symbol": "अ",
+          "name": "a",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/a.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/1.mp3",
+          "pronunciation": "'a', as in 'Agni' (Fire).",
+          "example": {
+              "word": "Ankh",
+              "meaning": "Eye",
+              "audio": "/data/audio/ankh.mp3",
+              "hindi_word": "आँख",
+              "hindi_meaning": "नेत्र"
+          },
+          "learning_tip": "Keep the mouth open and relaxed while pronouncing.",
+          "hindi_learning_tip": "मुँह खुला और आरामदायक रखें।"
+      },
+      {
+          "symbol": "आ",
+          "name": "aa",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/aa.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/2.mp3",
+          "pronunciation": "'aa', as in 'Aangan' (courtyard).",
+          "example": {
+              "word": "Aangan",
+              "meaning": "Courtyard",
+              "audio": "/data/audio/aangan.mp3",
+              "hindi_word": "आँगन",
+              "hindi_meaning": "आँगन"
+          },
+          "learning_tip": "Pronounce with the mouth open slightly wider than the 'a' sound.",
+          "hindi_learning_tip": "‘आ’ के उच्चारण में मुँह को थोड़ा अधिक खोलें।"
+      },
+      {
+          "symbol": "इ",
+          "name": "i",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/3.mp3",
+          "pronunciation": "'i', as in 'India' (country).",
+          "example": {
+              "word": "India",
+              "meaning": "India",
+              "audio": "/data/audio/india.mp3",
+              "hindi_word": "भारत",
+              "hindi_meaning": "भारत"
+          },
+          "learning_tip": "Pronounce with the tongue near the lower front teeth.",
+          "hindi_learning_tip": "जीभ को नीचे के सामने के दाँतों के पास रखें।"
+      },
+      {
+          "symbol": "ई",
+          "name": "ee",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ee.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/4.mp3",
+          "pronunciation": "'ee', as in 'Eent' (brick).",
+          "example": {
+              "word": "Eent",
+              "meaning": "Brick",
+              "audio": "/data/audio/eent.mp3",
+              "hindi_word": "ईंट",
+              "hindi_meaning": "गारा पत्थर"
+          },
+          "learning_tip": "Smile slightly while pronouncing to emphasize the long 'ee'.",
+          "hindi_learning_tip": "लंबे 'ई' को स्पष्ट करने के लिए हल्की मुस्कान दें।"
+      },
+      {
+          "symbol": "उ",
+          "name": "u",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/u.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/5.mp3",
+          "pronunciation": "'u', as in 'Uttar' (north).",
+          "example": {
+              "word": "Uttar",
+              "meaning": "North",
+              "audio": "/data/audio/uttar.mp3",
+              "hindi_word": "उत्तर",
+              "hindi_meaning": "उत्तर"
+          },
+          "learning_tip": "Pronounce with the tongue towards the back of the mouth.",
+          "hindi_learning_tip": "जीभ को मुँह के पिछले हिस्से की ओर रखें।"
+      },
+      {
+          "symbol": "ऊ",
+          "name": "oo",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/oo.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/6.mp3",
+          "pronunciation": "'oo', as in 'Oonh' (wool).",
+          "example": {
+              "word": "Oonh",
+              "meaning": "Wool",
+              "audio": "/data/audio/oonh.mp3",
+              "hindi_word": "ऊन",
+              "hindi_meaning": "ऊन"
+          },
+          "learning_tip": "Pronounce with the tongue towards the back of the mouth, similar to the English 'oo'.",
+          "hindi_learning_tip": "‘ऊ’ के उच्चारण में जीभ को मुँह के पिछले हिस्से की ओर रखें।"
+      },
+      {
+          "symbol": "ए",
+          "name": "e",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/e.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/7.mp3",
+          "pronunciation": "'e', as in 'Ek' (one).",
+          "example": {
+              "word": "Ek",
+              "meaning": "One",
+              "audio": "/data/audio/ek.mp3",
+              "hindi_word": "एक",
+              "hindi_meaning": "एक"
+          },
+          "learning_tip": "Pronounce with the tongue touching the bottom of the front teeth.",
+          "hindi_learning_tip": "जीभ को सामने के दाँतों के नीचे रखें।"
+      },
+      {
+          "symbol": "ऐ",
+          "name": "ai",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ai.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/8.mp3",
+          "pronunciation": "'ai', as in 'Aise' (like this).",
+          "example": {
+              "word": "Aise",
+              "meaning": "Like this",
+              "audio": "/data/audio/aise.mp3",
+              "hindi_word": "ऐसे",
+              "hindi_meaning": "ऐसा"
+          },
+          "learning_tip": "Produce the sound with a combination of 'e' and 'i'.",
+          "hindi_learning_tip": "‘ए’ और ‘इ’ के मेल से ध्वनि निकालें।"
+      },
+      {
+          "symbol": "ओ",
+          "name": "o",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/o.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/9.mp3",
+          "pronunciation": "'o', as in 'Ooper' (above).",
+          "example": {
+              "word": "Ooper",
+              "meaning": "Above",
+              "audio": "/data/audio/ooper.mp3",
+              "hindi_word": "ऊपर",
+              "hindi_meaning": "ऊपर"
+          },
+          "learning_tip": "Shape your lips in a circular shape when pronouncing this sound.",
+          "hindi_learning_tip": "मुंह को गोल आकार में बनाकर इस ध्वनि का उच्चारण करें।"
+      },
+      {
+          "symbol": "औ",
+          "name": "au",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/au.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/10.mp3",
+          "pronunciation": "'au', as in 'Aurat' (woman).",
+          "example": {
+              "word": "Aurat",
+              "meaning": "Woman",
+              "audio": "/data/audio/aurat.mp3",
+              "hindi_word": "औरत",
+              "hindi_meaning": "महिला"
+          },
+          "learning_tip": "Combine the sounds of 'a' and 'u' to pronounce this vowel.",
+          "hindi_learning_tip": "‘आ’ और ‘उ’ के मिश्रण से इस स्वर का उच्चारण करें।"
+      },
+      {
+          "symbol": "अं",
+          "name": "Anusvara",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/anusvara.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/11.mp3",
+          "pronunciation": "'Anusvara', as in 'Sankalp' (resolution). It is a nasal sound.",
+          "example": {
+              "word": "Sankalp",
+              "meaning": "Resolution",
+              "audio": "/data/audio/sankalp.mp3",
+              "hindi_word": "संकल्प",
+              "hindi_meaning": "संकल्प"
+          },
+          "learning_tip": "This sound is produced by closing the nasal passage while pronouncing.",
+          "hindi_learning_tip": "यह ध्वनि नथुने को बंद करके उच्चारित की जाती है।"
+      },
+      {
+          "symbol": "अः",
+          "name": "Visarga",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/visarga.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/12.mp3",
+          "pronunciation": "'Visarga', as in 'Om' (sacred syllable). It is a soft aspirated sound.",
+          "example": {
+              "word": "Om",
+              "meaning": "Sacred syllable",
+              "audio": "/data/audio/om.mp3",
+              "hindi_word": "ॐ",
+              "hindi_meaning": "ॐ"
+          },
+          "learning_tip": "This sound is produced by exhaling air softly after a vowel sound.",
+          "hindi_learning_tip": "यह ध्वनि किसी स्वर के बाद हलके से हवा निकालकर उच्चारित की जाती है।"
+      }
+  ],
+  "consonants": [
+      {
+          "symbol": "क",
+          "name": "Ka",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ka.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/13.mp3",
+          "pronunciation": "'ka', as in 'Kamal' (lotus).",
+          "example": {
+              "word": "Kamal",
+              "meaning": "Lotus",
+              "audio": "/data/audio/kamal.mp3",
+              "hindi_word": "कमल",
+              "hindi_meaning": "पुष्प"
+          },
+          "learning_tip": "Pronounce with the back of the tongue touching the soft palate.",
+          "hindi_learning_tip": "जीभ के पिछले भाग को मुलायम तालू से लगाकर उच्चारण करें।"
+      },
+      {
+          "symbol": "ख",
+          "name": "Kha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/kha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/14.mp3",
+          "pronunciation": "'kha', as in 'Khanjar' (dagger).",
+          "example": {
+              "word": "Khanjar",
+              "meaning": "Dagger",
+              "audio": "/data/audio/khanjar.mp3",
+              "hindi_word": "खंजर",
+              "hindi_meaning": "चाकू"
+          },
+          "learning_tip": "Aspirate the 'k' sound with a strong puff of air.",
+          "hindi_learning_tip": "‘क’ के उच्चारण में जोर से हवा का झोंका जोड़ें।"
+      },
+      {
+          "symbol": "ग",
+          "name": "Ga",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ga.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/15.mp3",
+          "pronunciation": "'ga', as in 'Gagan' (sky).",
+          "example": {
+              "word": "Gagan",
+              "meaning": "Sky",
+              "audio": "/data/audio/gagan.mp3",
+              "hindi_word": "गगन",
+              "hindi_meaning": "आकाश"
+          },
+          "learning_tip": "Pronounce by vibrating your vocal cords softly.",
+          "hindi_learning_tip": "अपने स्वर-तारों को हल्के से कंपन करके उच्चारण करें।"
+      },
+      {
+          "symbol": "घ",
+          "name": "Gha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/gha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/16.mp3",
+          "pronunciation": "'gha', as in 'Ghar' (house).",
+          "example": {
+              "word": "Ghar",
+              "meaning": "House",
+              "audio": "/data/audio/ghar.mp3",
+              "hindi_word": "घर",
+              "hindi_meaning": "आवास"
+          },
+          "learning_tip": "Emphasize the breathy 'gh' sound.",
+          "hindi_learning_tip": "साँस के झोंके के साथ ‘घ’ का उच्चारण करें।"
+      },
+      {
+          "symbol": "ङ",
+          "name": "Nga",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nga.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/17.mp3",
+          "pronunciation": "'nga', as in 'Anga' (body part).",
+          "example": {
+              "word": "Anga",
+              "meaning": "Body part",
+              "audio": "/data/audio/anga.mp3",
+              "hindi_word": "अंग",
+              "hindi_meaning": "शरीर का भाग"
+          },
+          "learning_tip": "Produce the sound from the back of your nasal cavity.",
+          "hindi_learning_tip": "ध्वनि को नासिका गुहा के पिछले हिस्से से निकालें।"
+      },
+      {
+          "symbol": "च",
+          "name": "Cha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/cha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/18.mp3",
+          "pronunciation": "'cha', as in 'Chandra' (moon).",
+          "example": {
+              "word": "Chandra",
+              "meaning": "Moon",
+              "audio": "/data/audio/chandra.mp3",
+              "hindi_word": "चंद्र",
+              "hindi_meaning": "चाँद"
+          },
+          "learning_tip": "Use the tongue tip touching the hard palate.",
+          "hindi_learning_tip": "जीभ की नोक को सख्त तालू से लगाकर उच्चारण करें।"
+      },
+      {
+          "symbol": "छ",
+          "name": "Chha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/chha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/19.mp3",
+          "pronunciation": "'chha', as in 'Chhatri' (umbrella).",
+          "example": {
+              "word": "Chhatri",
+              "meaning": "Umbrella",
+              "audio": "/data/audio/chhatri.mp3",
+              "hindi_word": "छत्री",
+              "hindi_meaning": "छाता"
+          },
+          "learning_tip": "Pronounce the 'ch' sound with a strong aspirated burst.",
+          "hindi_learning_tip": "‘च’ के उच्चारण में मजबूत हवा का झोंका जोड़ें।"
+      },
+      {
+          "symbol": "ज",
+          "name": "Ja",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ja.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/20.mp3",
+          "pronunciation": "'ja', as in 'Jal' (water).",
+          "example": {
+              "word": "Jal",
+              "meaning": "Water",
+              "audio": "/data/audio/jal.mp3",
+              "hindi_word": "जल",
+              "hindi_meaning": "पानी"
+          },
+          "learning_tip": "Produce the sound with a slight buzz from the vocal cords.",
+          "hindi_learning_tip": "स्वर-तारों की हल्की भनभनाहट के साथ ध्वनि निकालें।"
+      },
+      {
+          "symbol": "झ",
+          "name": "Jha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/jha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/21.mp3",
+          "pronunciation": "'jha', as in 'Jhanjhar' (ring).",
+          "example": {
+              "word": "Jhanjhar",
+              "meaning": "Ring",
+              "audio": "/data/audio/jhanjhar.mp3",
+              "hindi_word": "झंझर",
+              "hindi_meaning": "चुड़ी"
+          },
+          "learning_tip": "Aspire the 'j' sound with a puff of air.",
+          "hindi_learning_tip": "‘ज’ के उच्चारण में हवा का झोंका जोड़ें।"
+      },
+      {
+          "symbol": "ञ",
+          "name": "Nya",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nya.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/22.mp3",
+          "pronunciation": "'nya', as in 'Gyan' (knowledge).",
+          "example": {
+              "word": "Gyan",
+              "meaning": "Knowledge",
+              "audio": "/data/audio/gyan.mp3",
+              "hindi_word": "ज्ञान",
+              "hindi_meaning": "सिखाई"
+          },
+          "learning_tip": "Pronounce this sound with the tongue touching the roof of the mouth.",
+          "hindi_learning_tip": "जीभ को तालू से लगा कर उच्चारण करें।"
+      },
+      {
+          "symbol": "ट",
+          "name": "Tta",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tta.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/23.mp3",
+          "pronunciation": "'tta', as in 'Tatak' (arena).",
+          "example": {
+              "word": "Tatak",
+              "meaning": "Arena",
+              "audio": "/data/audio/tatak.mp3",
+              "hindi_word": "तटक",
+              "hindi_meaning": "मैदान"
+          },
+          "learning_tip": "Use the tip of the tongue, touching the upper portion of the teeth.",
+          "hindi_learning_tip": "जीभ की नोक को ऊपरी दाँतों से लगाकर उच्चारण करें।"
+      },
+      {
+          "symbol": "ठ",
+          "name": "Ttha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ttha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/24.mp3",
+          "pronunciation": "'ttha', as in 'Tthara' (strong).",
+          "example": {
+              "word": "Tthara",
+              "meaning": "Strong",
+              "audio": "/data/audio/tthara.mp3",
+              "hindi_word": "ठर",
+              "hindi_meaning": "मजबूत"
+          },
+          "learning_tip": "Emphasize the hard 't' sound with extra force.",
+          "hindi_learning_tip": "‘ट’ के उच्चारण में अधिक बल का प्रयोग करें।"
+      },
+      {
+          "symbol": "ड",
+          "name": "Dda",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dda.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/25.mp3",
+          "pronunciation": "'dda', as in 'Dhan' (wealth).",
+          "example": {
+              "word": "Dhan",
+              "meaning": "Wealth",
+              "audio": "/data/audio/dhan.mp3",
+              "hindi_word": "धन",
+              "hindi_meaning": "संपत्ति"
+          },
+          "learning_tip": "Pronounce the 'd' sound with the tongue touching the roof of the mouth.",
+          "hindi_learning_tip": "जीभ को तालू से लगाकर ‘ड’ का उच्चारण करें।"
+      },
+      {
+          "symbol": "ढ",
+          "name": "Ddha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ddha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/26.mp3",
+          "pronunciation": "'ddha', as in 'Dharma' (religion).",
+          "example": {
+              "word": "Dharma",
+              "meaning": "Religion",
+              "audio": "/data/audio/dharma.mp3",
+              "hindi_word": "धर्म",
+              "hindi_meaning": "धर्म"
+          },
+          "learning_tip": "Aspirate the 'd' sound with a strong burst of air.",
+          "hindi_learning_tip": "‘ड’ के उच्चारण में हवा का झोंका जोड़ें।"
+      },
+      {
+          "symbol": "ण",
+          "name": "Na",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/27.mp3",
+          "pronunciation": "'na', as in 'Nadi' (river).",
+          "example": {
+              "word": "Nadi",
+              "meaning": "River",
+              "audio": "/data/audio/nadi.mp3",
+              "hindi_word": "नदी",
+              "hindi_meaning": "नदी"
+          },
+          "learning_tip": "Pronounce the sound with the tongue placed further back in the mouth.",
+          "hindi_learning_tip": "जीभ को मुँह के पिछले हिस्से में लगाकर उच्चारण करें।"
+      },
+      {
+          "symbol": "त",
+          "name": "Ta",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ta.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/28.mp3",
+          "pronunciation": "'ta', as in 'Taj' (crown).",
+          "example": {
+              "word": "Taj",
+              "meaning": "Crown",
+              "audio": "/data/audio/taj.mp3",
+              "hindi_word": "ताज",
+              "hindi_meaning": "मुकुट"
+          },
+          "learning_tip": "Pronounce this sound with the tongue touching the upper teeth.",
+          "hindi_learning_tip": "जीभ को ऊपरी दाँतों से लगाकर उच्चारण करें।"
+      },
+      {
+          "symbol": "थ",
+          "name": "Tha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/29.mp3",
+          "pronunciation": "'tha', as in 'Thali' (plate).",
+          "example": {
+              "word": "Thali",
+              "meaning": "Plate",
+              "audio": "/data/audio/thali.mp3",
+              "hindi_word": "थाली",
+              "hindi_meaning": "प्लेट"
+          },
+          "learning_tip": "Pronounce with a soft 'th' sound, similar to English 'th' in 'thanks'.",
+          "hindi_learning_tip": "‘थ’ के उच्चारण में ‘थैंक’ जैसा उच्चारण करें।"
+      },
+      {
+          "symbol": "द",
+          "name": "Da",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/da.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/30.mp3",
+          "pronunciation": "'da', as in 'Dost' (friend).",
+          "example": {
+              "word": "Dost",
+              "meaning": "Friend",
+              "audio": "/data/audio/dost.mp3",
+              "hindi_word": "दोस्त",
+              "hindi_meaning": "मित्र"
+          },
+          "learning_tip": "Place the tip of the tongue against the upper teeth to make the sound.",
+          "hindi_learning_tip": "जीभ की नोक को ऊपरी दांतों से लगा कर उच्चारण करें।"
+      },
+      {
+          "symbol": "ध",
+          "name": "Dha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/31.mp3",
+          "pronunciation": "'dha', as in 'Dharm' (religion).",
+          "example": {
+              "word": "Dharm",
+              "meaning": "Religion",
+              "audio": "/data/audio/dharm.mp3",
+              "hindi_word": "धर्म",
+              "hindi_meaning": "धर्म"
+          },
+          "learning_tip": "This is an aspirated 'd' sound, produced by adding a burst of air while making the sound.",
+          "hindi_learning_tip": "‘द’ के उच्चारण में हवा का झोंका जोड़ें।"
+      },
+      {
+          "symbol": "न",
+          "name": "Na",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/32.mp3",
+          "pronunciation": "'na', as in 'Nadi' (river).",
+          "example": {
+              "word": "Nadi",
+              "meaning": "River",
+              "audio": "/data/audio/nadi.mp3",
+              "hindi_word": "नदी",
+              "hindi_meaning": "नदी"
+          },
+          "learning_tip": "This sound is produced by placing the tongue against the upper teeth, similar to the 'na' sound in 'night'.",
+          "hindi_learning_tip": "यह ध्वनि ऊपरी दांतों से जीभ को लगाकर बनाई जाती है।"
+      },
+      {
+          "symbol": "प",
+          "name": "Pa",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pa.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/33.mp3",
+          "pronunciation": "'pa', as in 'Pani' (water).",
+          "example": {
+              "word": "Pani",
+              "meaning": "Water",
+              "audio": "/data/audio/pani.mp3",
+              "hindi_word": "पानी",
+              "hindi_meaning": "जल"
+          },
+          "learning_tip": "The sound is made by bringing both lips together, like the English 'p' in 'play'.",
+          "hindi_learning_tip": "यह ध्वनि दोनों होठों को मिलाकर बनाई जाती है, जैसे इंग्लिश के 'प' में होता है।"
+      },
+      {
+          "symbol": "फ",
+          "name": "Pha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/34.mp3",
+          "pronunciation": "'pha', as in 'Phool' (flower).",
+          "example": {
+              "word": "Phool",
+              "meaning": "Flower",
+              "audio": "/data/audio/phool.mp3",
+              "hindi_word": "फूल",
+              "hindi_meaning": "फूल"
+          },
+          "learning_tip": "This is an aspirated version of the 'p' sound, with a burst of air like in 'fan'.",
+          "hindi_learning_tip": "यह 'प' ध्वनि का उच्चारण होता है, जिसमें हवा का झोंका जोड़ा जाता है।"
+      },
+      {
+          "symbol": "ब",
+          "name": "Ba",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ba.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/35.mp3",
+          "pronunciation": "'ba', as in 'Bhai' (brother).",
+          "example": {
+              "word": "Bhai",
+              "meaning": "Brother",
+              "audio": "/data/audio/bhai.mp3",
+              "hindi_word": "भाई",
+              "hindi_meaning": "भाई"
+          },
+          "learning_tip": "The sound is produced by bringing both lips together, similar to the 'b' in 'bat'.",
+          "hindi_learning_tip": "यह ध्वनि दोनों होठों को मिलाकर बनाई जाती है, जैसे इंग्लिश के 'b' में होता है।"
+      },
+      {
+          "symbol": "भ",
+          "name": "Bha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/36.mp3",
+          "pronunciation": "'bha', as in 'Bharat' (India).",
+          "example": {
+              "word": "Bharat",
+              "meaning": "India",
+              "audio": "/data/audio/bharat.mp3",
+              "hindi_word": "भारत",
+              "hindi_meaning": "भारत"
+          },
+          "learning_tip": "This is an aspirated 'b' sound, produced with a burst of air.",
+          "hindi_learning_tip": "यह 'b' ध्वनि का उच्चारण होता है, जिसमें हवा का झोंका जोड़ा जाता है।"
+      },
+      {
+          "symbol": "म",
+          "name": "ma",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ma.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/37.mp3",
+          "pronunciation": "'ma', as in 'Maa' (mother).",
+          "example": {
+              "word": "Maa",
+              "meaning": "Mother",
+              "audio": "/data/audio/maa.mp3",
+              "hindi_word": "माँ",
+              "hindi_meaning": "माँ"
+          },
+          "learning_tip": "Produced by bringing both lips together, similar to the 'm' in 'man'.",
+          "hindi_learning_tip": "दोनों होंठों को एक साथ मिलाकर उच्चारण करें, जैसे 'म' शब्द में।"
+      },
+      {
+          "symbol": "य",
+          "name": "ya",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ya.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/38.mp3",
+          "pronunciation": "'ya', as in 'Yaar' (friend).",
+          "example": {
+              "word": "Yaar",
+              "meaning": "Friend",
+              "audio": "/data/audio/yaar.mp3",
+              "hindi_word": "यार",
+              "hindi_meaning": "दोस्त"
+          },
+          "learning_tip": "Produced by placing the tongue close to the roof of the mouth, like the 'y' in 'yes'.",
+          "hindi_learning_tip": "जीभ को तालू के पास रखकर उच्चारण करें, जैसे 'य' शब्द में।"
+      },
+      {
+          "symbol": "र",
+          "name": "ra",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ra.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/39.mp3",
+          "pronunciation": "'ra', as in 'Raat' (night).",
+          "example": {
+              "word": "Raat",
+              "meaning": "Night",
+              "audio": "/data/audio/raat.mp3",
+              "hindi_word": "रात",
+              "hindi_meaning": "रात"
+          },
+          "learning_tip": "The tongue taps the roof of the mouth, like the 'r' in 'Spanish' or 'Italian'.",
+          "hindi_learning_tip": "जीभ को तालू में हल्का सा टकराकर उच्चारण करें, जैसे 'र' शब्द में।"
+      },
+      {
+          "symbol": "ल",
+          "name": "la",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/la.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/40.mp3",
+          "pronunciation": "'la', as in 'Ladki' (girl).",
+          "example": {
+              "word": "Ladki",
+              "meaning": "Girl",
+              "audio": "/data/audio/ladki.mp3",
+              "hindi_word": "लड़की",
+              "hindi_meaning": "लड़की"
+          },
+          "learning_tip": "The tongue touches the roof of the mouth just behind the teeth, similar to the 'l' in 'light'.",
+          "hindi_learning_tip": "जीभ को ऊपरी तालू से मिलाकर उच्चारण करें, जैसे 'ल' शब्द में।"
+      },
+      {
+          "symbol": "व",
+          "name": "va",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/va.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/va.mp3",
+          "pronunciation": "'va', as in 'Vah' (he/she).",
+          "example": {
+              "word": "Vah",
+              "meaning": "He/She",
+              "audio": "/data/audio/vah.mp3",
+              "hindi_word": "वह",
+              "hindi_meaning": "वह"
+          },
+          "learning_tip": "Produced by lightly touching the top teeth with the lower lip, like the 'v' in 'van'.",
+          "hindi_learning_tip": "नीचे होंठ को ऊपर के दांतों के पास लगाकर उच्चारण करें, जैसे 'व' शब्द में।"
+      },
+      {
+          "symbol": "श",
+          "name": "sha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sha.mp3",
+          "pronunciation": "'sha', as in 'Shakti' (strength).",
+          "example": {
+              "word": "Shakti",
+              "meaning": "Strength",
+              "audio": "/data/audio/shakti.mp3",
+              "hindi_word": "शक्ति",
+              "hindi_meaning": "शक्ति"
+          },
+          "learning_tip": "The tongue is placed near the roof of the mouth, like the 'sh' in 'she'.",
+          "hindi_learning_tip": "जीभ को तालू के पास रखते हुए हल्के से उच्चारण करें, जैसे 'श' शब्द में।"
+      },
+      {
+          "symbol": "ष",
+          "name": "sha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha_one.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sha.mp3",
+          "pronunciation": "'sha', as in 'Shastra' (scripture).",
+          "example": {
+              "word": "Shastra",
+              "meaning": "Scripture",
+              "audio": "/data/audio/shastra.mp3",
+              "hindi_word": "शास्त्र",
+              "hindi_meaning": "शास्त्र"
+          },
+          "learning_tip": "Pronounced with the tongue curled back slightly, similar to the 'sh' sound but with a retroflex quality.",
+          "hindi_learning_tip": "जीभ को हल्का सा पीछे घुमा कर उच्चारण करें, जैसे 'ष' शब्द में।"
+      },
+      {
+          "symbol": "स",
+          "name": "sa",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sa.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sa.mp3",
+          "pronunciation": "'sa', as in 'Samaj' (society).",
+          "example": {
+              "word": "Samaj",
+              "meaning": "Society",
+              "audio": "/data/audio/samaj.mp3",
+              "hindi_word": "समाज",
+              "hindi_meaning": "समाज"
+          },
+          "learning_tip": "This sound is similar to the 's' in 'sun'.",
+          "hindi_learning_tip": "यह ध्वनि 'स' के समान है, जैसे 'स' शब्द में।"
+      },
+      {
+          "symbol": "ह",
+          "name": "ha",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ha.png",
+          "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/ha.mp3",
+          "pronunciation": "'ha', as in 'Hawa' (air).",
+          "example": {
+              "word": "Hawa",
+              "meaning": "Air",
+              "audio": "/data/audio/hawa.mp3",
+              "hindi_word": "हवा",
+              "hindi_meaning": "हवा"
+          },
+          "learning_tip": "A breathy sound made by exhaling air, like the 'h' in 'hello'.",
+          "hindi_learning_tip": "साँस छोड़ते हुए उच्चारण करें, जैसे 'ह' शब्द में।"
+      }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "quiz": [
+      {
+        "question": "What is the pronunciation of this symbol?",
+        "symbol": "क",
+        "options": ["ka", "ga", "kha", "gha"],
+        "correctAnswer": "ka"
+      },
+      {
+        "question": "What is the pronunciation of this symbol?",
+        "symbol": "इ",
+        "options": ["i", "ii", "u", "uu"],
+        "correctAnswer": "i"
+      },
+      {
+        "question": "What is the pronunciation of this symbol?",
+        "symbol": "आ",
+        "options": ["a", "aa", "i", "ii"],
+        "correctAnswer": "aa"
+      },
+      {
+        "question": "What is the symbol for 'A' in Sanskrit?",
+        "symbol": "A",
+        "options": ["अ", "आ", "इ", "ई"],
+        "correctAnswer": "अ"
+      },
+      {
+        "question": "What is the symbol for 'Ka' in Sanskrit?",
+        "symbol": "Ka",
+        "options": ["क", "ख", "ग", "घ"],
+        "correctAnswer": "क"
+      }
+    ]
+  }
+  

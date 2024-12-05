@@ -1,0 +1,18 @@
+
+
+Animated Gradient Progress Bar:
+
+The fgColor (foreground color) is now a cool #4FD1C5 (teal) that transitions smoothly in the gradient.
+The progress bar also has a glowing and animated pulse effect using framer-motion, which will draw attention to the progress and make it feel more dynamic.
+Glow Effect:
+
+
+Added a glowing, soft border around the progress bar. This is achieved using the motion.div to animate the glow effect, making the progress bar look interactive.
+The glow effect pulses in and out for added visual appeal using animate={{ opacity: [1, 0.8, 1], scale: [1, 1.05, 1] }}, creating a breathing effect.
+Background Gradient Animation:
+
+A gradient overlay fades in behind the progress bar with a blurred effect, adding depth and a polished look to the page. This background fades in with a subtle delay for smoothness.
+Text Styling:
+
+Increased the font size of the progress text to 24px, making it more prominent and easier to read.
+textColor="#F4A300" ensures that the text inside the circle matches the golden color theme.
