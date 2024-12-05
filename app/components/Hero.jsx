@@ -1205,7 +1205,7 @@ export default function Hero() {
       {/* Three Image Cards in a Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 animate-slide-up delay-500">
         <ImageCard
-          imageSrc="https://d8q326uv7ym5m.cloudfront.net/public/hero/sanskritMed.jpg"
+          imageSrc="https://d8q326uv7ym5m.cloudfront.net/public/gita/dhyan-yoga.png"
           title="Yoga and Sanskrit | योग और संस्कृत"
           description="संस्कृत के श्लोकों का उच्चारण योग के अभ्यास में मानसिक शांति और संतुलन लाता है। | The chanting of Sanskrit verses during yoga practice brings mental peace and balance."
         />
