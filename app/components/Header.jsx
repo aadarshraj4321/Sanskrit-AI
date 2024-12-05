@@ -109,7 +109,7 @@ const Header = () => {
             onClick={handleSignin}
             className="text-white bg-gradient-to-r from-blue-500 to-indigo-600 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-l hover:from-indigo-600 hover:to-blue-500 cursor-pointer shadow-md hover:shadow-xl"
           >
-            Sign-in
+            Log-in
           </a>
           <a
             onClick={handleSignup} 
