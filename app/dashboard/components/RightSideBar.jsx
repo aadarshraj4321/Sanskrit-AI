@@ -462,7 +462,7 @@ const RightSideBar = () => {
 
   return (
     <aside className="w-full sm:max-w-[180px] lg:max-w-[160px] min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 p-8 flex flex-col items-center space-y-6">
-      <h2 className="text-md font-semibold text-white text-center">Chat With Anonymous Person</h2>
+      <h2 className="text-md font-semibold text-white text-center">Chat With Anonymous person</h2>
 
       {/* Button to toggle the content visibility */}
       {/* <button
@@ -481,7 +481,7 @@ const RightSideBar = () => {
       {isContentVisible && (
         <div className="w-full flex flex-col space-y-4 bg-gray-800 p-4 rounded-lg shadow-lg">
           <p className="text-sm text-gray-400 text-center mb-4">
-            Share your thoughts freely Everything deletes automatically after each chat.
+            Share your thoughts freely Everything deleted automatically after each chat.
           </p>
 
           {/* Commenting out the chat message area */}
@@ -527,7 +527,7 @@ const RightSideBar = () => {
       {!isContentVisible && (
         <div className="w-full mt-4 text-center">
           <p className="text-gray-400 text-sm">
-            Work in progress...
+            Work in progress..
           </p>
         </div>
       )}
