@@ -481,7 +481,7 @@ const RightSideBar = () => {
       {isContentVisible && (
         <div className="w-full flex flex-col space-y-4 bg-gray-800 p-4 rounded-lg shadow-lg">
           <p className="text-sm text-gray-400 text-center mb-4">
-            Share your thoughts freely Everything deletes automatically after each chat.
+            Share your thoughts freely Everything deleted automatically after each chat.
           </p>
 
           {/* Commenting out the chat message area */}
@@ -527,7 +527,7 @@ const RightSideBar = () => {
       {!isContentVisible && (
         <div className="w-full mt-4 text-center">
           <p className="text-gray-400 text-sm">
-            Work in Progress...
+            Work in progress..
           </p>
         </div>
       )}
