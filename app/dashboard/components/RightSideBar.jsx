@@ -462,7 +462,7 @@ const RightSideBar = () => {
 
   return (
     <aside className="w-full sm:max-w-[180px] lg:max-w-[160px] min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 p-8 flex flex-col items-center space-y-6">
-      <h2 className="text-md font-semibold text-white text-center">Chat With Anonymous Person</h2>
+      <h2 className="text-md font-semibold text-white text-center">Chat With Anonymous person</h2>
 
       {/* Button to toggle the content visibility */}
       {/* <button
