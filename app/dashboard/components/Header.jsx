@@ -579,15 +579,15 @@ const Header = () => {
     <header className="bg-gray-900 w-full fixed top-0 shadow-md">
       <div className="w-full px-4 h-16 flex items-center justify-between transition-all duration-300">
         {/* Logo Section */}
-        <div onClick={handleDashboard} className="flex items-center space-x-2 cursor-pointer">
+        <div onClick={handleDashboard} className="flex items-center space-x-1 cursor-pointer">
           <Image
-            src="/logo.png"
+            src="/mainLogo.png"
             alt="Sanskrit AI"
-            width={30}
-            height={30}
+            width={80}
+            height={80}
             className="rounded-full"
           />
-          <Link href="/">
+          <Link href="/dashboard">
             <h1 className="text-xl font-semibold text-white">संस्कृतAI</h1>
           </Link>
         </div>

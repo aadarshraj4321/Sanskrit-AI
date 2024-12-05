@@ -85,16 +85,18 @@ const Header = () => {
     router.push('/sign-up');
   };
 
+  
+
   return (
     <header className="bg-gradient-to-r from-white to-[#f8f9fa] shadow-lg w-full">
       <div className="w-full px-4 py-2 flex items-center justify-between transition-all duration-300">
         {/* Logo Section */}
-        <div className="flex items-center space-x-2 cursor-pointer">
+        <div className="flex items-center space-x-0 cursor-pointer">
           <Image
-            src="/logo.png" 
+            src="/mainLogo.png" 
             alt="AI Image Generator Logo"
-            width={30} 
-            height={30}
+            width={100} 
+            height={100}
             className="rounded-full" 
           />
           {/* Link wrapping the text to navigate to the home page */}
