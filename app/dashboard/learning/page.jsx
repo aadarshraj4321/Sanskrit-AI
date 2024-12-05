@@ -469,7 +469,7 @@ const LearningLandingPage = () => {
                 <title>Sanskrit Learning Portal</title>
             </Head>
 
-            <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-gray-900 flex flex-col text-white">
+            <div className="min-h-screen bg-gray-900 flex flex-col text-white">
                 <div className="flex flex-1">
                     {/* Left Sidebar */}
                     <LeftSideBar sidebarItems={sidebarItems} />
