@@ -1202,25 +1202,7 @@ export default function Hero() {
 
       </div>
 
-      {/* Three Image Cards in a Row */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 animate-slide-up delay-500">
-        <ImageCard
-          imageSrc="https://d8q326uv7ym5m.cloudfront.net/public/gita/dhyan-yoga.png"
-          title="Yoga and Sanskrit | योग और संस्कृत"
-          description="संस्कृत के श्लोकों का उच्चारण योग के अभ्यास में मानसिक शांति और संतुलन लाता है। | The chanting of Sanskrit verses during yoga practice brings mental peace and balance."
-        />
-        <ImageCard
-          imageSrc="https://d8q326uv7ym5m.cloudfront.net/public/hero/clarity.jpg"
-          title="Sanskrit for Clarity | स्पष्टता के लिए संस्कृत"
-          description="संस्कृत की गहरी समझ मानसिक स्पष्टता और फोकस को बढ़ाती है। | A deeper understanding of Sanskrit enhances mental clarity and focus."
-        />
-        <ImageCard
-          imageSrc="https://d8q326uv7ym5m.cloudfront.net/public/hero/medidation.jpg"
-          title="Sanskrit Meditation | संस्कृत ध्यान"
-          description="संस्कृत के मंत्रों के साथ ध्यान से आंतरिक शांति और संतुलन प्राप्त करें। | Achieve inner peace and balance through meditation with Sanskrit mantras."
-        />
-      </div>
-
+      
       {/* Call-to-Action Button with Next.js Link */}
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-10 animate-slide-up delay-700">
         <Link href="/sign-up">
