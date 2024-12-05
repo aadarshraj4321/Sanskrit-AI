@@ -429,14 +429,11 @@ const LeftSideBar = ({ sidebarItems }) => {
     <div className="flex">
       {/* Sidebar */}
       <aside
-        className={`bg-gray-900 p-4 flex flex-col items-start border-r border-gray-600 transition-all duration-300 ease-in-out min-h-screen lg:w-48 ${
+        className={`bg-gray-900 p-4 mt-2 flex flex-col items-start border-r border-gray-600 transition-all duration-300 ease-in-out min-h-screen lg:w-48 ${
           isOpen ? 'block' : 'hidden'
         } lg:block transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} shadow-lg lg:shadow-none`}
       >
-        {/* Logo */}
-        <h2 className="text-xl font-semibold text-white mb-6 ml-6 mt-4 transition-all duration-300 ease-in-out">
-          SanskritAI
-        </h2>
+
 
         {/* Sidebar menu items */}
         <ul className="space-y-4 w-full text-gray-300 text-lg">

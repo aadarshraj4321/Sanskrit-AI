@@ -4366,7 +4366,7 @@ export default function KnowledgeBox() {
                   <FiMessageSquare className="text-xl text-blue-600" />
                   <p className="text-white">{entry.prompt}</p>
                 </div>
-                <h3 className="text-lg font-semibold mt-4 mb-2">Jiva:</h3>
+                <h3 className="text-lg font-semibold mt-4 mb-2">Aksha:</h3>
                 <div
                   className="p-4"
                   dangerouslySetInnerHTML={{
@@ -4387,7 +4387,7 @@ export default function KnowledgeBox() {
           <textarea
             rows="1"
             className="w-full p-4 bg-white border-2 border-gray-300 rounded-xl placeholder-gray-500 text-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none overflow-auto scrollbar-custom transition-all duration-300 ease-in-out"
-            placeholder="Enter your question here..."
+            placeholder="Ask anything about sanskrit..."
             value={prompt}
             onChange={handleInputChange}
             onKeyDown={(e) => {

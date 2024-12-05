@@ -267,7 +267,6 @@ export default function Dashboard() {
     { label: "Learn", icon: "https://d8q326uv7ym5m.cloudfront.net/public/dashboard_landing/learn.gif", link: "/dashboard/learning" },
     { label: "Story", icon: "https://d8q326uv7ym5m.cloudfront.net/public/dashboard_landing/story.gif", link: "/dashboard/story" },
     { label: "Gita", icon: "https://d8q326uv7ym5m.cloudfront.net/public/dashboard_landing/gitaa.gif", link: "/dashboard/gita" },
-    { label: "Profile", icon: "https://d8q326uv7ym5m.cloudfront.net/public/dashboard_landing/profile.gif", link: "/dashboard/profile" }
   ];
 
   // useEffect to check if it's running on the client side
