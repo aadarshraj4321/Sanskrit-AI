@@ -527,7 +527,7 @@ const RightSideBar = () => {
       {!isContentVisible && (
         <div className="w-full mt-4 text-center">
           <p className="text-gray-400 text-sm">
-            Work in progress...
+            Work in progress..
           </p>
         </div>
       )}
