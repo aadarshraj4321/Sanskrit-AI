@@ -100,7 +100,7 @@ const Header = () => {
             className="rounded-full" 
           />
           {/* Link wrapping the text to navigate to the home page */}
-          <Link href="/dashboard" passHref>
+          <Link href="/" passHref>
             <h1 className="text-xl font-semibold text-gray-800">संस्कृतAI</h1>
           </Link>
         </div>
