@@ -2222,6 +2222,461 @@
 
 
 
+// "use client";
+
+// import { useEffect, useState, useCallback } from "react";
+// import { useRouter } from "next/navigation";
+// import DOMPurify from "dompurify";
+// import dynamic from "next/dynamic";
+// import Image from "next/image";
+// import CompletePopup from "./CompletePopup";
+// import NotCompletePopup from "./NotCompletePopup";
+
+// // Dynamically import icons to reduce initial load
+// const FaVolumeUp = dynamic(() => import("react-icons/fa").then(mod => mod.FaVolumeUp));
+// const FaPlay = dynamic(() => import("react-icons/fa").then(mod => mod.FaPlay));
+// const FaArrowLeft = dynamic(() => import("react-icons/fa").then(mod => mod.FaArrowLeft));
+
+// const LessonPage = ({ params }) => {
+//     const [lessonData, setLessonData] = useState(null);
+//     const [currentStep, setCurrentStep] = useState(0);
+//     const [isQuizVisible, setIsQuizVisible] = useState(false);
+//     const [isHindi, setIsHindi] = useState(false);
+//     const [audioProgress, setAudioProgress] = useState(0);
+//     const [audioDuration, setAudioDuration] = useState(0);
+//     const router = useRouter();
+//     const [lessonId, setLessonId] = useState(null);
+
+//     // Unwrap the params object to get the lesson ID
+//     useEffect(() => {
+//         const fetchLessonId = async () => {
+//             const unwrappedParams = await params;
+//             setLessonId(unwrappedParams.id);
+//         };
+//         fetchLessonId();
+//     }, [params]);
+
+//     // Fetch lesson data when lessonId changes
+//     useEffect(() => {
+//         if (lessonId !== null) {
+//             const loadLessonData = async () => {
+//                 try {
+//                     const response = await fetch(`/data/lesson/lesson${lessonId}.json`);
+//                     if (!response.ok) throw new Error("Failed to load lesson data.");
+//                     const data = await response.json();
+//                     setLessonData(data);
+//                 } catch (error) {
+//                     console.error(error);
+//                 }
+//             };
+//             loadLessonData();
+//         }
+//     }, [lessonId]);
+
+//     // Play audio and update progress
+//     const playAudio = useCallback((audioUrl) => {
+//         const newAudio = new Audio(audioUrl);
+//         newAudio.play();
+
+//         setAudioDuration(newAudio.duration);
+
+//         newAudio.ontimeupdate = () => {
+//             setAudioProgress((newAudio.currentTime / newAudio.duration) * 100);
+//         };
+//     }, []);
+
+//     // Handle moving to the next step or showing quiz
+//     const handleNextStep = () => {
+//         if (currentStep < lessonData.vowels.length + lessonData.consonants.length - 1) {
+//             setCurrentStep((prevStep) => prevStep + 1);
+//         } else {
+//             setIsQuizVisible(true);
+//         }
+//     };
+
+//     const toggleLanguage = () => {
+//         setIsHindi(!isHindi);
+//     };
+
+//     // Fallback for loading
+//     if (!lessonData) {
+//         return (
+//             <div className="flex items-center justify-center h-screen w-screen bg-gray-900 text-white">
+//                 <Image
+//                     src="https://d8q326uv7ym5m.cloudfront.net/public/loading.gif"
+//                     alt="Loading..."
+//                     width={100}
+//                     height={100}
+//                     objectFit="contain"
+//                 />
+//             </div>
+//         );
+//     }
+
+//     const allAlphabets = [...lessonData.vowels, ...lessonData.consonants];
+//     const currentAlphabet = allAlphabets[currentStep];
+
+//     return (
+//         <div className="h-screen w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white flex flex-col">
+//             {/* Header with Back Button */}
+//             <div className="bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-start">
+//                 <button
+//                     onClick={() => router.back()}
+//                     className="bg-gradient-to-r from-slate-900 to-slate-700 text-white p-2 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+//                 >
+//                     <FaArrowLeft className="text-lg" />
+//                 </button>
+//                 <h1 className="text-2xl font-semibold text-white ml-4">Lesson</h1>
+//             </div>
+
+//             {/* Main Content Section */}
+//             <div className="flex flex-col md:flex-row w-full max-w-7xl p-4 shadow-2xl bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl animate__fadeIn animate__delay-1s mb-16">
+//                 {/* Left Section: Content (Symbol, Pronunciation, Description) */}
+//                 <div className="w-full md:w-2/3 pr-4 md:pr-8 mb-4 md:mb-0">
+//                     {/* Symbol */}
+//                     <h2 className="text-xl font-semibold mb-4 text-center text-indigo-100">
+//                         {currentAlphabet.symbol} - {currentAlphabet.name}
+//                     </h2>
+
+//                     {/* Pronunciation */}
+//                     <div className="mb-4">
+//                         <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-4 shadow-md">
+//                             <h3 className="text-lg font-semibold text-indigo-100 mb-2">Pronunciation</h3>
+//                             <div className="flex items-center justify-between">
+//                                 <button
+//                                     onClick={() => playAudio(currentAlphabet.audio)}
+//                                     className="bg-indigo-600 text-white p-2 rounded-full shadow-lg"
+//                                 >
+//                                     <FaPlay className="h-6 w-6" />
+//                                 </button>
+
+//                                 <div className="flex-1 mx-4 relative">
+//                                     <div className="w-full h-2 bg-gradient-to-r from-purple-800 to-slate-700 rounded-full">
+//                                         <div
+//                                             className="h-2 bg-indigo-600 rounded-full"
+//                                             style={{ width: `${audioProgress}%` }}
+//                                         ></div>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                             <p className="text-md text-center text-white">
+//                                 <span className="font-semibold">Pronunciation:</span> {currentAlphabet.pronunciation}
+//                             </p>
+//                         </div>
+//                     </div>
+
+//                     {/* Learning Tip */}
+// <div className="mb-4">
+//     <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-6 shadow-md">
+//         <div className="flex items-center mb-4">
+//             <svg
+//                 xmlns="http://www.w3.org/2000/svg"
+//                 className="h-6 w-6 text-white mr-3"
+//                 fill="none"
+//                 viewBox="0 0 24 24"
+//                 stroke="currentColor"
+//             >
+//                 <path
+//                     strokeLinecap="round"
+//                     strokeLinejoin="round"
+//                     strokeWidth="2"
+//                     d="M12 18v2m0 4v-2m0 0h6m-6 0H6m0 0h6m6 0h6m-6 0a6 6 0 100-12 6 6 0 000 12z"
+//                 />
+//             </svg>
+//             <h3 className="text-lg font-semibold text-white">Learning Tip</h3>
+//         </div>
+
+//         {/* Scrollable Container */}
+//         <div className="learning-tip-scroll-container">
+//             <p className="text-md text-white font-medium">
+//                 <span className="font-semibold">Tip:</span>{" "}
+//                 {isHindi ? currentAlphabet.hindi_learning_tip : currentAlphabet.learning_tip}
+//             </p>
+//         </div>
+//     </div>
+// </div>
+
+
+//                     {/* Toggle Button */}
+//                     <div className="flex justify-center mb-6">
+//                         <button
+//                             onClick={toggleLanguage}
+//                             className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-lg shadow-lg"
+//                         >
+//                             {isHindi ? "Show in English" : "Show in Hindi"}
+//                         </button>
+//                     </div>
+//                 </div>
+
+//                 {/* Right Section: Interactive Image */}
+//                 <div className="w-full md:w-1/3 h-auto relative group overflow-hidden border-2 border-purple-900 rounded-lg transition-all duration-500 ease-in-out hover:border-indigo-600">
+//     <div className="relative group overflow-hidden">
+//         <Image
+//             src={currentAlphabet.image}
+//             alt={currentAlphabet.name}
+//             width={280}
+//             height={280}
+//             className="rounded-lg w-full h-auto object-contain shadow-lg transition-transform transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-6"
+//         />
+//         <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-30 transition-opacity group-hover:opacity-0"></div>
+//     </div>
+// </div>
+
+//             </div>
+
+//             {/* Bottom Control Bar */}
+//             <div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-end">
+//                 <button
+//                     onClick={handleNextStep}
+//                     className="text-white bg-gradient-to-r from-slate-900 to-slate-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50 px-6 py-3 rounded-lg"
+//                 >
+//                     Next Step
+//                 </button>
+//             </div>
+
+//             {/* Quiz Modal or Popup */}
+//             {isQuizVisible && (
+//                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+//                     <NotCompletePopup />
+//                 </div>
+//             )}
+//         </div>
+//     );
+// };
+
+// export default LessonPage;
+
+
+
+
+
+
+
+
+// "use client";
+
+// import { useEffect, useState, useCallback } from "react";
+// import { useRouter } from "next/navigation";
+// import DOMPurify from "dompurify";
+// import dynamic from "next/dynamic";
+// import Image from "next/image";
+// import CompletePopup from "./CompletePopup";
+// import NotCompletePopup from "./NotCompletePopup";
+
+// // Dynamically import icons to reduce initial load
+// const FaVolumeUp = dynamic(() => import("react-icons/fa").then(mod => mod.FaVolumeUp));
+// const FaPlay = dynamic(() => import("react-icons/fa").then(mod => mod.FaPlay));
+// const FaArrowLeft = dynamic(() => import("react-icons/fa").then(mod => mod.FaArrowLeft));
+
+// const LessonPage = ({ params }) => {
+//     const [lessonData, setLessonData] = useState(null);
+//     const [currentStep, setCurrentStep] = useState(0);
+//     const [isQuizVisible, setIsQuizVisible] = useState(false);
+//     const [isHindi, setIsHindi] = useState(false);
+//     const [audioProgress, setAudioProgress] = useState(0);
+//     const [audioDuration, setAudioDuration] = useState(0);
+//     const router = useRouter();
+//     const [lessonId, setLessonId] = useState(null);
+
+//     useEffect(() => {
+//         const fetchLessonId = async () => {
+//             const unwrappedParams = await params;
+//             setLessonId(unwrappedParams.id);
+//         };
+//         fetchLessonId();
+//     }, [params]);
+
+//     useEffect(() => {
+//         if (lessonId !== null) {
+//             const loadLessonData = async () => {
+//                 try {
+//                     const response = await fetch(`/data/lesson/lesson${lessonId}.json`);
+//                     if (!response.ok) throw new Error("Failed to load lesson data.");
+//                     const data = await response.json();
+//                     setLessonData(data);
+//                 } catch (error) {
+//                     console.error(error);
+//                 }
+//             };
+//             loadLessonData();
+//         }
+//     }, [lessonId]);
+
+//     const playAudio = useCallback((audioUrl) => {
+//         const newAudio = new Audio(audioUrl);
+//         newAudio.play();
+//         setAudioDuration(newAudio.duration);
+
+//         newAudio.ontimeupdate = () => {
+//             setAudioProgress((newAudio.currentTime / newAudio.duration) * 100);
+//         };
+//     }, []);
+
+//     const handleNextStep = () => {
+//         if (currentStep < lessonData.vowels.length + lessonData.consonants.length - 1) {
+//             setCurrentStep((prevStep) => prevStep + 1);
+//         } else {
+//             setIsQuizVisible(true);
+//         }
+//     };
+
+//     const toggleLanguage = () => {
+//         setIsHindi(!isHindi);
+//     };
+
+//     if (!lessonData) {
+//         return (
+//             <div className="flex items-center justify-center h-screen w-screen bg-gray-900 text-white">
+//                 <Image
+//                     src="https://d8q326uv7ym5m.cloudfront.net/public/loading.gif"
+//                     alt="Loading..."
+//                     width={100}
+//                     height={100}
+//                     objectFit="contain"
+//                 />
+//             </div>
+//         );
+//     }
+
+//     const allAlphabets = [...lessonData.vowels, ...lessonData.consonants];
+//     const currentAlphabet = allAlphabets[currentStep];
+
+//     return (
+//         <div className="h-screen w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white flex flex-col">
+//             {/* Header with Back Button */}
+//             <div className="bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-start">
+//                 <button
+//                     onClick={() => router.back()}
+//                     className="bg-gradient-to-r from-slate-900 to-slate-700 text-white p-2 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+//                 >
+//                     <FaArrowLeft className="text-lg" />
+//                 </button>
+//                 <h1 className="text-2xl font-semibold text-white ml-4">Lesson</h1>
+//             </div>
+
+//             {/* Main Content Section */}
+//             <div className="flex flex-col md:flex-row w-full max-w-screen-xl mx-auto p-4 mt-10 shadow-2xl bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl animate__fadeIn animate__delay-1s mb-16">
+//                 {/* Left Section: Content (Symbol, Pronunciation, Description) */}
+//                 <div className="w-full md:w-2/3 pr-4 md:pr-8 mb-4 md:mb-0">
+//                     {/* Symbol */}
+//                     <h2 className="text-xl font-semibold mb-4 text-center text-indigo-100">
+//                         {currentAlphabet.symbol} - {currentAlphabet.name}
+//                     </h2>
+
+//                     {/* Pronunciation */}
+//                     <div className="mb-4">
+//                         <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-4 shadow-md">
+//                             <h3 className="text-lg font-semibold text-indigo-100 mb-2">Pronunciation</h3>
+//                             <div className="flex items-center justify-between">
+//                                 <button
+//                                     onClick={() => playAudio(currentAlphabet.audio)}
+//                                     className="bg-indigo-600 text-white p-2 rounded-full shadow-lg"
+//                                 >
+//                                     <FaPlay className="h-6 w-6" />
+//                                 </button>
+
+//                                 <div className="flex-1 mx-4 relative">
+//                                     <div className="w-full h-2 bg-gradient-to-r from-purple-800 to-slate-700 rounded-full">
+//                                         <div
+//                                             className="h-2 bg-indigo-600 rounded-full"
+//                                             style={{ width: `${audioProgress}%` }}
+//                                         ></div>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                             <p className="text-md text-center text-white">
+//                                 <span className="font-semibold">Pronunciation:</span> {currentAlphabet.pronunciation}
+//                             </p>
+//                         </div>
+//                     </div>
+
+//                     {/* Learning Tip */}
+//                     <div className="mb-4">
+//                         <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-6 shadow-md">
+//                             <div className="flex items-center mb-4">
+//                                 <svg
+//                                     xmlns="http://www.w3.org/2000/svg"
+//                                     className="h-6 w-6 text-white mr-3"
+//                                     fill="none"
+//                                     viewBox="0 0 24 24"
+//                                     stroke="currentColor"
+//                                 >
+//                                     <path
+//                                         strokeLinecap="round"
+//                                         strokeLinejoin="round"
+//                                         strokeWidth="2"
+//                                         d="M12 18v2m0 4v-2m0 0h6m-6 0H6m0 0h6m6 0h6m-6 0a6 6 0 100-12 6 6 0 000 12z"
+//                                     />
+//                                 </svg>
+//                                 <h3 className="text-lg font-semibold text-white">Learning Tip</h3>
+//                             </div>
+
+//                             {/* Scrollable Container */}
+//                             <div className="learning-tip-scroll-container">
+//                                 <p className="text-md text-white font-medium">
+//                                     <span className="font-semibold">Tip:</span>{" "}
+//                                     {isHindi ? currentAlphabet.hindi_learning_tip : currentAlphabet.learning_tip}
+//                                 </p>
+//                             </div>
+//                         </div>
+//                     </div>
+
+//                     {/* Toggle Button */}
+//                     <div className="flex justify-center mb-6">
+//                         <button
+//                             onClick={toggleLanguage}
+//                             className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-lg shadow-lg"
+//                         >
+//                             {isHindi ? "Show in English" : "Show in Hindi"}
+//                         </button>
+//                     </div>
+//                 </div>
+
+//                 {/* Right Section: Interactive Image */}
+//                 <div className="w-full md:w-1/3 h-auto relative group overflow-hidden border-2 border-purple-900 rounded-lg transition-all duration-500 ease-in-out hover:border-indigo-600">
+//                     <div className="relative group overflow-hidden">
+//                         <Image
+//                             src={currentAlphabet.image}
+//                             alt={currentAlphabet.name}
+//                             width={280}
+//                             height={280}
+//                             className="rounded-lg w-full h-auto object-contain shadow-lg transition-transform transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-6"
+//                         />
+//                         <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-30 transition-opacity group-hover:opacity-0"></div>
+//                     </div>
+//                 </div>
+//             </div>
+
+//             {/* Bottom Control Bar */}
+//             <div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-end">
+//                 <button
+//                     onClick={handleNextStep}
+//                     className="text-white bg-gradient-to-r from-slate-900 to-slate-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50 px-6 py-3 rounded-lg"
+//                 >
+//                     Next Step
+//                 </button>
+//             </div>
+
+//             {/* Quiz Modal or Popup */}
+//             {isQuizVisible && (
+//                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+//                     <NotCompletePopup />
+//                 </div>
+//             )}
+//         </div>
+//     );
+// };
+
+// export default LessonPage;
+
+
+
+
+
+
+
+
+
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
@@ -2247,7 +2702,6 @@ const LessonPage = ({ params }) => {
     const router = useRouter();
     const [lessonId, setLessonId] = useState(null);
 
-    // Unwrap the params object to get the lesson ID
     useEffect(() => {
         const fetchLessonId = async () => {
             const unwrappedParams = await params;
@@ -2256,7 +2710,6 @@ const LessonPage = ({ params }) => {
         fetchLessonId();
     }, [params]);
 
-    // Fetch lesson data when lessonId changes
     useEffect(() => {
         if (lessonId !== null) {
             const loadLessonData = async () => {
@@ -2273,11 +2726,9 @@ const LessonPage = ({ params }) => {
         }
     }, [lessonId]);
 
-    // Play audio and update progress
     const playAudio = useCallback((audioUrl) => {
         const newAudio = new Audio(audioUrl);
         newAudio.play();
-
         setAudioDuration(newAudio.duration);
 
         newAudio.ontimeupdate = () => {
@@ -2285,7 +2736,6 @@ const LessonPage = ({ params }) => {
         };
     }, []);
 
-    // Handle moving to the next step or showing quiz
     const handleNextStep = () => {
         if (currentStep < lessonData.vowels.length + lessonData.consonants.length - 1) {
             setCurrentStep((prevStep) => prevStep + 1);
@@ -2298,7 +2748,6 @@ const LessonPage = ({ params }) => {
         setIsHindi(!isHindi);
     };
 
-    // Fallback for loading
     if (!lessonData) {
         return (
             <div className="flex items-center justify-center h-screen w-screen bg-gray-900 text-white">
@@ -2322,7 +2771,7 @@ const LessonPage = ({ params }) => {
             <div className="bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-start">
                 <button
                     onClick={() => router.back()}
-                    className="bg-gradient-to-r from-slate-900 to-slate-700 text-white p-2 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+                    className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-2 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
                 >
                     <FaArrowLeft className="text-lg" />
                 </button>
@@ -2330,11 +2779,11 @@ const LessonPage = ({ params }) => {
             </div>
 
             {/* Main Content Section */}
-            <div className="flex flex-col md:flex-row w-full max-w-7xl p-4 shadow-2xl bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl animate__fadeIn animate__delay-1s mb-16">
+            <div className="flex flex-col md:flex-row w-full max-w-screen-2xl mx-auto p-6 mt-10 shadow-xl bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl animate__fadeIn animate__delay-1s mb-16">
                 {/* Left Section: Content (Symbol, Pronunciation, Description) */}
-                <div className="w-full md:w-2/3 pr-4 md:pr-8 mb-4 md:mb-0">
+                <div className="w-full md:w-2/3 lg:w-3/5 pr-4 md:pr-8 mb-4 md:mb-0">
                     {/* Symbol */}
-                    <h2 className="text-xl font-semibold mb-4 text-center text-indigo-100">
+                    <h2 className="text-xl lg:text-2xl font-semibold mb-4 text-center text-indigo-100">
                         {currentAlphabet.symbol} - {currentAlphabet.name}
                     </h2>
 
@@ -2366,36 +2815,35 @@ const LessonPage = ({ params }) => {
                     </div>
 
                     {/* Learning Tip */}
-<div className="mb-4">
-    <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-6 shadow-md">
-        <div className="flex items-center mb-4">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-white mr-3"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-            >
-                <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 18v2m0 4v-2m0 0h6m-6 0H6m0 0h6m6 0h6m-6 0a6 6 0 100-12 6 6 0 000 12z"
-                />
-            </svg>
-            <h3 className="text-lg font-semibold text-white">Learning Tip</h3>
-        </div>
+                    <div className="mb-4">
+                        <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg p-6 shadow-md">
+                            <div className="flex items-center mb-4">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6 text-white mr-3"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M12 18v2m0 4v-2m0 0h6m-6 0H6m0 0h6m6 0h6m-6 0a6 6 0 100-12 6 6 0 000 12z"
+                                    />
+                                </svg>
+                                <h3 className="text-lg font-semibold text-white">Learning Tip</h3>
+                            </div>
 
-        {/* Scrollable Container */}
-        <div className="learning-tip-scroll-container">
-            <p className="text-md text-white font-medium">
-                <span className="font-semibold">Tip:</span>{" "}
-                {isHindi ? currentAlphabet.hindi_learning_tip : currentAlphabet.learning_tip}
-            </p>
-        </div>
-    </div>
-</div>
-
+                            {/* Scrollable Container */}
+                            <div className="learning-tip-scroll-container">
+                                <p className="text-md text-white font-medium">
+                                    <span className="font-semibold">Tip:</span>{" "}
+                                    {isHindi ? currentAlphabet.hindi_learning_tip : currentAlphabet.learning_tip}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     {/* Toggle Button */}
                     <div className="flex justify-center mb-6">
@@ -2409,26 +2857,25 @@ const LessonPage = ({ params }) => {
                 </div>
 
                 {/* Right Section: Interactive Image */}
-                <div className="w-full md:w-1/3 h-auto relative group overflow-hidden border-2 border-purple-900 rounded-lg transition-all duration-500 ease-in-out hover:border-indigo-600">
-    <div className="relative group overflow-hidden">
-        <Image
-            src={currentAlphabet.image}
-            alt={currentAlphabet.name}
-            width={280}
-            height={280}
-            className="rounded-lg w-full h-auto object-contain shadow-lg transition-transform transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-6"
-        />
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-30 transition-opacity group-hover:opacity-0"></div>
-    </div>
-</div>
-
+                <div className="w-full md:w-1/3 lg:w-2/5 h-auto relative group overflow-hidden border-2 border-purple-900 rounded-lg transition-all duration-500 ease-in-out hover:border-indigo-600">
+                    <div className="relative group overflow-hidden">
+                        <Image
+                            src={currentAlphabet.image}
+                            alt={currentAlphabet.name}
+                            width={280}
+                            height={280}
+                            className="rounded-lg w-full h-auto object-contain shadow-lg transition-transform transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-6"
+                        />
+                        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-30 transition-opacity group-hover:opacity-0"></div>
+                    </div>
+                </div>
             </div>
 
             {/* Bottom Control Bar */}
             <div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-slate-900 to-slate-700 p-4 shadow-lg flex items-center justify-end">
                 <button
                     onClick={handleNextStep}
-                    className="text-white bg-gradient-to-r from-slate-900 to-slate-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50 px-6 py-3 rounded-lg"
+                    className="text-white bg-gradient-to-r from-purple-600 to-blue-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50 px-6 py-3 rounded-lg"
                 >
                     Next Step
                 </button>
@@ -2445,4 +2892,3 @@ const LessonPage = ({ params }) => {
 };
 
 export default LessonPage;
-
