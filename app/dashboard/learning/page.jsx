@@ -1651,7 +1651,11 @@ const LearningLandingPage = () => {
                             </motion.div>
                         )}
 
+
+ 
+
                         {/* Lesson Cards - More Responsive Grid */}
+{/*                        
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 sm:gap-8 justify-items-center items-center">
                             {lessonsData.slice(1).map((lesson, index) => (
                                 <motion.div
@@ -1675,7 +1679,66 @@ const LearningLandingPage = () => {
                                     </Link>
                                 </motion.div>
                             ))}
+                        </div> */}
+
+
+
+                    {/* Lesson Cards - More Responsive Grid */}
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 sm:gap-8 justify-items-center items-center">
+    {lessonsData.slice(1).map((lesson, index) => (
+        // Check if lesson.id is 2, if so show special code
+        lesson.id === 2 ? (
+            <motion.div
+                key={lesson.id}
+                className="w-full max-w-xs flex justify-center"
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: index * 0.2 }}
+            >
+                {/* Special Link for Lesson 2 */}
+                <Link href={"/dashboard/learning/lesson/lesson_two/"}>
+                    <div
+                        className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full shadow-lg overflow-hidden bg-cover bg-center transform transition-all duration-300 hover:scale-105 hover:rotate-3 hover:shadow-xl"
+                        style={{ backgroundImage: `url(${lesson.gif})` }}
+                    >
+                        <div className="absolute inset-0 bg-gray-900 bg-opacity-70 flex flex-col justify-center items-center p-3 sm:p-4 rounded-full text-center">
+                            <h2 className="text-base sm:text-lg font-semibold text-white">{lesson.title}</h2>
+                            <p className="text-xs text-gray-300 italic">{lesson.subtitle}</p>
                         </div>
+                        <div className="absolute inset-0 border-2 rounded-full animate-spin-slow"></div>
+                    </div>
+                </Link>
+            </motion.div>
+        ) : (
+            // Regular rendering for other lessons
+            <motion.div
+                key={lesson.id}
+                className="w-full max-w-xs flex justify-center"
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: index * 0.2 }}
+            >
+                <Link href={`/dashboard/learning/lesson/${lesson.id}`}>
+                    <div
+                        className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full shadow-lg overflow-hidden bg-cover bg-center transform transition-all duration-300 hover:scale-105 hover:rotate-3 hover:shadow-xl"
+                        style={{ backgroundImage: `url(${lesson.gif})` }}
+                    >
+                        <div className="absolute inset-0 bg-gray-900 bg-opacity-70 flex flex-col justify-center items-center p-3 sm:p-4 rounded-full text-center">
+                            <h2 className="text-base sm:text-lg font-semibold text-white">{lesson.title}</h2>
+                            <p className="text-xs text-gray-300 italic">{lesson.subtitle}</p>
+                        </div>
+                        <div className="absolute inset-0 border-2 rounded-full animate-spin-slow"></div>
+                    </div>
+                </Link>
+            </motion.div>
+        )
+    ))}
+</div>
+
+
+
+
+
                     </main>
 
                     {/* Right Sidebar - Full width on small screens, fixed width on larger screens */}
