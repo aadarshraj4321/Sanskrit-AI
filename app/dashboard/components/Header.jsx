@@ -557,7 +557,7 @@ import Link from 'next/link'; // Import Link from next/link
 const Header = () => {
   const router = useRouter();
   const { signOut } = useClerk(); // Use Clerk's signOut function
-  const [streakCount, setStreakCount] = useState(4); // Replace with dynamic streak count
+  const [streakCount, setStreakCount] = useState(1); // Replace with dynamic streak count
 
   const handleDashboard = () => {
     router.push('/dashboard');
