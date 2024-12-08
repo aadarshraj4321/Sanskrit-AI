@@ -1,0 +1,135 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is an example of a masculine noun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में पुल्लिंग संज्ञा का उदाहरण है?"
+        },
+        "options": [
+          "पत्नी (Wife)",
+          "रामः (Rama)",
+          "गंगा (Ganga)"
+        ],
+        "correct_answer": "रामः (Rama)"
+      },
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is a neuter gender noun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में नपुंसकलिंग संज्ञा है?"
+        },
+        "options": [
+          "पत्नी (Wife)",
+          "पुस्तकं (Book)",
+          "रामः (Rama)"
+        ],
+        "correct_answer": "पुस्तकं (Book)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the plural form of the noun 'रामः' (Rama)?",
+          "hindi": "'रामः' (Rama) संज्ञा का बहुवचन रूप कौन सा है?"
+        },
+        "options": [
+          "रामेभ्यः (To Ramas)",
+          "रामाः (Ramas)",
+          "रामौ (Two Ramas)"
+        ],
+        "correct_answer": "रामाः (Ramas)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the dual form of 'पुस्तकं' (Book)?",
+          "hindi": "'पुस्तकं' (Book) संज्ञा का द्विवचन रूप कौन सा है?"
+        },
+        "options": [
+          "पुस्तकं (Book)",
+          "पुस्तके (Two books)",
+          "पुस्तकाय (To book)"
+        ],
+        "correct_answer": "पुस्तके (Two books)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the noun 'रामः' (Rama) used for the object of the sentence?",
+          "hindi": "'रामः' (Rama) संज्ञा का प्रयोग वाक्य के कर्ता के रूप में कब किया जाता है?"
+        },
+        "options": [
+          "Accusative (द्वितीया)",
+          "Nominative (प्रथमा)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Accusative (द्वितीया)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the noun 'रामः' (Rama) used for addressing someone directly?",
+          "hindi": "'रामः' (Rama) संज्ञा का प्रयोग किसी को सीधे संबोधित करने के लिए किस विभक्ति में किया जाता है?"
+        },
+        "options": [
+          "Accusative (द्वितीया)",
+          "Nominative (प्रथमा)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Vocative (स्मरण)"
+      },
+      {
+        "category": "Types of Nouns",
+        "question": {
+          "english": "Which of the following is an example of a collective noun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में सर्ववाचक संज्ञा का उदाहरण है?"
+        },
+        "options": [
+          "राम (Rama)",
+          "काव्यसमूह (Group of poems)",
+          "ज्ञान (Knowledge)"
+        ],
+        "correct_answer": "काव्यसमूह (Group of poems)"
+      },
+      {
+        "category": "Types of Nouns",
+        "question": {
+          "english": "Which of the following is an example of an abstract noun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में भाववाचक संज्ञा का उदाहरण है?"
+        },
+        "options": [
+          "पत्नी (Wife)",
+          "सुख (Happiness)",
+          "सेना (Army)"
+        ],
+        "correct_answer": "सुख (Happiness)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "Which of the following is the nominative singular form of 'रामः' (Rama)?",
+          "hindi": "'रामः' (Rama) संज्ञा का सर्वनामिक एकवचन रूप कौन सा है?"
+        },
+        "options": [
+          "रामं (Rama)",
+          "रामः (Rama)",
+          "रामेण (By Rama)"
+        ],
+        "correct_answer": "रामः (Rama)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "Which of the following is the genitive plural form of 'पत्नी' (Wife)?",
+          "hindi": "'पत्नी' (Wife) संज्ञा का सर्वनामिक बहुवचन रूप कौन सा है?"
+        },
+        "options": [
+          "पत्नीषु (Of wives)",
+          "पत्नीभ्यः (Of wives)",
+          "पत्नीषु (In wives)"
+        ],
+        "correct_answer": "पत्नीषु (Of wives)"
+      }
+    ]
+  }
+  
