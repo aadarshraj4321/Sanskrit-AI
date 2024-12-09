@@ -1,0 +1,135 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Tense (काल)",
+        "question": {
+          "english": "Which of the following is an adverb that indicates present time in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में वर्तमानकाल का क्रियाविशेषण है?"
+        },
+        "options": [
+          "पूर्वम् (before)",
+          "नित्यं (always)",
+          "अनन्तरम् (later)"
+        ],
+        "correct_answer": "नित्यं (always)"
+      },
+      {
+        "category": "Tense (काल)",
+        "question": {
+          "english": "Which of the following is an adverb that indicates past time in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में भूतकाल का क्रियाविशेषण है?"
+        },
+        "options": [
+          "पूर्वम् (before)",
+          "वेलायाम् (at this time)",
+          "उदिते (in the future)"
+        ],
+        "correct_answer": "पूर्वम् (before)"
+      },
+      {
+        "category": "Person (पुरुष)",
+        "question": {
+          "english": "Which of the following is an adverb that correlates with the first person in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में प्रथमपुरुष से संबंधित क्रियाविशेषण है?"
+        },
+        "options": [
+          "स्वयम् (by myself)",
+          "त्वम् (you)",
+          "सः (he)"
+        ],
+        "correct_answer": "स्वयम् (by myself)"
+      },
+      {
+        "category": "Person (पुरुष)",
+        "question": {
+          "english": "Which of the following is an adverb that correlates with the third person in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में तृतीयपुरुष से संबंधित क्रियाविशेषण है?"
+        },
+        "options": [
+          "स्वयम् (by myself)",
+          "सः (he)",
+          "त्वम् (you)"
+        ],
+        "correct_answer": "सः (he)"
+      },
+      {
+        "category": "Voice (वाच्य)",
+        "question": {
+          "english": "Which of the following adverbs describes an action in the active voice in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में कर्तृवाच्य में क्रिया का वर्णन करता है?"
+        },
+        "options": [
+          "नित्यम् (always)",
+          "व्यापकं (widely)",
+          "उत्तमं (best)"
+        ],
+        "correct_answer": "नित्यम् (always)"
+      },
+      {
+        "category": "Voice (वाच्य)",
+        "question": {
+          "english": "Which of the following adverbs describes an action in the passive voice in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में कर्मवाच्य में क्रिया का वर्णन करता है?"
+        },
+        "options": [
+          "नित्यम् (always)",
+          "व्यापकं (widely)",
+          "उत्तमं (best)"
+        ],
+        "correct_answer": "व्यापकं (widely)"
+      },
+      {
+        "category": "Conjugation (धातु रूप)",
+        "question": {
+          "english": "Which of the following adverbs modifies the verb 'to read' in the present tense?",
+          "hindi": "निम्नलिखित में से कौन सा क्रियाविशेषण 'पठ' (to read) क्रिया को वर्तमानकाल में रूपांतरित करता है?"
+        },
+        "options": [
+          "नित्यम् पठामि (I read always)",
+          "पूर्वं पठितवान् (I had read before)",
+          "अवश्यं पठिष्यामि (I will certainly read)"
+        ],
+        "correct_answer": "नित्यम् पठामि (I read always)"
+      },
+      {
+        "category": "Conjugation (धातु रूप)",
+        "question": {
+          "english": "Which of the following adverbs modifies the verb 'to go' in the future tense?",
+          "hindi": "निम्नलिखित में से कौन सा क्रियाविशेषण 'गच्छ' (to go) क्रिया को भविष्यत्काल में रूपांतरित करता है?"
+        },
+        "options": [
+          "उत्तमं गच्छिष्यामि (I will go excellently)",
+          "शान्तिपूर्वकं गच्छामि (I go peacefully)",
+          "अतीते गच्छितवान् (I went previously)"
+        ],
+        "correct_answer": "उत्तमं गच्छिष्यामि (I will go excellently)"
+      },
+      {
+        "category": "Types of Adverbs",
+        "question": {
+          "english": "Which of the following is an example of an adverb of place in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में स्थानवाचक क्रियाविशेषण का उदाहरण है?"
+        },
+        "options": [
+          "इति (thus)",
+          "इह (here)",
+          "अत्युत्तमं (excellently)"
+        ],
+        "correct_answer": "इह (here)"
+      },
+      {
+        "category": "Types of Adverbs",
+        "question": {
+          "english": "Which of the following is an example of an adverb of frequency in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में आवृत्तिवाचक क्रियाविशेषण का उदाहरण है?"
+        },
+        "options": [
+          "नित्यं (always)",
+          "कदाचित् (sometimes)",
+          "सर्वत्र (everywhere)"
+        ],
+        "correct_answer": "नित्यं (always)"
+      }
+    ]
+  }
+  

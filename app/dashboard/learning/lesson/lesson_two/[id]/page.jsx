@@ -128,7 +128,7 @@
 //     <div className="bg-white p-6 rounded-lg shadow-md">
 //       <h2 className="text-2xl font-bold text-blue-700 mb-4">Gender (लिंग)</h2>
 //       <p className="text-gray-600 mb-4">{lessonData.categories[0].description}</p>
-      
+
 //       <div className="grid md:grid-cols-3 gap-4">
 //         {Object.entries(lessonData.categories[0].genders).map(([gender, Sanskrit]) => (
 //           <div key={gender} className="border rounded-lg p-4 hover:bg-blue-50 transition">
@@ -154,7 +154,7 @@
 //       <div className="bg-white p-6 rounded-lg shadow-md">
 //         <h2 className="text-2xl font-bold text-blue-700 mb-4">Number (वचन)</h2>
 //         <p className="text-gray-600 mb-4">{numberCategory.description}</p>
-        
+
 //         <div className="grid md:grid-cols-3 gap-4">
 //           {Object.entries(numberCategory.numbers).map(([number, Sanskrit]) => (
 //             <div key={number} className="border rounded-lg p-4 hover:bg-blue-50 transition">
@@ -416,7 +416,7 @@
 //         Gender (लिंग)
 //       </h2>
 //       <p className="text-gray-600 mb-6 text-lg leading-relaxed">{lessonData.categories[0].description}</p>
-      
+
 //       <div className="grid md:grid-cols-3 gap-6">
 //         {Object.entries(lessonData.categories[0].genders).map(([gender, Sanskrit]) => (
 //           <motion.div 
@@ -460,7 +460,7 @@
 //           Number (वचन)
 //         </h2>
 //         <p className="text-gray-600 mb-6 text-lg leading-relaxed">{numberCategory.description}</p>
-        
+
 //         <div className="grid md:grid-cols-3 gap-6">
 //           {Object.entries(numberCategory.numbers).map(([number, Sanskrit]) => (
 //             <motion.div 
@@ -554,7 +554,7 @@
 //     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 py-10">
 //       <div className="container mx-auto max-w-6xl">
 //         <LessonHeader />
-        
+
 //         <motion.div 
 //           initial={{ opacity: 0 }}
 //           animate={{ opacity: 1 }}
@@ -761,7 +761,7 @@
 //       <p className="text-gray-600 mb-6 text-lg leading-relaxed">
 //         {lessonData.categories[0]?.description || 'No description available'}
 //       </p>
-      
+
 //       <div className="grid md:grid-cols-3 gap-6">
 //         {lessonData.categories[0]?.genders && Object.entries(lessonData.categories[0].genders).map(([gender, Sanskrit]) => (
 //           <motion.div 
@@ -807,7 +807,7 @@
 //         <p className="text-gray-600 mb-6 text-lg leading-relaxed">
 //           {numberCategory?.description || 'No description available'}
 //         </p>
-        
+
 //         <div className="grid md:grid-cols-3 gap-6">
 //           {numberCategory?.numbers && Object.entries(numberCategory.numbers).map(([number, Sanskrit]) => (
 //             <motion.div 
@@ -943,7 +943,7 @@
 //     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 py-10">
 //       <div className="container mx-auto max-w-6xl">
 //         <LessonHeader />
-        
+
 //         <motion.div 
 //           initial={{ opacity: 0 }}
 //           animate={{ opacity: 1 }}
@@ -1322,7 +1322,7 @@
 //       <div className="container mx-auto max-w-7xl flex">
 //         <div className="w-3/4">
 //           <LessonHeader />
-          
+
 //           <motion.div 
 //             initial={{ opacity: 0 }}
 //             animate={{ opacity: 1 }}
@@ -1362,7 +1362,7 @@
 //             </motion.div>
 //           </AnimatePresence>
 //         </div>
-        
+
 //         {/* Right Sidebar */}
 //         <div className="w-1/4 ml-6">
 //           <motion.div 
@@ -2508,7 +2508,7 @@
 //               ))}
 //             </div>
 //           )}
-          
+
 
 // {/* Display Declension Cases */}
 // {currentCategory.vibhaktis && currentCategory.vibhaktis.length > 0 && (
@@ -4708,23 +4708,23 @@
 //     const updatedAnswers = [...selectedAnswers];
 //     updatedAnswers[index] = answer; // Update the answer for the specific question
 //     setSelectedAnswers(updatedAnswers);
-  
+
 //     // Check if the current question is correct
 //     if (answer === correctAnswer) {
 //       setQuizFeedback("Correct! Well done.");
 //     } else {
 //       setQuizFeedback("Incorrect. Please try again.");
 //     }
-  
+
 //     // Check if all questions in the category are answered correctly
 //     // Directly check the answers instead of using selectedAnswers
 //     const currentCategoryQuestions = filteredQuizQuestions;
 //     const allCorrect = currentCategoryQuestions.every((quiz, i) => updatedAnswers[i] === quiz.correct_answer);
-  
+
 //     setNextEnabled(allCorrect); // Enable "Next" button only if all answers are correct
 //   };
 
-  
+
 
 //   if (!lessonData || !quizData) return <div>Loading...</div>;
 
@@ -4965,26 +4965,26 @@ export default function LessonPage({ params }) {
 
 
 
-const handleQuizAnswer = (answer, correctAnswer, index) => {
+  const handleQuizAnswer = (answer, correctAnswer, index) => {
     const updatedAnswers = [...selectedAnswers];
     updatedAnswers[index] = answer; // Update the answer for the specific question
     setSelectedAnswers(updatedAnswers);
-  
+
     // Check if the current question is correct
     if (answer === correctAnswer) {
       setQuizFeedback("Correct! Well done.");
     } else {
       setQuizFeedback("Incorrect. Please try again.");
     }
-  
+
     // Check if all questions in the category are answered correctly
     // Directly check the answers instead of using selectedAnswers
     const currentCategoryQuestions = filteredQuizQuestions;
     const allCorrect = currentCategoryQuestions.every((quiz, i) => updatedAnswers[i] === quiz.correct_answer);
-  
+
     setNextEnabled(allCorrect); // Enable "Next" button only if all answers are correct
   };
-  
+
 
   if (!lessonData || !quizData) return <div>Loading...</div>;
 
@@ -5017,17 +5017,17 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
         <h1 className="text-4xl font-extrabold text-white mx-auto">{lessonData.lesson}</h1>
       </div>
 
-     {/* Lesson Description */}
-     <p className="mt-4 text-xl text-gray-200 text-center">{lessonData.definition}</p>
+      {/* Lesson Description */}
+      <p className="mt-4 text-xl text-gray-200 text-center">{lessonData.definition}</p>
 
-{/* Display One Category Data at a Time */}
-<div className="space-y-6">
-  <div className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl rounded-lg p-6">
-    <h3 className="text-3xl font-extrabold text-white">{currentCategory.category}</h3>
-    <p className="mt-4 text-lg text-gray-200">{currentCategory.description}</p>
+      {/* Display One Category Data at a Time */}
+      <div className="space-y-6">
+        <div className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl rounded-lg p-6">
+          <h3 className="text-3xl font-extrabold text-white">{currentCategory.category}</h3>
+          <p className="mt-4 text-lg text-gray-200">{currentCategory.description}</p>
 
-    {/* Display Genders */}
-{/* {currentCategory.genders && (
+          {/* Display Genders */}
+          {/* {currentCategory.genders && (
   <div className="mt-6 space-y-3">
     {Object.entries(currentCategory.genders).map(([gender, value]) => (
       <div key={gender} className="flex justify-between mb-4">
@@ -5048,62 +5048,79 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
   </div>
 )} */}
 
-{/* Display Genders and Examples */}
-{currentCategory.genders && currentCategory.examples && (
-  <div className="space-y-6">
-    {/* Display Genders */}
-    <div className="mt-6 space-y-3">
-      {Object.entries(currentCategory.genders).map(([gender, value]) => (
-        <div key={gender} className="flex justify-between mb-4">
-          <span className="text-sm font-medium text-white capitalize">{gender}</span>
-          <span className="text-md text-gray-400">{value}</span>
-        </div>
-      ))}
-    </div>
+          {/* Display Genders and Examples */}
+          {currentCategory.onekinds && currentCategory.examples && (
+            <div className="space-y-6">
+              {/* Display Genders */}
+              <div className="mt-6 space-y-3">
+                {Object.entries(currentCategory.onekinds).map(([onekind, value]) => (
+                  <div
+                    key={onekind}
+                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+                    onClick={() => alert(`You clicked on: ${onekind}`)} // Placeholder for interactivity
+                  >
+                    <span className="text-lg font-semibold text-white capitalize">{onekind}</span>
+                    <span className="text-lg text-gray-300">{value}</span>
+                  </div>
+                ))}
+              </div>
 
-    {/* Display Examples */}
-    <div className="mt-6 space-y-3">
-      {Object.entries(currentCategory.examples).map(([example, value]) => (
-        <div key={example} className="flex justify-between mb-4">
-          <span className="text-sm font-medium text-white capitalize">{example}</span>
-          <span className="text-md text-gray-400">{value}</span>
-        </div>
-      ))}
-    </div>
-  </div>
-)}
+              {/* Display Examples */}
+              <div className="mt-6 space-y-3">
+                {Object.entries(currentCategory.examples).map(([example, value]) => (
+                  <div
+                    key={example}
+                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+                    onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
+                  >
+                    <span className="text-lg font-semibold text-white capitalize">{example}</span>
+                    <span className="text-lg text-gray-300">{value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
 
 
 
 
-    {/* Display Numbers */}
-    {currentCategory.numbers && currentCategory.examples && (
-  <div className="space-y-6">
-    {/* Display Numbers */}
-    <div className="mt-6 space-y-3">
-      {Object.entries(currentCategory.numbers).map(([number, value]) => (
-        <div key={number} className="flex justify-between mb-4">
-          <span className="text-sm font-medium text-white capitalize">{number}</span>
-          <span className="text-md text-gray-400">{value}</span>
-        </div>
-      ))}
-    </div>
+          {/* Display Numbers */}
+          {currentCategory.twokinds && currentCategory.examples && (
+            <div className="space-y-6">
+              {/* Display Numbers */}
+              <div className="mt-6 space-y-3">
+                {Object.entries(currentCategory.twokinds).map(([twokind, value]) => (
+                  <div
+                    key={twokind}
+                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+                    onClick={() => alert(`You clicked on: ${twokind}`)} // Placeholder for interactivity
+                  >
+                    <span className="text-lg font-semibold text-white capitalize">{twokind}</span>
+                    <span className="text-lg text-gray-300">{value}</span>
+                  </div>
+                ))}
+              </div>
 
-    {/* Display Examples */}
-    <div className="mt-6 space-y-3">
-      {Object.entries(currentCategory.examples).map(([example, value]) => (
-        <div key={example} className="flex justify-between mb-4">
-          <span className="text-sm font-medium text-white capitalize">{example}</span>
-          <span className="text-md text-gray-400">{value}</span>
-        </div>
-      ))}
-    </div>
-  </div>
-)}
+              {/* Display Examples */}
+              <div className="mt-6 space-y-3">
+                {Object.entries(currentCategory.examples).map(([example, value]) => (
+                  <div
+                    key={example}
+                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+                    onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
+                  >
+                    <span className="text-lg font-semibold text-white capitalize">{example}</span>
+                    <span className="text-lg text-gray-300">{value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
-    {/* Display Declension Cases */}
-    {currentCategory.vibhaktis && currentCategory.vibhaktis.length > 0 && (
+
+          {/* Display Declension Cases */}
+          {/* {currentCategory.threekind && currentCategory.vibhaktis.length > 0 && (
       <div className="mt-6">
         <h4 className="text-lg font-semibold text-indigo-600">Cases (विभक्ति)</h4>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
@@ -5116,97 +5133,149 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
           ))}
         </ul>
       </div>
-    )}
+    )} */}
 
-    {/* Display Declension Examples */}
-    {currentCategory.examples && currentCategory.examples.length > 0 && (
-      <div className="mt-6">
-        <h4 className="text-lg font-semibold text-indigo-600">Declension Examples</h4>
-        <div className="space-y-6 mt-4">
-          {currentCategory.examples.map((example, idx) => (
-            <div key={idx} className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-md rounded-lg p-6">
-              <h5 className="text-xl font-semibold text-white">{example.gender} - {example.noun}</h5>
-              <div className="mt-4 space-y-6">
-                {/* Singular Declension */}
-                <div>
-                  <h6 className="text-lg font-medium text-indigo-600">Singular</h6>
-                  <div className="grid grid-cols-2 gap-4 mt-2">
-                    {Object.entries(example.declension.singular).map(([caseType, form]) => (
-                      <div key={caseType} className="flex items-center space-x-2">
-                        <span className="font-semibold text-white capitalize">{caseType}:</span>
-                        <span className="text-gray-300">{form}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
 
-                {/* Dual Declension */}
-                <div>
-                  <h6 className="text-lg font-medium text-indigo-600">Dual</h6>
-                  <div className="grid grid-cols-2 gap-4 mt-2">
-                    {Object.entries(example.declension.dual).map(([caseType, form]) => (
-                      <div key={caseType} className="flex items-center space-x-2">
-                        <span className="font-semibold text-white capitalize">{caseType}:</span>
-                        <span className="text-gray-300">{form}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Plural Declension */}
-                <div>
-                  <h6 className="text-lg font-medium text-indigo-600">Plural</h6>
-                  <div className="grid grid-cols-2 gap-4 mt-2">
-                    {Object.entries(example.declension.plural).map(([caseType, form]) => (
-                      <div key={caseType} className="flex items-center space-x-2">
-                        <span className="font-semibold text-white capitalize">{caseType}:</span>
-                        <span className="text-gray-300">{form}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    )}
-
-    {/* Types of Nouns */}
-    {currentCategory.types && currentCategory.types.length > 0 && (
-      <div className="mt-6">
-        <h4 className="text-lg font-semibold text-indigo-600">Types of Nouns</h4>
-        <div className="space-y-6 mt-4">
-          {currentCategory.types.map((type, idx) => (
-            <div key={idx} className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-lg rounded-lg p-6">
-              <h5 className="text-xl font-semibold text-white">{type.type}</h5>
-              <p className="mt-2 text-sm text-gray-200">{type.description}</p>
-              <p className="mt-4 text-sm text-gray-200">Examples:</p>
-              <ul className="space-y-2 mt-2">
-                {type.examples.map((example, i) => (
-                  <li key={i} className="text-md text-gray-300">
-                    - {example}
+          {currentCategory.threekinds && currentCategory.threekinds.length > 0 && (
+            <div className="mt-6">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
+                {currentCategory.threekinds.map((theekind, idx) => (
+                  <li
+                    key={idx}
+                    className="flex flex-col space-y-4 p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
+                  >
+                    <div className="space-y-3">
+                      {Object.entries(theekind).map(([key, value], index) => (
+                        <div
+                          key={index}
+                          className="flex justify-between items-center mb-3 transition-all duration-200 transform hover:scale-105"
+                        >
+                          <span className="text-lg font-semibold text-indigo-400">{key}:</span>
+                          <span className="text-lg text-white italic">{value}</span>
+                          {index < Object.entries(theekind).length - 1 && (
+                            <div className="border-t-2 border-indigo-500 mt-2"></div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </li>
                 ))}
               </ul>
             </div>
-          ))}
-        </div>
-      </div>
-    )}
-  
+          )}
+
+
+
+
+
+
+          {/* Display Declension Examples */}
+          {currentCategory.examples && currentCategory.examples.length > 0 && (
+            <div className="mt-6">
+              <h4 className="text-2xl font-semibold text-indigo-600 mb-4">{currentCategory.category}</h4>
+              <div className="space-y-6 mt-6">
+                {currentCategory.examples.map((example, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-gradient-to-r from-slate-800 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300"
+                  >
+                    {/* Display example details */}
+                    {Object.entries(example).map(([key, value]) => (
+                      <div key={key} className="mt-4">
+                        {/* Title for each section */}
+                        <div className="text-xl font-semibold text-indigo-500 flex items-center space-x-2">
+                          {/* Optional: Add an icon for each key */}
+                          <span className="text-xl">
+                            <i className="fas fa-info-circle"></i>
+                          </span>
+                          <span>{key}</span>
+                        </div>
+
+                        {/* Check if the value is an object or a simple value */}
+                        {typeof value === 'object' ? (
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+                            {/* If value is an object, we go deeper into its entries */}
+                            {Object.entries(value).map(([subKey, subValue]) => (
+                              <div
+                                key={subKey}
+                                className="bg-slate-900 p-4 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300"
+                              >
+                                <div className="text-lg font-semibold text-white">{subKey}</div>
+                                {typeof subValue === 'object' ? (
+                                  Object.entries(subValue).map(([caseType, form]) => (
+                                    <div key={caseType} className="flex items-center justify-between space-x-2 mt-2">
+                                      <span className="font-medium text-indigo-300">{caseType}:</span>
+                                      <span className="text-gray-200">{form}</span>
+                                    </div>
+                                  ))
+                                ) : (
+                                  <div className="text-gray-200">{subValue}</div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          // If it's a simple value (like a string), display it full width
+                          <div className="bg-slate-900 p-4 rounded-lg shadow-md mt-2">
+                            <div className="text-lg font-semibold text-white">{value}</div>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+
+
+          {/* Types of Nouns */}
+          {currentCategory.types && currentCategory.types.length > 0 && (
+            <div className="mt-6">
+              <h4 className="text-2xl font-semibold text-indigo-600 mb-6">{currentCategory.category}</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {currentCategory.types.map((type, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
+                  >
+                    <h5 className="text-xl font-semibold text-white">{type.type}</h5>
+                    <p className="mt-2 text-sm text-gray-200">{type.description}</p>
+
+                    <div className="mt-4">
+                      <p className="text-sm text-gray-200">Examples:</p>
+                      <ul className="space-y-2 mt-2">
+                        {type.examples.map((example, i) => (
+                          <li key={i} className="text-md text-gray-300">
+                            <span className="text-indigo-400">- </span>{example}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+
 
 
           {/* Interactive Quiz in a Card with Animation */}
           <div className="mt-8 flex flex-col items-center">
-            <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg shadow-lg p-6 w-full max-w-lg transform transition-all duration-500 ease-in-out hover:scale-105">
-              <h4 className="text-lg font-semibold text-indigo-500 text-center mb-4">Answer this to go next</h4>
+            <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg shadow-lg p-8 w-full max-w-3xl transform transition-all duration-500 ease-in-out hover:scale-105">
+              <h4 className="text-2xl font-semibold text-indigo-500 text-center mb-6">Answer this to go next</h4>
+
               {/* Display quiz questions based on the category */}
               {filteredQuizQuestions.map((quiz, index) => (
-                <div key={index} className="mt-4">
-                  <p className="text-lg text-white text-center">{quiz.question.english}</p>
-                  <p className="text-md text-gray-200 text-center mt-2">{quiz.question.hindi}</p>
-                  <div className="flex space-x-4 mt-4 justify-center">
+                <div key={index} className="mt-6">
+                  <p className="text-xl text-white text-center">{quiz.question.english}</p>
+
+                  {/* Increase space between English and Hindi text */}
+                  <p className="text-lg text-gray-300 text-center mt-4">{quiz.question.hindi}</p>
+
+                  <div className="flex flex-wrap justify-center gap-6 mt-6">
                     {quiz.options.map((option) => {
                       const isSelected = selectedAnswers[index] === option;
                       const isCorrect = option === quiz.correct_answer;
@@ -5215,9 +5284,10 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
                       return (
                         <button
                           key={option}
-                          className={`bg-indigo-600 text-white px-6 py-2 rounded-lg 
+                          className={`bg-indigo-600 text-white text-lg px-8 py-3 rounded-lg shadow-md 
                             ${isSelected && isCorrect ? 'bg-orange-400' : ''} 
-                            ${isIncorrect ? 'bg-red-600' : ''}`}
+                            ${isIncorrect ? 'bg-red-600' : ''} 
+                            transform transition-all duration-50 hover:scale-105`}
                           onClick={() => handleQuizAnswer(option, quiz.correct_answer, index)}
                         >
                           {option}
@@ -5229,12 +5299,11 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
               ))}
 
               {quizFeedback && (
-                <p className="mt-4 text-lg text-gray-200 text-center">
-                  {quizFeedback}
-                </p>
+                <p className="mt-6 text-lg text-center text-gray-200">{quizFeedback}</p>
               )}
             </div>
           </div>
+
         </div>
       </div>
 

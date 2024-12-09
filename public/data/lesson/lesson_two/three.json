@@ -1,84 +1,111 @@
 {
   "lesson": "Verb (क्रिया)",
-  "definition": "A verb (क्रिया) in Sanskrit is a word that expresses an action, occurrence, or state of being.",
+  "definition": "A verb (क्रिया) in Sanskrit is a word that denotes an action, occurrence, or state of being.",
   "categories": [
     {
       "category": "Tense (काल)",
-      "description": "Sanskrit verbs are conjugated according to three tenses: Present, Past, and Future.",
-      "genders": {
-        "present": "प्रस्तुतकाल (Prastutkāla)",
-        "past": "भूतकाल (Bhūtakāla)",
+      "description": "Sanskrit verbs are conjugated in three main tenses: Present, Past, and Future.",
+      "onekinds": {
+        "present": "वर्तमानकाल (Vartamānākāla)",
+        "past": "भूतकाल (Bhūtākāla)",
         "future": "भविष्यत्काल (Bhaviṣyatkāla)"
       },
       "examples": {
-        "present": ["पठति (reads)", "गच्छति (goes)", "लिखति (writes)"],
-        "past": ["पठितवान् (read)", "गच्छितवान् (went)", "लिखितवान् (wrote)"],
-        "future": ["पठिष्यति (will read)", "गच्छिष्यति (will go)", "लिखिष्यति (will write)"]
+        "present": ["पठति (reads)", "लिखति (writes)", "गच्छति (goes)"],
+        "past": ["पठितवान् (read)", "लिखितवान् (wrote)", "गच्छितवान् (went)"],
+        "future": ["पठिष्यति (will read)", "लिखिष्यति (will write)", "गच्छिष्यति (will go)"]
       }
     },
     {
       "category": "Person (पुरुष)",
-      "description": "Sanskrit verbs are conjugated according to three persons: First person, Second person, and Third person.",
-      "numbers": {
-        "first_person": "प्रथमपुरुष (Prathamapurusha)",
-        "second_person": "द्वितीयपुरुष (Dvitīyapurusha)",
-        "third_person": "तृतीयपुरुष (Tṛtīyapurusha)"
+      "description": "Sanskrit verbs change according to the person: First, Second, and Third Person.",
+      "twokinds": {
+        "first_person": "प्रथमपुरुष (Prathamapurūṣa)",
+        "second_person": "द्वितीयपुरुष (Dvitīyapurūṣa)",
+        "third_person": "तृतीयपुरुष (Tṛtīyapurūṣa)"
       },
       "examples": {
-        "first_person": ["पठामि (I read)", "गच्छामि (I go)", "लिखामि (I write)"],
-        "second_person": ["पठसि (You read)", "गच्छसि (You go)", "लिखसि (You write)"],
-        "third_person": ["पठति (He/She/It reads)", "गच्छति (He/She/It goes)", "लिखति (He/She/It writes)"]
+        "first_person": ["अहम् पठामि (I read)", "अहम् लिखामि (I write)", "अहम् गच्छामि (I go)"],
+        "second_person": ["तुम् पठसि (You read)", "तुम् लिखसि (You write)", "तुम् गच्छसि (You go)"],
+        "third_person": ["सः पठति (He reads)", "सः लिखति (He writes)", "सः गच्छति (He goes)"]
+      }
+    },
+    {
+      "category": "Voice (वाच्य)",
+      "description": "Sanskrit verbs have three voices: Active, Passive, and Causative.",
+      "onekinds": {
+        "active": "कर्तृवाच्य (Kartṛvācya)",
+        "passive": "कर्मवाच्य (Karmavācya)",
+        "causative": "कृतिवाच्य (Kṛtivācya)"
+      },
+      "examples": {
+        "active": ["पठति (reads)", "लिखति (writes)", "गच्छति (goes)"],
+        "passive": ["पठ्यते (is read)", "लिख्यते (is written)", "गच्छ्यते (is gone)"],
+        "causative": ["पठायति (causes to read)", "लिखायति (causes to write)", "गच्छायति (causes to go)"]
       }
     },
     {
       "category": "Conjugation (धातु रूप)",
-      "description": "Verbs in Sanskrit change their forms based on tense, person, number, and gender.",
-      "forms": [
-        {
-          "tense": "Present (प्रस्तुतकाल)",
-          "form": "presents the action as happening now.",
-          "example": "रामः पठति (Rama reads)."
-        },
-        {
-          "tense": "Past (भूतकाल)",
-          "form": "presents the action as completed in the past.",
-          "example": "रामः पठितवान् (Rama read)."
-        },
-        {
-          "tense": "Future (भविष्यत्काल)",
-          "form": "presents the action as expected in the future.",
-          "example": "रामः पठिष्यति (Rama will read)."
-        }
-      ]
-    },
-    {
-      "category": "Conjugation Examples",
+      "description": "Sanskrit verbs are conjugated based on tense, number, person, and voice. Here are some examples of verb conjugations.",
       "examples": [
         {
-          "person": "First Person",
-          "verb": "पठामि (I read)",
+          "verb": "पठ (to read)",
           "conjugation": {
-            "present": "पठामि (I read)",
-            "past": "पठितवान् (I read)",
-            "future": "पठिष्यामि (I will read)"
+            "present": {
+              "first_person": "पठामि (I read)",
+              "second_person": "पठसि (You read)",
+              "third_person": "पठति (He reads)"
+            },
+            "past": {
+              "first_person": "पठितवान् (I read)",
+              "second_person": "पठितः (You read)",
+              "third_person": "पठितवान् (He read)"
+            },
+            "future": {
+              "first_person": "पठिष्यामि (I will read)",
+              "second_person": "पठिष्यसि (You will read)",
+              "third_person": "पठिष्यति (He will read)"
+            }
           }
         },
         {
-          "person": "Second Person",
-          "verb": "पठसि (You read)",
+          "verb": "लिख (to write)",
           "conjugation": {
-            "present": "पठसि (You read)",
-            "past": "पठितवान् (You read)",
-            "future": "पठिष्यसि (You will read)"
+            "present": {
+              "first_person": "लिखामि (I write)",
+              "second_person": "लिखसि (You write)",
+              "third_person": "लिखति (He writes)"
+            },
+            "past": {
+              "first_person": "लिखितवान् (I wrote)",
+              "second_person": "लिखितः (You wrote)",
+              "third_person": "लिखितवान् (He wrote)"
+            },
+            "future": {
+              "first_person": "लिखिष्यामि (I will write)",
+              "second_person": "लिखिष्यसि (You will write)",
+              "third_person": "लिखिष्यति (He will write)"
+            }
           }
         },
         {
-          "person": "Third Person",
-          "verb": "पठति (He/She/It reads)",
+          "verb": "गच्छ (to go)",
           "conjugation": {
-            "present": "पठति (He/She/It reads)",
-            "past": "पठितवान् (He/She/It read)",
-            "future": "पठिष्यति (He/She/It will read)"
+            "present": {
+              "first_person": "गच्छामि (I go)",
+              "second_person": "गच्छसि (You go)",
+              "third_person": "गच्छति (He goes)"
+            },
+            "past": {
+              "first_person": "गच्छितवान् (I went)",
+              "second_person": "गच्छितः (You went)",
+              "third_person": "गच्छितवान् (He went)"
+            },
+            "future": {
+              "first_person": "गच्छिष्यामि (I will go)",
+              "second_person": "गच्छिष्यसि (You will go)",
+              "third_person": "गच्छिष्यति (He will go)"
+            }
           }
         }
       ]
@@ -87,19 +114,19 @@
       "category": "Types of Verbs",
       "types": [
         {
-          "type": "Transitive Verbs (सकर्मक क्रिया)",
+          "type": "Transitive Verbs (सङ्गच्छक क्रियाएँ)",
           "description": "Transitive verbs require a direct object to complete their meaning.",
-          "examples": ["पठति (reads)", "लिखति (writes)", "गच्छति (goes)"]
+          "examples": ["पठति (reads)", "लिखति (writes)", "खाती (eats)"]
         },
         {
-          "type": "Intransitive Verbs (अकर्मक क्रिया)",
+          "type": "Intransitive Verbs (असङ्गच्छक क्रियाएँ)",
           "description": "Intransitive verbs do not require a direct object.",
-          "examples": ["हसति (laughs)", "नृत्यति (dances)", "स्मितं करोति (smiles)"]
+          "examples": ["गच्छति (goes)", "नृत्यति (dances)", "हसति (laughs)"]
         },
         {
-          "type": "Causative Verbs (कर्तरि क्रिया)",
-          "description": "Causative verbs indicate causing an action to happen.",
-          "examples": ["ददाति (causes to give)", "गच्छयति (causes to go)", "लिखयति (causes to write)"]
+          "type": "Causative Verbs (कृत्त्वाकारक क्रियाएँ)",
+          "description": "Causative verbs indicate causing an action to be done by someone.",
+          "examples": ["पठायति (causes to read)", "लिखायति (causes to write)", "गच्छायति (causes to go)"]
         }
       ]
     }

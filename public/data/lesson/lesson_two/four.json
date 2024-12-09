@@ -1,0 +1,145 @@
+{
+    "lesson": "Adverb (क्रियाविशेषण)",
+    "definition": "An adverb (क्रियाविशेषण) in Sanskrit is a word that modifies or describes a verb, adjective, or another adverb, typically indicating time, place, manner, degree, or frequency.",
+    "categories": [
+      {
+        "category": "Tense (काल)",
+        "description": "Adverbs in Sanskrit are sometimes used to express the time or manner of an action, often correlating with verb tenses like Present, Past, and Future.",
+        "onekinds": {
+          "present": "वर्तमानकाल (Vartamānākāla)",
+          "past": "भूतकाल (Bhūtākāla)",
+          "future": "भविष्यत्काल (Bhaviṣyatkāla)"
+        },
+        "examples": {
+          "present": ["इति (thus)", "नित्यं (always)", "वेलायाम् (at this time)"],
+          "past": ["पूर्वम् (before)", "अतीते (previously)", "कालातिरेकः (long ago)"],
+          "future": ["अनन्तरम् (later)", "उदिते (in the future)", "निरन्तरम् (soon)"]
+        }
+      },
+      {
+        "category": "Person (पुरुष)",
+        "description": "Adverbs may be used to modify actions and their frequency or extent, correlating with the persons (First, Second, and Third Person).",
+        "twokinds": {
+          "first_person": "प्रथमपुरुष (Prathamapurūṣa)",
+          "second_person": "द्वितीयपुरुष (Dvitīyapurūṣa)",
+          "third_person": "तृतीयपुरुष (Tṛtīyapurūṣa)"
+        },
+        "examples": {
+          "first_person": ["स्वयम् (by myself)", "मम (my)"],
+          "second_person": ["त्वम् (you)", "तव (your)"],
+          "third_person": ["सः (he)", "तस्य (his)"]
+        }
+      },
+      {
+        "category": "Voice (वाच्य)",
+        "description": "Adverbs can also describe how the verb is being executed, thus indicating the voice (Active, Passive, and Causative) of the action.",
+        "onekinds": {
+          "active": "कर्तृवाच्य (Kartṛvācya)",
+          "passive": "कर्मवाच्य (Karmavācya)",
+          "causative": "कृतिवाच्य (Kṛtivācya)"
+        },
+        "examples": {
+          "active": ["नित्यम् (always)", "शरीरकं (physically)"],
+          "passive": ["व्यापकं (widely)", "प्राप्त (achieved)"],
+          "causative": ["उत्तमं (best)", "शक्तिमान् (powerfully)"]
+        }
+      },
+      {
+        "category": "Conjugation (धातु रूप)",
+        "description": "Adverbs do not conjugate, but they often modify verbs or adjectives and can be used in various contexts, reflecting the action, manner, or condition described.",
+        "examples": [
+          {
+            "verb": "पठ (to read)",
+            "conjugation": {
+              "present": {
+                "first_person": "नित्यम् पठामि (I read always)",
+                "second_person": "तेजस्वी पठसि (You read brightly)",
+                "third_person": "सः पठति शीघ्रं (He reads quickly)"
+              },
+              "past": {
+                "first_person": "पूर्वं पठितवान् (I had read before)",
+                "second_person": "विलम्बितं पठितः (You read slowly)",
+                "third_person": "सः पठितवान् अतीव (He read eagerly)"
+              },
+              "future": {
+                "first_person": "अवश्यं पठिष्यामि (I will certainly read)",
+                "second_person": "जल्दी पठिष्यसि (You will read soon)",
+                "third_person": "सः पठिष्यति सततं (He will read continuously)"
+              }
+            }
+          },
+          {
+            "verb": "लिख (to write)",
+            "conjugation": {
+              "present": {
+                "first_person": "सुनिःशब्दे लिखामि (I write quietly)",
+                "second_person": "स्पष्टं लिखसि (You write clearly)",
+                "third_person": "सः लिखति शीघ्रं (He writes quickly)"
+              },
+              "past": {
+                "first_person": "पूर्वं लिखितवान् (I had written before)",
+                "second_person": "अलसः लिखितः (You wrote lazily)",
+                "third_person": "सः लिखितवान् अत्युत्तमं (He wrote excellently)"
+              },
+              "future": {
+                "first_person": "निश्चितं लिखिष्यामि (I will write certainly)",
+                "second_person": "सिद्धं लिखिष्यसि (You will write perfectly)",
+                "third_person": "सः लिखिष्यति दीर्घं (He will write for a long time)"
+              }
+            }
+          },
+          {
+            "verb": "गच्छ (to go)",
+            "conjugation": {
+              "present": {
+                "first_person": "शान्तिपूर्वकं गच्छामि (I go peacefully)",
+                "second_person": "द्रुतं गच्छसि (You go quickly)",
+                "third_person": "सः गच्छति निर्बाधं (He goes uninterruptedly)"
+              },
+              "past": {
+                "first_person": "अतीते गच्छितवान् (I went previously)",
+                "second_person": "विलम्बितं गच्छितः (You went late)",
+                "third_person": "सः गच्छितवान् तीव्रं (He went intensely)"
+              },
+              "future": {
+                "first_person": "उत्तमं गच्छिष्यामि (I will go excellently)",
+                "second_person": "निस्संकोचं गच्छिष्यसि (You will go without hesitation)",
+                "third_person": "सः गच्छिष्यति निश्चलितं (He will go steadily)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Types of Adverbs",
+        "types": [
+          {
+            "type": "Adverbs of Time (कालवाचक क्रियाविशेषण)",
+            "description": "These adverbs indicate the time of an action or event.",
+            "examples": ["इति (thus)", "नित्यं (always)", "तत्क्षणात् (immediately)"]
+          },
+          {
+            "type": "Adverbs of Place (स्थानवाचक क्रियाविशेषण)",
+            "description": "These adverbs indicate the place or location where an action takes place.",
+            "examples": ["इह (here)", "तत्र (there)", "सर्वत्र (everywhere)"]
+          },
+          {
+            "type": "Adverbs of Manner (भाववाचक क्रियाविशेषण)",
+            "description": "These adverbs describe the manner in which an action is performed.",
+            "examples": ["शरीरकं (physically)", "सुखदं (comfortably)", "तेजस्वी (brightly)"]
+          },
+          {
+            "type": "Adverbs of Degree (परिमाणवाचक क्रियाविशेषण)",
+            "description": "These adverbs describe the intensity or extent of an action or quality.",
+            "examples": ["अत्युत्तमं (excellently)", "बहुत (very)", "सर्वथा (in all ways)"]
+          },
+          {
+            "type": "Adverbs of Frequency (आवृत्तिवाचक क्रियाविशेषण)",
+            "description": "These adverbs indicate how often an action occurs.",
+            "examples": ["नित्यं (always)", "कदाचित् (sometimes)", "कदापि (never)"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,219 @@
+{
+    "lesson": "Adjective (विशेषण)",
+    "definition": "An adjective (विशेषण) in Sanskrit is a word that describes or qualifies a noun, indicating qualities or characteristics of the noun.",
+    "categories": [
+      {
+        "category": "Gender (लिंग)",
+        "description": "Sanskrit adjectives agree with the noun they modify in gender.",
+        "onekinds": {
+          "masculine": "Pumlinga (पुंलिंग)",
+          "feminine": "Strilinga (स्त्रीलिंग)",
+          "neuter": "Napumsakalinga (नपुंसकलिंग)"
+        },
+        "examples": {
+          "masculine": ["सुन्दरः (beautiful)", "बड़ा (big)", "मधुरः (sweet)"],
+          "feminine": ["सुन्दरी (beautiful)", "बड़ी (big)", "मधुरी (sweet)"],
+          "neuter": ["सुन्दरं (beautiful)", "बड़ा (big)", "मधुरं (sweet)"]
+        }
+      },
+      {
+        "category": "Number (वचन)",
+        "description": "Sanskrit adjectives also agree with the noun in number: Singular, Dual, and Plural.",
+        "twokinds": {
+          "singular": "Ekavachana (एकवचन)",
+          "dual": "Dvivachana (द्विवचन)",
+          "plural": "Bahuvachana (बहुवचन)"
+        },
+        "examples": {
+          "singular": ["सुन्दरः (beautiful)", "बड़ा (big)"],
+          "dual": ["सुन्दौ (Two beautiful)", "बदौ (Two big)"],
+          "plural": ["सुन्दराः (beautiful)", "बडाः (big)"]
+        }
+      },
+      {
+        "category": "Declension (विकरण)",
+        "description": "Adjectives in Sanskrit change their forms according to the gender, number, and case of the noun they modify. They follow the declension of the noun.",
+        "threekinds": [
+          {
+            "case": "Nominative (प्रथमा)",
+            "function": "Used for the subject of the sentence.",
+            "example": "सुन्दरः रामः (Beautiful Rama)."
+          },
+          {
+            "case": "Accusative (द्वितीया)",
+            "function": "Used for the object of the sentence.",
+            "example": "सुन्दरं रामं पठति (He reads beautiful Rama)."
+          },
+          {
+            "case": "Instrumental (तृतीया)",
+            "function": "Indicates the means or instrument by which an action is performed.",
+            "example": "सुन्दरेण रामेण पठति (He reads by beautiful Rama)."
+          },
+          {
+            "case": "Dative (चतुर्थी)",
+            "function": "Indicates the indirect object, to or for whom something is done.",
+            "example": "सुन्दरे रामाय पठति (He reads for beautiful Rama)."
+          },
+          {
+            "case": "Ablative (पञ्चमी)",
+            "function": "Indicates separation or source, from whom or from where something is done.",
+            "example": "सुन्दरे रामात् पठति (He reads from beautiful Rama)."
+          },
+          {
+            "case": "Genitive (षष्ठी)",
+            "function": "Indicates possession or 'of'.",
+            "example": "सुन्दरे रामस्य पुस्तकं (Beautiful Rama's book)."
+          },
+          {
+            "case": "Locative (सप्तमी)",
+            "function": "Indicates location, where something is.",
+            "example": "सुन्दरे रामे पुस्तकं अस्ति (There is a book in beautiful Rama)."
+          },
+          {
+            "case": "Vocative (स्मरण)",
+            "function": "Used for calling or addressing someone directly.",
+            "example": "हे सुन्दर (O beautiful)!"
+          }
+        ]
+      },
+      {
+        "category": "Declension Examples",
+        "examples": [
+          {
+            "gender": "Masculine",
+            "adjective": "सुन्दरः (beautiful)",
+            "declension": {
+              "singular": {
+                "nominative": "सुन्दरः (beautiful)",
+                "accusative": "सुन्दरं (beautiful)",
+                "instrumental": "सुन्दरेण (By beautiful)",
+                "dative": "सुन्दरे (To beautiful)",
+                "ablative": "सुन्दरे (From beautiful)",
+                "genitive": "सुन्दरे (Beautiful's)",
+                "locative": "सुन्दरे (In beautiful)",
+                "vocative": "हे सुन्दर (O beautiful)"
+              },
+              "dual": {
+                "nominative": "सुन्दौ (Two beautiful)",
+                "accusative": "सुन्दौ (Two beautiful)",
+                "instrumental": "सुन्दरेण (By two beautiful)",
+                "dative": "सुन्दरेभ्याम् (To two beautiful)",
+                "ablative": "सुन्दरेभ्याम् (From two beautiful)",
+                "genitive": "सुन्दरेषु (Of two beautiful)",
+                "locative": "सुन्दरेषु (In two beautiful)",
+                "vocative": "हे सुन्दौ (O two beautiful)"
+              },
+              "plural": {
+                "nominative": "सुन्दराः (beautiful)",
+                "accusative": "सुन्दराः (beautiful)",
+                "instrumental": "सुन्दरेण (By beautiful)",
+                "dative": "सुन्दरेभ्यः (To beautiful)",
+                "ablative": "सुन्दरेभ्यः (From beautiful)",
+                "genitive": "सुन्दरेषु (Of beautiful)",
+                "locative": "सुन्दरेषु (In beautiful)",
+                "vocative": "हे सुन्दरे (O beautiful)"
+              }
+            }
+          },
+          {
+            "gender": "Feminine",
+            "adjective": "सुन्दरी (beautiful)",
+            "declension": {
+              "singular": {
+                "nominative": "सुन्दरी (beautiful)",
+                "accusative": "सुन्दरीं (beautiful)",
+                "instrumental": "सुन्दरीया (By beautiful)",
+                "dative": "सुन्दरीया (To beautiful)",
+                "ablative": "सुन्दरीया (From beautiful)",
+                "genitive": "सुन्दरीया (Beautiful's)",
+                "locative": "सुन्दरीं (In beautiful)",
+                "vocative": "हे सुन्दरी (O beautiful)"
+              },
+              "dual": {
+                "nominative": "सुन्दरी (Two beautiful)",
+                "accusative": "सुन्दरीं (Two beautiful)",
+                "instrumental": "सुन्दरीया (By two beautiful)",
+                "dative": "सुन्दरीभ्याम् (To two beautiful)",
+                "ablative": "सुन्दरीभ्याम् (From two beautiful)",
+                "genitive": "सुन्दरीभ्याम् (Of two beautiful)",
+                "locative": "सुन्दरीभ्यां (In two beautiful)",
+                "vocative": "हे सुन्द्र्यौ (O two beautiful)"
+              },
+              "plural": {
+                "nominative": "सुन्दरीः (beautiful)",
+                "accusative": "सुन्दरीः (beautiful)",
+                "instrumental": "सुन्दरीभ्यः (By beautiful)",
+                "dative": "सुन्दरीभ्यः (To beautiful)",
+                "ablative": "सुन्दरीभ्यः (From beautiful)",
+                "genitive": "सुन्दरीषु (Of beautiful)",
+                "locative": "सुन्दरीषु (In beautiful)",
+                "vocative": "हे सुन्दरीः (O beautiful)"
+              }
+            }
+          },
+          {
+            "gender": "Neuter",
+            "adjective": "सुन्दरं (beautiful)",
+            "declension": {
+              "singular": {
+                "nominative": "सुन्दरं (beautiful)",
+                "accusative": "सुन्दरं (beautiful)",
+                "instrumental": "सुन्दरेण (By beautiful)",
+                "dative": "सुन्दरे (To beautiful)",
+                "ablative": "सुन्दरे (From beautiful)",
+                "genitive": "सुन्दरे (Beautiful's)",
+                "locative": "सुन्दरे (In beautiful)",
+                "vocative": "हे सुन्दरं (O beautiful)"
+              },
+              "dual": {
+                "nominative": "सुन्दरे (Two beautiful)",
+                "accusative": "सुन्दरे (Two beautiful)",
+                "instrumental": "सुन्दरेण (By two beautiful)",
+                "dative": "सुन्दरेभ्याम् (To two beautiful)",
+                "ablative": "सुन्दरेभ्याम् (From two beautiful)",
+                "genitive": "सुन्दरेषु (Of two beautiful)",
+                "locative": "सुन्दरेषु (In two beautiful)",
+                "vocative": "हे सुन्दरे (O two beautiful)"
+              },
+              "plural": {
+                "nominative": "सुन्दरे (beautiful)",
+                "accusative": "सुन्दरे (beautiful)",
+                "instrumental": "सुन्दरेण (By beautiful)",
+                "dative": "सुन्दरेभ्यः (To beautiful)",
+                "ablative": "सुन्दरेभ्यः (From beautiful)",
+                "genitive": "सुन्दरेषु (Of beautiful)",
+                "locative": "सुन्दरेषु (In beautiful)",
+                "vocative": "हे सुन्दरे (O beautiful)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Types of Adjectives",
+        "types": [
+          {
+            "type": "Descriptive Adjectives (गुणवाचक विशेषण)",
+            "description": "Descriptive adjectives describe the quality or attribute of the noun.",
+            "examples": ["सुन्दरः (beautiful)", "बड़ा (big)", "मधुरः (sweet)"]
+          },
+          {
+            "type": "Quantitative Adjectives (परिमाणवाचक विशेषण)",
+            "description": "Quantitative adjectives describe the quantity or amount of the noun.",
+            "examples": ["बहु (many)", "न्यून (few)", "सर्व (all)"]
+          },
+          {
+            "type": "Demonstrative Adjectives (निश्चयवाचक विशेषण)",
+            "description": "Demonstrative adjectives specify or point to a noun.",
+            "examples": ["एष (this)", "सः (that)", "ते (those)"]
+          },
+          {
+            "type": "Possessive Adjectives (स्वत्ववाचक विशेषण)",
+            "description": "Possessive adjectives indicate possession or ownership.",
+            "examples": ["मम (my)", "तव (your)", "येषां (whose)"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,58 @@
+{
+    "lesson": "Interjection (विस्मयादिबोधक)",
+    "definition": "An interjection (विस्मयादिबोधक) in Sanskrit is a word or phrase used to express strong feelings or sudden emotions, such as surprise, joy, pain, or excitement.",
+    "categories": [
+      {
+        "category": "Types of Interjections",
+        "description": "Interjections in Sanskrit can be categorized into different kinds based on their function and context. These interjections are used to express emotions, reactions, or call attention.",
+        "onekinds": {
+          "exclamatory": "विस्मयादिबोधक शब्द (Exclamatory Interjections)",
+          "calling": "आवाहन (Calling Interjections)",
+          "pain": "पीड़ा या दु:ख के विस्मयादिबोधक (Interjections of Pain)",
+          "joy": "आनंद के विस्मयादिबोधक (Interjections of Joy)",
+          "surprise": "आश्चर्य के विस्मयादिबोधक (Interjections of Surprise)"
+        },
+        "examples": {
+          "exclamatory": ["वाह (Wow)", "अरे (Alas)", "अहो (Oh)"],
+          "calling": ["हे राम (O Rama)", "कृपया (Please)", "अरे भैया (O Brother)"],
+          "pain": ["आह (Ah)", "हाय (Alas)", "उफ (Ugh)"],
+          "joy": ["वाह (Wow)", "याहू (Yahoo)", "आनंद (Joy)"],
+          "surprise": ["क्या! (What!)", "अरे (Oh)", "हे भगवान (Oh God)"]
+        }
+      },
+      {
+        "category": "Function and Usage",
+        "description": "Interjections in Sanskrit function to convey emotions and reactions in a spontaneous manner. They often stand alone or are followed by a sentence that elaborates on the feeling.",
+        "twokinds": {
+          "emotion_expressions": "भावनाओं की अभिव्यक्ति (Emotion Expression Interjections)",
+          "attention_catchers": "ध्यान आकर्षण (Attention Catcher Interjections)"
+        },
+        "examples": {
+          "emotion_expressions": ["वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight).", "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."],
+          "attention_catchers": ["हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)", "क्या! येषां वयं मृषा तं कार्यं अपूर्णं (What! They left the task incomplete?)."]
+        }
+      },
+      {
+        "category": "Detailed Usage in Sentences",
+        "description": "These interjections are used to express different emotions in various contexts. The interjections can either stand alone or be incorporated into sentences.",
+        "threekinds": [
+          {
+            "type": "Exclamatory Interjections",
+            "function": "These express a sudden strong emotion such as surprise or excitement.",
+            "example": "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight)."
+          },
+          {
+            "type": "Pain or Discomfort Interjections",
+            "function": "These interjections express discomfort, pain, or distress.",
+            "example": "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+          },
+          {
+            "type": "Calling or Addressing Interjections",
+            "function": "These are used to attract attention or address someone directly.",
+            "example": "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)."
+          }
+        ]
+      }
+    ]
+  }
+  

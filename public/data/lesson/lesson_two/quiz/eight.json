@@ -1,0 +1,135 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Types of Interjections",
+        "question": {
+          "english": "Which of the following is an example of an exclamatory interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में विस्मयादिबोधक शब्द का उदाहरण है?"
+        },
+        "options": [
+          "वाह (Wow)",
+          "रामः (Rama)",
+          "गंगा (Ganga)"
+        ],
+        "correct_answer": "वाह (Wow)"
+      },
+      {
+        "category": "Types of Interjections",
+        "question": {
+          "english": "Which of the following is an example of a calling interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में आवाहन शब्द का उदाहरण है?"
+        },
+        "options": [
+          "हे राम (O Rama)",
+          "पत्नी (Wife)",
+          "पुस्तकं (Book)"
+        ],
+        "correct_answer": "हे राम (O Rama)"
+      },
+      {
+        "category": "Types of Interjections",
+        "question": {
+          "english": "Which of the following is an example of a pain interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में पीड़ा विस्मयादिबोधक का उदाहरण है?"
+        },
+        "options": [
+          "आह (Ah)",
+          "रामः (Rama)",
+          "सुख (Happiness)"
+        ],
+        "correct_answer": "आह (Ah)"
+      },
+      {
+        "category": "Types of Interjections",
+        "question": {
+          "english": "Which of the following is an example of a joy interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में आनंद विस्मयादिबोधक का उदाहरण है?"
+        },
+        "options": [
+          "वाह (Wow)",
+          "रामः (Rama)",
+          "पुस्तकं (Book)"
+        ],
+        "correct_answer": "वाह (Wow)"
+      },
+      {
+        "category": "Types of Interjections",
+        "question": {
+          "english": "Which of the following is an example of a surprise interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में आश्चर्य विस्मयादिबोधक का उदाहरण है?"
+        },
+        "options": [
+          "क्या! (What!)",
+          "रामः (Rama)",
+          "स्मरण (Calling)"
+        ],
+        "correct_answer": "क्या! (What!)"
+      },
+      {
+        "category": "Function and Usage",
+        "question": {
+          "english": "Which of the following is an example of an emotion expression interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में भावना अभिव्यक्ति विस्मयादिबोधक का उदाहरण है?"
+        },
+        "options": [
+          "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight).",
+          "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)",
+          "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+        ],
+        "correct_answer": "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight)."
+      },
+      {
+        "category": "Function and Usage",
+        "question": {
+          "english": "Which of the following is an example of an attention catcher interjection in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में ध्यान आकर्षण विस्मयादिबोधक का उदाहरण है?"
+        },
+        "options": [
+          "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)",
+          "क्या! येषां वयं मृषा तं कार्यं अपूर्णं (What! They left the task incomplete?).",
+          "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+        ],
+        "correct_answer": "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)"
+      },
+      {
+        "category": "Detailed Usage in Sentences",
+        "question": {
+          "english": "Which of the following is an example of an exclamatory interjection used in a sentence?",
+          "hindi": "निम्नलिखित में से कौन सा उदाहरण वाक्य में विस्मयादिबोधक शब्द का प्रयोग है?"
+        },
+        "options": [
+          "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight).",
+          "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?).",
+          "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+        ],
+        "correct_answer": "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight)."
+      },
+      {
+        "category": "Detailed Usage in Sentences",
+        "question": {
+          "english": "Which of the following is an example of a pain interjection used in a sentence?",
+          "hindi": "निम्नलिखित में से कौन सा उदाहरण वाक्य में पीड़ा विस्मयादिबोधक का प्रयोग है?"
+        },
+        "options": [
+          "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight).",
+          "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting).",
+          "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)"
+        ],
+        "correct_answer": "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+      },
+      {
+        "category": "Detailed Usage in Sentences",
+        "question": {
+          "english": "Which of the following is an example of a calling interjection used in a sentence?",
+          "hindi": "निम्नलिखित में से कौन सा उदाहरण वाक्य में आवाहन विस्मयादिबोधक का प्रयोग है?"
+        },
+        "options": [
+          "वाह! कति सुंदरं दृश्यं (Wow! What a beautiful sight).",
+          "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?).",
+          "आह! मम पाँवः पीडितः अस्ति (Ah! My foot is hurting)."
+        ],
+        "correct_answer": "हे राम! त्वं कुत्र गच्छसि? (O Rama! Where are you going?)."
+      }
+    ]
+  }
+  

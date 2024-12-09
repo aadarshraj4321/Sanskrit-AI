@@ -1,0 +1,107 @@
+{
+    "lesson": "Conjunctions (समुच्चयबन्धनसूचक)",
+    "definition": "A conjunction (समुच्चयबन्धनसूचक) in Sanskrit is a word that connects words, phrases, or clauses to show relationships between them.",
+    "categories": [
+      {
+        "category": "Types of Conjunctions",
+        "description": "Conjunctions in Sanskrit are used to join words, phrases, or clauses. They can be coordinating, subordinating, or correlative.",
+        "types": [
+          {
+            "type": "Coordinating Conjunctions (समुच्चय बन्धनसूचक)",
+            "description": "These conjunctions join words, phrases, or clauses of equal rank.",
+            "examples": [
+              "च (ca) – 'and'",
+              "वा (vā) – 'or'",
+              "अथवा (athavā) – 'otherwise, or'"
+            ]
+          },
+          {
+            "type": "Subordinating Conjunctions (अनुप्रास बन्धनसूचक)",
+            "description": "These conjunctions connect a dependent clause with an independent clause.",
+            "examples": [
+              "यदि (yadi) – 'if'",
+              "यदा (yadā) – 'when'",
+              "किंतु (kintu) – 'but'"
+            ]
+          },
+          {
+            "type": "Correlative Conjunctions (साम्योगिक बन्धनसूचक)",
+            "description": "These conjunctions are used in pairs to connect balanced clauses or elements.",
+            "examples": [
+              "एवं च (evaṃ ca) – 'thus and'",
+              "न केवलं... अपि तु (na kevalaṃ... api tu) – 'not only... but also'"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Common Conjunctions",
+        "description": "These are frequently used conjunctions in Sanskrit that help connect different parts of a sentence.",
+        "examples": [
+          {
+            "conjunction": "च (ca)",
+            "meaning": "'and'",
+            "example": "रामः च सीता च गच्छतः (Rāmaḥ ca Sītā ca gacchataḥ) – 'Rama and Sita are going.'"
+          },
+          {
+            "conjunction": "किंतु (kintu)",
+            "meaning": "'but, however'",
+            "example": "रामः पठति, किंतु सीता न पठति (Rāmaḥ paṭhati, kintu Sītā na paṭhati) – 'Rama reads, but Sita does not.'"
+          },
+          {
+            "conjunction": "वा (vā)",
+            "meaning": "'or'",
+            "example": "तू या अहम् वा गच्छामः (Tū yā aham vā gacchāmaḥ) – 'You or I will go.'"
+          },
+          {
+            "conjunction": "अथवा (athavā)",
+            "meaning": "'or, otherwise'",
+            "example": "तू अथवा अहम् गच्छामः (Tū athavā aham gacchāmaḥ) – 'You or I will go.'"
+          },
+          {
+            "conjunction": "यदि (yadi)",
+            "meaning": "'if'",
+            "example": "यदि तू गच्छसि, अहम् आगच्छामि (Yadi tū gacchasi, aham āgacchāmi) – 'If you go, I will come.'"
+          }
+        ]
+      },
+      {
+        "category": "Subordinating Conjunctions",
+        "description": "These conjunctions connect a dependent clause with an independent clause.",
+        "examples": [
+          {
+            "conjunction": "यदि (yadi)",
+            "meaning": "'if'",
+            "example": "यदि तुम् पठनं करोति, यदि हि किञ्चित् कर्तव्यम् अस्ति (Yadi tum paṭhanaṃ karoti, yadi hi kiñcit kartavyam asti) – 'If you study, then there is something to do.'"
+          },
+          {
+            "conjunction": "यदा (yadā)",
+            "meaning": "'when'",
+            "example": "यदा पुस्तकं पठामि, तदा शान्तिम् अनुभवामि (Yadā pustakaṃ paṭhāmi, tadā śāntim anubhavāmi) – 'When I read a book, I experience peace.'"
+          },
+          {
+            "conjunction": "किंतु (kintu)",
+            "meaning": "'but'",
+            "example": "तू छात्रः अस्ति, किंतु पतिं न पश्यसि (Tū chātraḥ asti, kintu patiṃ na paśyasi) – 'You are a student, but you do not see your husband.'"
+          }
+        ]
+      },
+      {
+        "category": "Correlative Conjunctions",
+        "description": "These conjunctions are used in pairs to create a relationship between two clauses or phrases.",
+        "examples": [
+          {
+            "conjunction": "न केवलं... अपि तु (na kevalaṃ... api tu)",
+            "meaning": "'not only... but also'",
+            "example": "न केवलं रामः पठति, अपि तु सीता अपि पठति (Na kevalaṃ Rāmaḥ paṭhati, api tu Sītā api paṭhati) – 'Not only Rama reads, but also Sita reads.'"
+          },
+          {
+            "conjunction": "एवं च (evaṃ ca)",
+            "meaning": "'thus and'",
+            "example": "रामः एवं च सीता च गच्छतः (Rāmaḥ evaṃ ca Sītā ca gacchataḥ) – 'Rama and also Sita are going.'"
+          }
+        ]
+      }
+    ]
+  }
+  

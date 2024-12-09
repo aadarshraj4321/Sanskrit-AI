@@ -1,39 +1,39 @@
 {
     "lesson": "Pronoun (सर्वनाम)",
-    "definition": "A pronoun (सर्वनाम) in Sanskrit is a word that substitutes for a noun or noun phrase to avoid repetition.",
+    "definition": "A pronoun (सर्वनाम) in Sanskrit is a word that takes the place of a noun to avoid repetition.",
     "categories": [
       {
         "category": "Gender (लिंग)",
         "description": "Sanskrit pronouns have three genders.",
-        "genders": {
+        "onekinds": {
           "masculine": "Pumlinga (पुंलिंग)",
           "feminine": "Strilinga (स्त्रीलिंग)",
           "neuter": "Napumsakalinga (नपुंसकलिंग)"
         },
         "examples": {
-          "masculine": ["सः (he)", "तस्मिन (that man)", "एष (this one, masculine)"],
-          "feminine": ["सा (she)", "तस्याः (that woman)", "एषा (this one, feminine)"],
-          "neuter": ["तत् (it)", "तस्मिन (that thing)", "एतत् (this one, neuter)"]
+          "masculine": ["सः (he)", "तस्य (his)"],
+          "feminine": ["सा (she)", "तस्या (her)"],
+          "neuter": ["तत् (it)", "तस्य (its)"]
         }
       },
       {
         "category": "Number (वचन)",
         "description": "Sanskrit pronouns have three numbers: Singular, Dual, and Plural.",
-        "numbers": {
+        "twokinds": {
           "singular": "Ekavachana (एकवचन)",
           "dual": "Dvivachana (द्विवचन)",
           "plural": "Bahuvachana (बहुवचन)"
         },
         "examples": {
           "singular": ["सः (he)", "सा (she)", "तत् (it)"],
-          "dual": ["द्वौ (two of them, masculine)", "द्वे (two of them, feminine)", "द्वे (two of them, neuter)"],
-          "plural": ["ते (they, masculine)", "ताः (they, feminine)", "तानि (they, neuter)"]
+          "dual": ["द्वौ (two)", "द्वे (two)"],
+          "plural": ["ते (they, masculine)", "ताः (they, feminine)", "ते (they, neuter)"]
         }
       },
       {
         "category": "Declension (विकरण)",
-        "description": "Pronouns in Sanskrit change their forms depending on gender, number, and case. There are 8 cases (विभक्ति).",
-        "vibhaktis": [
+        "description": "Pronouns in Sanskrit change their endings depending on gender, number, and case. There are 8 cases (विभक्ति).",
+        "threekinds": [
           {
             "case": "Nominative (प्रथमा)",
             "function": "Used for the subject of the sentence.",
@@ -47,17 +47,17 @@
           {
             "case": "Instrumental (तृतीया)",
             "function": "Indicates the means or instrument by which an action is performed.",
-            "example": "तया पठति (He reads by her)."
+            "example": "तेन पठति (He reads by him)."
           },
           {
             "case": "Dative (चतुर्थी)",
             "function": "Indicates the indirect object, to or for whom something is done.",
-            "example": "तस्मै पठति (He reads to him)."
+            "example": "तस्मै पठति (He reads for him)."
           },
           {
             "case": "Ablative (पञ्चमी)",
             "function": "Indicates separation or source, from whom or from where something is done.",
-            "example": "तस्मिन पठति (He reads from him)."
+            "example": "तस्मात् पठति (He reads from him)."
           },
           {
             "case": "Genitive (षष्ठी)",
@@ -81,109 +81,109 @@
         "examples": [
           {
             "gender": "Masculine",
-            "pronoun": "सः (He)",
+            "noun": "सः (he)",
             "declension": {
               "singular": {
-                "nominative": "सः (He)",
-                "accusative": "तं (Him)",
-                "instrumental": "तया (By him)",
-                "dative": "तस्मै (To him)",
-                "ablative": "तस्मिन (From him)",
-                "genitive": "तस्य (His)",
-                "locative": "तस्मिन (In him)",
+                "nominative": "सः (he)",
+                "accusative": "तं (him)",
+                "instrumental": "तेन (by him)",
+                "dative": "तस्मै (to him)",
+                "ablative": "तस्मात् (from him)",
+                "genitive": "तस्य (his)",
+                "locative": "तस्मिन (in him)",
                 "vocative": "हे सः (O he)"
               },
               "dual": {
-                "nominative": "द्वौ (Two of them, masculine)",
-                "accusative": "द्वौ (Two of them, masculine)",
-                "instrumental": "द्वाभ्याम् (By two of them, masculine)",
-                "dative": "द्वाभ्याम् (To two of them, masculine)",
-                "ablative": "द्वाभ्याम् (From two of them, masculine)",
-                "genitive": "द्वयोः (Of two of them, masculine)",
-                "locative": "द्वयोः (In two of them, masculine)",
-                "vocative": "हे द्वौ (O two of them, masculine)"
+                "nominative": "द्वौ (two)",
+                "accusative": "द्वे (two)",
+                "instrumental": "द्वाभ्याम् (by two)",
+                "dative": "द्वाभ्याम् (to two)",
+                "ablative": "द्वाभ्याम् (from two)",
+                "genitive": "द्वयोः (of two)",
+                "locative": "द्वयोः (in two)",
+                "vocative": "हे द्वे (O two)"
               },
               "plural": {
-                "nominative": "ते (They, masculine)",
-                "accusative": "तानि (Them, masculine)",
-                "instrumental": "तैः (By them, masculine)",
-                "dative": "तेभ्यः (To them, masculine)",
-                "ablative": "तेभ्यः (From them, masculine)",
-                "genitive": "तेषु (Of them, masculine)",
-                "locative": "तेषु (In them, masculine)",
-                "vocative": "हे ते (O them, masculine)"
+                "nominative": "ते (they, masculine)",
+                "accusative": "तान् (them)",
+                "instrumental": "तैः (by them)",
+                "dative": "तेभ्यः (to them)",
+                "ablative": "तेभ्यः (from them)",
+                "genitive": "तेषु (of them)",
+                "locative": "तेषु (in them)",
+                "vocative": "हे ते (O they)"
               }
             }
           },
           {
             "gender": "Feminine",
-            "pronoun": "सा (She)",
+            "noun": "सा (she)",
             "declension": {
               "singular": {
-                "nominative": "सा (She)",
-                "accusative": "ताम् (Her)",
-                "instrumental": "तया (By her)",
-                "dative": "तस्मै (To her)",
-                "ablative": "तस्मिन (From her)",
-                "genitive": "तस्या (Her's)",
-                "locative": "तस्मिन (In her)",
+                "nominative": "सा (she)",
+                "accusative": "तां (her)",
+                "instrumental": "तया (by her)",
+                "dative": "तस्मै (to her)",
+                "ablative": "तस्या (from her)",
+                "genitive": "तस्या (her)",
+                "locative": "तस्या (in her)",
                 "vocative": "हे सा (O she)"
               },
               "dual": {
-                "nominative": "द्वे (Two of them, feminine)",
-                "accusative": "द्वे (Two of them, feminine)",
-                "instrumental": "द्वाभ्याम् (By two of them, feminine)",
-                "dative": "द्वाभ्याम् (To two of them, feminine)",
-                "ablative": "द्वाभ्याम् (From two of them, feminine)",
-                "genitive": "द्वयोः (Of two of them, feminine)",
-                "locative": "द्वयोः (In two of them, feminine)",
-                "vocative": "हे द्वे (O two of them, feminine)"
+                "nominative": "द्वे (two)",
+                "accusative": "द्वे (two)",
+                "instrumental": "द्वाभ्याम् (by two)",
+                "dative": "द्वाभ्याम् (to two)",
+                "ablative": "द्वाभ्याम् (from two)",
+                "genitive": "द्वयोः (of two)",
+                "locative": "द्वयोः (in two)",
+                "vocative": "हे द्वे (O two)"
               },
               "plural": {
-                "nominative": "ताः (They, feminine)",
-                "accusative": "ताः (Them, feminine)",
-                "instrumental": "ताभिः (By them, feminine)",
-                "dative": "ताभ्यः (To them, feminine)",
-                "ablative": "ताभ्यः (From them, feminine)",
-                "genitive": "तानाम् (Of them, feminine)",
-                "locative": "तासु (In them, feminine)",
-                "vocative": "हे ताः (O them, feminine)"
+                "nominative": "ताः (they, feminine)",
+                "accusative": "ताः (them)",
+                "instrumental": "ताभ्यः (by them)",
+                "dative": "ताभ्यः (to them)",
+                "ablative": "ताभ्यः (from them)",
+                "genitive": "ताः (of them)",
+                "locative": "ताभ्यः (in them)",
+                "vocative": "हे ताः (O them)"
               }
             }
           },
           {
             "gender": "Neuter",
-            "pronoun": "तत् (It)",
+            "noun": "तत् (it)",
             "declension": {
               "singular": {
-                "nominative": "तत् (It)",
-                "accusative": "तत् (It)",
-                "instrumental": "तया (By it)",
-                "dative": "तस्मै (To it)",
-                "ablative": "तस्मिन (From it)",
-                "genitive": "तस्य (Its)",
-                "locative": "तस्मिन (In it)",
+                "nominative": "तत् (it)",
+                "accusative": "तत् (it)",
+                "instrumental": "तैः (by it)",
+                "dative": "तस्मै (to it)",
+                "ablative": "तस्य (from it)",
+                "genitive": "तस्य (its)",
+                "locative": "तस्मिन (in it)",
                 "vocative": "हे तत् (O it)"
               },
               "dual": {
-                "nominative": "द्वे (Two of them, neuter)",
-                "accusative": "द्वे (Two of them, neuter)",
-                "instrumental": "द्वाभ्याम् (By two of them, neuter)",
-                "dative": "द्वाभ्याम् (To two of them, neuter)",
-                "ablative": "द्वाभ्याम् (From two of them, neuter)",
-                "genitive": "द्वयोः (Of two of them, neuter)",
-                "locative": "द्वयोः (In two of them, neuter)",
-                "vocative": "हे द्वे (O two of them, neuter)"
+                "nominative": "द्वे (two)",
+                "accusative": "द्वे (two)",
+                "instrumental": "द्वाभ्याम् (by two)",
+                "dative": "द्वाभ्याम् (to two)",
+                "ablative": "द्वाभ्याम् (from two)",
+                "genitive": "द्वयोः (of two)",
+                "locative": "द्वयोः (in two)",
+                "vocative": "हे द्वे (O two)"
               },
               "plural": {
-                "nominative": "तानि (They, neuter)",
-                "accusative": "तानि (Them, neuter)",
-                "instrumental": "तैः (By them, neuter)",
-                "dative": "तेभ्यः (To them, neuter)",
-                "ablative": "तेभ्यः (From them, neuter)",
-                "genitive": "तानाम् (Of them, neuter)",
-                "locative": "तेषु (In them, neuter)",
-                "vocative": "हे तानि (O them, neuter)"
+                "nominative": "ते (they, neuter)",
+                "accusative": "ते (them)",
+                "instrumental": "तैः (by them)",
+                "dative": "तेभ्यः (to them)",
+                "ablative": "तेभ्यः (from them)",
+                "genitive": "तेषु (of them)",
+                "locative": "तेषु (in them)",
+                "vocative": "हे ते (O them)"
               }
             }
           }
@@ -194,23 +194,23 @@
         "types": [
           {
             "type": "Personal Pronouns (व्यक्तिवाचक सर्वनाम)",
-            "description": "Personal pronouns refer to specific persons or things and change according to case, number, and gender.",
+            "description": "Personal pronouns represent specific persons or things in a sentence.",
             "examples": ["सः (he)", "सा (she)", "तत् (it)"]
           },
           {
-            "type": "Demonstrative Pronouns (निश्चितवाचक सर्वनाम)",
-            "description": "Demonstrative pronouns point out specific persons or things.",
-            "examples": ["एष (this)", "सः (that)", "तत् (that, neuter)"]
-          },
-          {
-            "type": "Reflexive Pronouns (पुनरुक्ति सर्वनाम)",
-            "description": "Reflexive pronouns refer back to the subject of the sentence.",
-            "examples": ["आत्मनं (himself)", "आत्मन्याः (herself)", "आत्मनि (itself)"]
+            "type": "Demonstrative Pronouns (दर्शनीय सर्वनाम)",
+            "description": "Demonstrative pronouns point to specific persons, things, or ideas.",
+            "examples": ["एष (this)", "सः (that)"]
           },
           {
             "type": "Interrogative Pronouns (प्रश्नवाचक सर्वनाम)",
             "description": "Interrogative pronouns are used to ask questions.",
-            "examples": ["कः (who)", "का (which, feminine)", "किम् (what, neuter)"]
+            "examples": ["कः (who)", "किम् (what)"]
+          },
+          {
+            "type": "Reflexive Pronouns (प्रतिवाचक सर्वनाम)",
+            "description": "Reflexive pronouns refer back to the subject of the sentence.",
+            "examples": ["आत्मनं (oneself)", "स्वयं (by oneself)"]
           }
         ]
       }

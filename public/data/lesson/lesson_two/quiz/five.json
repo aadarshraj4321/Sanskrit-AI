@@ -1,0 +1,148 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is an example of a masculine adjective in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में पुल्लिंग विशेषण का उदाहरण है?"
+        },
+        "options": [
+          "सुन्दरी (Beautiful)",
+          "सुन्दरः (Beautiful)",
+          "सुन्दरीं (Beautiful)"
+        ],
+        "correct_answer": "सुन्दरः (Beautiful)"
+      },
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is an example of a neuter adjective in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में नपुंसकलिंग विशेषण का उदाहरण है?"
+        },
+        "options": [
+          "सुन्दरेण (Beautiful)",
+          "सुन्दरं (Beautiful)",
+          "सुन्दरीं (Beautiful)"
+        ],
+        "correct_answer": "सुन्दरं (Beautiful)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the plural form of the adjective 'सुन्दरः' (Beautiful)?",
+          "hindi": "'सुन्दरः' (Beautiful) विशेषण का बहुवचन रूप कौन सा है?"
+        },
+        "options": [
+          "सुन्दरेण (Beautiful)",
+          "सुन्दरे (Beautiful)",
+          "सुन्दराः (Beautiful)"
+        ],
+        "correct_answer": "सुन्दराः (Beautiful)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the dual form of the adjective 'सुन्दरः' (Beautiful)?",
+          "hindi": "'सुन्दरः' (Beautiful) विशेषण का द्विवचन रूप कौन सा है?"
+        },
+        "options": [
+          "सुन्दरे (Beautiful)",
+          "सुन्दरेभ्याम् (By two beautiful)",
+          "सुन्दौ (Two beautiful)"
+        ],
+        "correct_answer": "सुन्दौ (Two beautiful)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the adjective 'सुन्दरः' (Beautiful) used in the singular nominative form?",
+          "hindi": "'सुन्दरः' (Beautiful) विशेषण का सर्वनामिक एकवचन रूप किस विभक्ति में होता है?"
+        },
+        "options": [
+          "Accusative (द्वितीया)",
+          "Nominative (प्रथमा)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Nominative (प्रथमा)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the adjective 'सुन्दरं' (Beautiful) used for the object of the sentence?",
+          "hindi": "'सुन्दरं' (Beautiful) विशेषण का प्रयोग वाक्य के कर्ता के रूप में कब किया जाता है?"
+        },
+        "options": [
+          "Accusative (द्वितीया)",
+          "Nominative (प्रथमा)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Accusative (द्वितीया)"
+      },
+      {
+        "category": "Types of Adjectives",
+        "question": {
+          "english": "Which of the following is an example of a descriptive adjective in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में गुणवाचक विशेषण का उदाहरण है?"
+        },
+        "options": [
+          "बहु (Many)",
+          "सुन्दरः (Beautiful)",
+          "एष (This)"
+        ],
+        "correct_answer": "सुन्दरः (Beautiful)"
+      },
+      {
+        "category": "Types of Adjectives",
+        "question": {
+          "english": "Which of the following is an example of a quantitative adjective in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में परिमाणवाचक विशेषण का उदाहरण है?"
+        },
+        "options": [
+          "बहु (Many)",
+          "सुन्दरः (Beautiful)",
+          "मम (My)"
+        ],
+        "correct_answer": "बहु (Many)"
+      },
+      {
+        "category": "Types of Adjectives",
+        "question": {
+          "english": "Which of the following is an example of a possessive adjective in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में स्वत्ववाचक विशेषण का उदाहरण है?"
+        },
+        "options": [
+          "एष (This)",
+          "मम (My)",
+          "सर्व (All)"
+        ],
+        "correct_answer": "मम (My)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "What is the singular accusative form of the adjective 'सुन्दरः' (Beautiful) in Sanskrit?",
+          "hindi": "'सुन्दरः' (Beautiful) विशेषण का एकवचन द्वितीया रूप क्या है?"
+        },
+        "options": [
+          "सुन्दरेण (By beautiful)",
+          "सुन्दरं (Beautiful)",
+          "सुन्दरः (Beautiful)"
+        ],
+        "correct_answer": "सुन्दरं (Beautiful)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "What is the dual genitive form of the adjective 'सुन्दरी' (Beautiful)?",
+          "hindi": "'सुन्दरी' (Beautiful) विशेषण का द्विवचन षष्ठी रूप क्या है?"
+        },
+        "options": [
+          "सुन्दरीभ्याम् (Of two beautiful)",
+          "सुन्दरीषु (Of beautiful)",
+          "सुन्दरीभ्यां (Of two beautiful)"
+        ],
+        "correct_answer": "सुन्दरीभ्याम् (Of two beautiful)"
+      }
+    ]
+  }
+  

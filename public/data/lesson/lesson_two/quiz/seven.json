@@ -1,0 +1,122 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Types of Conjunctions",
+        "question": {
+          "english": "Which of the following is an example of a coordinating conjunction in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में समुच्चय बन्धनसूचक संज्ञा का उदाहरण है?"
+        },
+        "options": [
+          "यदि (yadi) – 'if'",
+          "च (ca) – 'and'",
+          "न केवलं... अपि तु (na kevalaṃ... api tu) – 'not only... but also'"
+        ],
+        "correct_answer": "च (ca) – 'and'"
+      },
+      {
+        "category": "Types of Conjunctions",
+        "question": {
+          "english": "Which of the following is an example of a subordinating conjunction in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में अनुप्रास बन्धनसूचक संज्ञा का उदाहरण है?"
+        },
+        "options": [
+          "च (ca) – 'and'",
+          "यदि (yadi) – 'if'",
+          "एवं च (evaṃ ca) – 'thus and'"
+        ],
+        "correct_answer": "यदि (yadi) – 'if'"
+      },
+      {
+        "category": "Common Conjunctions",
+        "question": {
+          "english": "Which of the following means 'but' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'but' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "च (ca) – 'and'",
+          "किंतु (kintu) – 'but, however'",
+          "वा (vā) – 'or'"
+        ],
+        "correct_answer": "किंतु (kintu) – 'but, however'"
+      },
+      {
+        "category": "Common Conjunctions",
+        "question": {
+          "english": "Which of the following conjunctions means 'or' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'or' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "अथवा (athavā) – 'or, otherwise'",
+          "च (ca) – 'and'",
+          "किंतु (kintu) – 'but'"
+        ],
+        "correct_answer": "अथवा (athavā) – 'or, otherwise'"
+      },
+      {
+        "category": "Subordinating Conjunctions",
+        "question": {
+          "english": "Which of the following conjunctions means 'when' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'when' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "यदि (yadi) – 'if'",
+          "यदा (yadā) – 'when'",
+          "किंतु (kintu) – 'but'"
+        ],
+        "correct_answer": "यदा (yadā) – 'when'"
+      },
+      {
+        "category": "Subordinating Conjunctions",
+        "question": {
+          "english": "Which of the following conjunctions means 'if' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'if' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "किंतु (kintu) – 'but'",
+          "यदि (yadi) – 'if'",
+          "च (ca) – 'and'"
+        ],
+        "correct_answer": "यदि (yadi) – 'if'"
+      },
+      {
+        "category": "Correlative Conjunctions",
+        "question": {
+          "english": "Which of the following is a pair of correlative conjunctions in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में साम्योगिक बन्धनसूचक संज्ञाओं का जोड़ा है?"
+        },
+        "options": [
+          "च (ca) – 'and', यदि (yadi) – 'if'",
+          "न केवलं... अपि तु (na kevalaṃ... api tu) – 'not only... but also'",
+          "एवं च (evaṃ ca) – 'thus and', किंतु (kintu) – 'but'"
+        ],
+        "correct_answer": "न केवलं... अपि तु (na kevalaṃ... api tu) – 'not only... but also'"
+      },
+      {
+        "category": "Correlative Conjunctions",
+        "question": {
+          "english": "Which of the following means 'thus and' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'thus and' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "न केवलं... अपि तु (na kevalaṃ... api tu) – 'not only... but also'",
+          "एवं च (evaṃ ca) – 'thus and'",
+          "किंतु (kintu) – 'but'"
+        ],
+        "correct_answer": "एवं च (evaṃ ca) – 'thus and'"
+      },
+      {
+        "category": "Common Conjunctions",
+        "question": {
+          "english": "Which of the following means 'you or I will go' in Sanskrit?",
+          "hindi": "निम्नलिखित में से 'तू या अहम् वा गच्छामः' का अर्थ संस्कृत में क्या है?"
+        },
+        "options": [
+          "तू अथवा अहम् गच्छामः (Tū athavā aham gacchāmaḥ) – 'You or I will go.'",
+          "तू या अहम् वा गच्छामः (Tū yā aham vā gacchāmaḥ) – 'You or I will go.'",
+          "रामः च सीता च गच्छतः (Rāmaḥ ca Sītā ca gacchataḥ) – 'Rama and Sita are going.'"
+        ],
+        "correct_answer": "तू या अहम् वा गच्छामः (Tū yā aham vā gacchāmaḥ) – 'You or I will go.'"
+      }
+    ]
+  }
+  

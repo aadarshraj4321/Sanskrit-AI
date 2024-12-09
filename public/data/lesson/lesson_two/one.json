@@ -1,219 +1,218 @@
 {
-    "lesson": "Noun (संज्ञा)",
-    "definition": "A noun (संज्ञा) in Sanskrit is a word that denotes a person, place, thing, or idea.",
-    "categories": [
-      {
-        "category": "Gender (लिंग)",
-        "description": "Sanskrit nouns have three genders.",
-        "genders": {
-          "masculine": "Pumlinga (पुंलिंग)",
-          "feminine": "Strilinga (स्त्रीलिंग)",
-          "neuter": "Napumsakalinga (नपुंसकलिंग)"
-        },
-        "examples": {
-          "masculine": ["रामः (Rama)", "पुरुषः (man)", "पिता (father)"],
-          "feminine": ["गंगा (Ganga)", "पत्नी (wife)", "माता (mother)"],
-          "neuter": ["पुस्तकं (book)", "फलम (fruit)", "गृहम (house)"]
-        }
+  "lesson": "Noun (संज्ञा)",
+  "definition": "A noun (संज्ञा) in Sanskrit is a word that denotes a person, place, thing, or idea.",
+  "categories": [
+    {
+      "category": "Gender (लिंग)",
+      "description": "Sanskrit nouns have three genders.",
+      "onekinds": {
+        "masculine": "Pumlinga (पुंलिंग)",
+        "feminine": "Strilinga (स्त्रीलिंग)",
+        "neuter": "Napumsakalinga (नपुंसकलिंग)"
       },
-      {
-        "category": "Number (वचन)",
-        "description": "Sanskrit nouns have three numbers: Singular, Dual, and Plural.",
-        "numbers": {
-          "singular": "Ekavachana (एकवचन)",
-          "dual": "Dvivachana (द्विवचन)",
-          "plural": "Bahuvachana (बहुवचन)"
-        },
-        "examples": {
-          "singular": ["रामः (Rama)", "पुस्तकं (book)"],
-          "dual": ["रामौ (Two Ramas)", "पुस्तके (Two books)"],
-          "plural": ["रामाः (Ramas)", "पुस्तके (Books)"]
-        }
-      },
-      {
-        "category": "Declension (विकरण)",
-        "description": "Nouns in Sanskrit change their endings depending on gender, number, and case. There are 8 cases (विभक्ति).",
-        "vibhaktis": [
-          {
-            "case": "Nominative (प्रथमा)",
-            "function": "Used for the subject of the sentence.",
-            "example": "रामः पठति (Rama reads)."
-          },
-          {
-            "case": "Accusative (द्वितीया)",
-            "function": "Used for the object of the sentence.",
-            "example": "रामं पठति (He reads Rama)."
-          },
-          {
-            "case": "Instrumental (तृतीया)",
-            "function": "Indicates the means or instrument by which an action is performed.",
-            "example": "रामेण पठति (He reads by Rama)."
-          },
-          {
-            "case": "Dative (चतुर्थी)",
-            "function": "Indicates the indirect object, to or for whom something is done.",
-            "example": "रामाय पठति (He reads for Rama)."
-          },
-          {
-            "case": "Ablative (पञ्चमी)",
-            "function": "Indicates separation or source, from whom or from where something is done.",
-            "example": "रामात् पठति (He reads from Rama)."
-          },
-          {
-            "case": "Genitive (षष्ठी)",
-            "function": "Indicates possession or 'of'.",
-            "example": "रामस्य पुस्तकं (Rama's book)."
-          },
-          {
-            "case": "Locative (सप्तमी)",
-            "function": "Indicates location, where something is.",
-            "example": "रामे पुस्तकं अस्ति (There is a book in Rama)."
-          },
-          {
-            "case": "Vocative (स्मरण)",
-            "function": "Used for calling or addressing someone directly.",
-            "example": "हे राम! (O Rama!)."
-          }
-        ]
-      },
-      {
-        "category": "Declension Examples",
-        "examples": [
-          {
-            "gender": "Masculine",
-            "noun": "रामः (Rama)",
-            "declension": {
-              "singular": {
-                "nominative": "रामः (Rama)",
-                "accusative": "रामं (Rama)",
-                "instrumental": "रामेण (By Rama)",
-                "dative": "रामाय (To Rama)",
-                "ablative": "रामात् (From Rama)",
-                "genitive": "रामस्य (Rama's)",
-                "locative": "रामे (In Rama)",
-                "vocative": "हे राम (O Rama)"
-              },
-              "dual": {
-                "nominative": "रामौ (Two Ramas)",
-                "accusative": "रामौ (Two Ramas)",
-                "instrumental": "रामाभ्याम् (By two Ramas)",
-                "dative": "रामाभ्याम् (To two Ramas)",
-                "ablative": "रामाभ्याम् (From two Ramas)",
-                "genitive": "रामयोः (Of two Ramas)",
-                "locative": "रामयोः (In two Ramas)",
-                "vocative": "हे रामौ (O two Ramas)"
-              },
-              "plural": {
-                "nominative": "रामाः (Ramas)",
-                "accusative": "रामान् (Ramas)",
-                "instrumental": "रामैः (By Ramas)",
-                "dative": "रामेभ्यः (To Ramas)",
-                "ablative": "रामेभ्यः (From Ramas)",
-                "genitive": "रामाणाम् (Of Ramas)",
-                "locative": "रामेषु (In Ramas)",
-                "vocative": "हे रामाः (O Ramas)"
-              }
-            }
-          },
-          {
-            "gender": "Feminine",
-            "noun": "पत्नी (Wife)",
-            "declension": {
-              "singular": {
-                "nominative": "पत्नी (Wife)",
-                "accusative": "पत्नीं (Wife)",
-                "instrumental": "पत्नीया (By wife)",
-                "dative": "पत्नीया (To wife)",
-                "ablative": "पत्नीया (From wife)",
-                "genitive": "पत्नीया (Wife's)",
-                "locative": "पत्नीं (In wife)",
-                "vocative": "हे पत्नि (O wife)"
-              },
-              "dual": {
-                "nominative": "पत्नी (Two wives)",
-                "accusative": "पत्नीं (Two wives)",
-                "instrumental": "पत्नीया (By two wives)",
-                "dative": "पत्नीभ्याम् (To two wives)",
-                "ablative": "पत्नीभ्याम् (From two wives)",
-                "genitive": "पत्नीभ्याम् (Of two wives)",
-                "locative": "पत्नीभ्यां (In two wives)",
-                "vocative": "हे पत्न्यौ (O two wives)"
-              },
-              "plural": {
-                "nominative": "पत्नीः (Wives)",
-                "accusative": "पत्नीः (Wives)",
-                "instrumental": "पत्नीभ्यः (By wives)",
-                "dative": "पत्नीभ्यः (To wives)",
-                "ablative": "पत्नीभ्यः (From wives)",
-                "genitive": "पत्नीषु (Of wives)",
-                "locative": "पत्नीषु (In wives)",
-                "vocative": "हे पत्न्यः (O wives)"
-              }
-            }
-          },
-          {
-            "gender": "Neuter",
-            "noun": "पुस्तकं (Book)",
-            "declension": {
-              "singular": {
-                "nominative": "पुस्तकं (Book)",
-                "accusative": "पुस्तकं (Book)",
-                "instrumental": "पुस्तकैः (By book)",
-                "dative": "पुस्तकाय (To book)",
-                "ablative": "पुस्तकात् (From book)",
-                "genitive": "पुस्तकस्य (Book's)",
-                "locative": "पुस्तके (In book)",
-                "vocative": "हे पुस्तक (O book)"
-              },
-              "dual": {
-                "nominative": "पुस्तके (Two books)",
-                "accusative": "पुस्तके (Two books)",
-                "instrumental": "पुस्तकैः (By two books)",
-                "dative": "पुस्तकाभ्याम् (To two books)",
-                "ablative": "पुस्तकाभ्याम् (From two books)",
-                "genitive": "पुस्तकयोः (Of two books)",
-                "locative": "पुस्तकयोः (In two books)",
-                "vocative": "हे पुस्तके (O two books)"
-              },
-              "plural": {
-                "nominative": "पुस्तके (Books)",
-                "accusative": "पुस्तके (Books)",
-                "instrumental": "पुस्तकैः (By books)",
-                "dative": "पुस्तकेभ्यः (To books)",
-                "ablative": "पुस्तकाभ्यः (From books)",
-                "genitive": "पुस्तकानाम् (Of books)",
-                "locative": "पुस्तकेषु (In books)",
-                "vocative": "हे पुस्तके (O books)"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "category": "Types of Nouns",
-        "types": [
-          {
-            "type": "Proper Nouns (व्यक्तिवाचक संज्ञा)",
-            "description": "Proper nouns refer to specific names of persons, places, or things.",
-            "examples": ["राम (Rama)", "भारत (India)", "गंगा (Ganga)"]
-          },
-          {
-            "type": "Common Nouns (जातिवाचक संज्ञा)",
-            "description": "Common nouns are general names of persons, places, or things.",
-            "examples": ["मनुष्य (man)", "नदी (river)", "पुस्तक (book)"]
-          },
-          {
-            "type": "Collective Nouns (सर्ववाचक संज्ञा)",
-            "description": "Collective nouns refer to a group or collection of people, animals, or things.",
-            "examples": ["काव्यसमूह (group of poems)", "परिवार (family)", "सेना (army)"]
-          },
-          {
-            "type": "Abstract Nouns (भाववाचक संज्ञा)",
-            "description": "Abstract nouns represent ideas, qualities, or concepts that are intangible.",
-            "examples": ["सुख (happiness)", "दुःख (sorrow)", "ज्ञान (knowledge)"]
-          }
-        ]
+      "examples": {
+        "masculine": ["रामः (Rama)", "पुरुषः (man)", "पिता (father)"],
+        "feminine": ["गंगा (Ganga)", "पत्नी (wife)", "माता (mother)"],
+        "neuter": ["पुस्तकं (book)", "फलम (fruit)", "गृहम (house)"]
       }
-    ]
-  }
-  
+    },
+    {
+      "category": "Number (वचन)",
+      "description": "Sanskrit nouns have three numbers: Singular, Dual, and Plural.",
+      "twokinds": {
+        "singular": "Ekavachana (एकवचन)",
+        "dual": "Dvivachana (द्विवचन)",
+        "plural": "Bahuvachana (बहुवचन)"
+      },
+      "examples": {
+        "singular": ["रामः (Rama)", "पुस्तकं (book)"],
+        "dual": ["रामौ (Two Ramas)", "पुस्तके (Two books)"],
+        "plural": ["रामाः (Ramas)", "पुस्तके (Books)"]
+      }
+    },
+    {
+      "category": "Declension (विकरण)",
+      "description": "Nouns in Sanskrit change their endings depending on gender, number, and case. There are 8 cases (विभक्ति).",
+      "threekinds": [
+        {
+          "case": "Nominative (प्रथमा)",
+          "function": "Used for the subject of the sentence.",
+          "example": "रामः पठति (Rama reads)."
+        },
+        {
+          "case": "Accusative (द्वितीया)",
+          "function": "Used for the object of the sentence.",
+          "example": "रामं पठति (He reads Rama)."
+        },
+        {
+          "case": "Instrumental (तृतीया)",
+          "function": "Indicates the means or instrument by which an action is performed.",
+          "example": "रामेण पठति (He reads by Rama)."
+        },
+        {
+          "case": "Dative (चतुर्थी)",
+          "function": "Indicates the indirect object, to or for whom something is done.",
+          "example": "रामाय पठति (He reads for Rama)."
+        },
+        {
+          "case": "Ablative (पञ्चमी)",
+          "function": "Indicates separation or source, from whom or from where something is done.",
+          "example": "रामात् पठति (He reads from Rama)."
+        },
+        {
+          "case": "Genitive (षष्ठी)",
+          "function": "Indicates possession or 'of'.",
+          "example": "रामस्य पुस्तकं (Rama's book)."
+        },
+        {
+          "case": "Locative (सप्तमी)",
+          "function": "Indicates location, where something is.",
+          "example": "रामे पुस्तकं अस्ति (There is a book in Rama)."
+        },
+        {
+          "case": "Vocative (स्मरण)",
+          "function": "Used for calling or addressing someone directly.",
+          "example": "हे राम! (O Rama!)."
+        }
+      ]
+    },
+    {
+      "category": "Declension Examples",
+      "examples": [
+        {
+          "gender": "Masculine",
+          "noun": "रामः (Rama)",
+          "declension": {
+            "singular": {
+              "nominative": "रामः (Rama)",
+              "accusative": "रामं (Rama)",
+              "instrumental": "रामेण (By Rama)",
+              "dative": "रामाय (To Rama)",
+              "ablative": "रामात् (From Rama)",
+              "genitive": "रामस्य (Rama's)",
+              "locative": "रामे (In Rama)",
+              "vocative": "हे राम (O Rama)"
+            },
+            "dual": {
+              "nominative": "रामौ (Two Ramas)",
+              "accusative": "रामौ (Two Ramas)",
+              "instrumental": "रामाभ्याम् (By two Ramas)",
+              "dative": "रामाभ्याम् (To two Ramas)",
+              "ablative": "रामाभ्याम् (From two Ramas)",
+              "genitive": "रामयोः (Of two Ramas)",
+              "locative": "रामयोः (In two Ramas)",
+              "vocative": "हे रामौ (O two Ramas)"
+            },
+            "plural": {
+              "nominative": "रामाः (Ramas)",
+              "accusative": "रामान् (Ramas)",
+              "instrumental": "रामैः (By Ramas)",
+              "dative": "रामेभ्यः (To Ramas)",
+              "ablative": "रामेभ्यः (From Ramas)",
+              "genitive": "रामाणाम् (Of Ramas)",
+              "locative": "रामेषु (In Ramas)",
+              "vocative": "हे रामाः (O Ramas)"
+            }
+          }
+        },
+        {
+          "gender": "Feminine",
+          "noun": "पत्नी (Wife)",
+          "declension": {
+            "singular": {
+              "nominative": "पत्नी (Wife)",
+              "accusative": "पत्नीं (Wife)",
+              "instrumental": "पत्नीया (By wife)",
+              "dative": "पत्नीया (To wife)",
+              "ablative": "पत्नीया (From wife)",
+              "genitive": "पत्नीया (Wife's)",
+              "locative": "पत्नीं (In wife)",
+              "vocative": "हे पत्नि (O wife)"
+            },
+            "dual": {
+              "nominative": "पत्नी (Two wives)",
+              "accusative": "पत्नीं (Two wives)",
+              "instrumental": "पत्नीया (By two wives)",
+              "dative": "पत्नीभ्याम् (To two wives)",
+              "ablative": "पत्नीभ्याम् (From two wives)",
+              "genitive": "पत्नीभ्याम् (Of two wives)",
+              "locative": "पत्नीभ्यां (In two wives)",
+              "vocative": "हे पत्न्यौ (O two wives)"
+            },
+            "plural": {
+              "nominative": "पत्नीः (Wives)",
+              "accusative": "पत्नीः (Wives)",
+              "instrumental": "पत्नीभ्यः (By wives)",
+              "dative": "पत्नीभ्यः (To wives)",
+              "ablative": "पत्नीभ्यः (From wives)",
+              "genitive": "पत्नीषु (Of wives)",
+              "locative": "पत्नीषु (In wives)",
+              "vocative": "हे पत्न्यः (O wives)"
+            }
+          }
+        },
+        {
+          "gender": "Neuter",
+          "noun": "पुस्तकं (Book)",
+          "declension": {
+            "singular": {
+              "nominative": "पुस्तकं (Book)",
+              "accusative": "पुस्तकं (Book)",
+              "instrumental": "पुस्तकैः (By book)",
+              "dative": "पुस्तकाय (To book)",
+              "ablative": "पुस्तकात् (From book)",
+              "genitive": "पुस्तकस्य (Book's)",
+              "locative": "पुस्तके (In book)",
+              "vocative": "हे पुस्तक (O book)"
+            },
+            "dual": {
+              "nominative": "पुस्तके (Two books)",
+              "accusative": "पुस्तके (Two books)",
+              "instrumental": "पुस्तकैः (By two books)",
+              "dative": "पुस्तकाभ्याम् (To two books)",
+              "ablative": "पुस्तकाभ्याम् (From two books)",
+              "genitive": "पुस्तकयोः (Of two books)",
+              "locative": "पुस्तकयोः (In two books)",
+              "vocative": "हे पुस्तके (O two books)"
+            },
+            "plural": {
+              "nominative": "पुस्तके (Books)",
+              "accusative": "पुस्तके (Books)",
+              "instrumental": "पुस्तकैः (By books)",
+              "dative": "पुस्तकेभ्यः (To books)",
+              "ablative": "पुस्तकाभ्यः (From books)",
+              "genitive": "पुस्तकानाम् (Of books)",
+              "locative": "पुस्तकेषु (In books)",
+              "vocative": "हे पुस्तके (O books)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Types of Nouns",
+      "types": [
+        {
+          "type": "Proper Nouns (व्यक्तिवाचक संज्ञा)",
+          "description": "Proper nouns refer to specific names of persons, places, or things.",
+          "examples": ["राम (Rama)", "भारत (India)", "गंगा (Ganga)"]
+        },
+        {
+          "type": "Common Nouns (जातिवाचक संज्ञा)",
+          "description": "Common nouns are general names of persons, places, or things.",
+          "examples": ["मनुष्य (man)", "नदी (river)", "पुस्तक (book)"]
+        },
+        {
+          "type": "Collective Nouns (सर्ववाचक संज्ञा)",
+          "description": "Collective nouns refer to a group or collection of people, animals, or things.",
+          "examples": ["काव्यसमूह (group of poems)", "परिवार (family)", "सेना (army)"]
+        },
+        {
+          "type": "Abstract Nouns (भाववाचक संज्ञा)",
+          "description": "Abstract nouns represent ideas, qualities, or concepts that are intangible.",
+          "examples": ["सुख (happiness)", "दुःख (sorrow)", "ज्ञान (knowledge)"]
+        }
+      ]
+    }
+  ]
+}

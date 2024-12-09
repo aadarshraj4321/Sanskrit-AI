@@ -3,91 +3,117 @@
     {
       "category": "Tense (काल)",
       "question": {
-        "english": "Which of the following is the present tense form of the verb 'पठति' (reads)?",
-        "hindi": "'पठति' (reads) क्रिया का वर्तमानकाल रूप कौन सा है?"
+        "english": "Which of the following is an example of the present tense of the verb 'पठ' (to read)?",
+        "hindi": "'पठ' (to read) क्रिया का वर्तमान काल रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
+        "पठति (reads)",
         "पठितवान् (read)",
-        "पठामि (I read)",
         "पठिष्यति (will read)"
       ],
-      "correct_answer": "पठामि (I read)"
+      "correct_answer": "पठति (reads)"
     },
     {
       "category": "Tense (काल)",
       "question": {
-        "english": "Which of the following is the past tense form of the verb 'गच्छति' (goes)?",
-        "hindi": "'गच्छति' (goes) क्रिया का भूतकाल रूप कौन सा है?"
+        "english": "Which of the following is an example of the future tense of the verb 'गच्छ' (to go)?",
+        "hindi": "'गच्छ' (to go) क्रिया का भविष्यत्काल रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
-        "गच्छत (going)",
-        "गच्छितवान् (went)",
-        "गच्छिष्यति (will go)"
+        "गच्छति (goes)",
+        "गच्छिष्यति (will go)",
+        "गच्छितवान् (went)"
       ],
-      "correct_answer": "गच्छितवान् (went)"
+      "correct_answer": "गच्छिष्यति (will go)"
     },
     {
       "category": "Person (पुरुष)",
       "question": {
-        "english": "Which of the following is the first person singular form of the verb 'लिखति' (writes)?",
-        "hindi": "'लिखति' (writes) क्रिया का प्रथमपुरुष एकवचन रूप कौन सा है?"
+        "english": "Which of the following is the first-person singular form of the verb 'लिख' (to write)?",
+        "hindi": "'लिख' (to write) क्रिया का प्रथमपुरुष एकवचन रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
         "लिखामि (I write)",
         "लिखसि (You write)",
-        "लिखति (He/She/It writes)"
+        "लिखति (He writes)"
       ],
       "correct_answer": "लिखामि (I write)"
     },
     {
       "category": "Person (पुरुष)",
       "question": {
-        "english": "Which of the following is the second person plural form of the verb 'पठति' (reads)?",
-        "hindi": "'पठति' (reads) क्रिया का द्वितीयपुरुष बहुवचन रूप कौन सा है?"
+        "english": "Which of the following is the third-person plural form of the verb 'पठ' (to read)?",
+        "hindi": "'पठ' (to read) क्रिया का तृतीयपुरुष बहुवचन रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
-        "पठसि (You read)",
-        "पठत (You read)",
-        "पठथ (You all read)"
+        "पठितवान् (read)",
+        "पठन्ति (They read)",
+        "पठामि (I read)"
       ],
-      "correct_answer": "पठसि (You read)"
+      "correct_answer": "पठन्ति (They read)"
     },
     {
-      "category": "Conjugation (धातु रूप)",
+      "category": "Voice (वाच्य)",
       "question": {
-        "english": "Which of the following is the future tense form of the verb 'पठामि' (I read)?",
-        "hindi": "'पठामि' (I read) क्रिया का भविष्यत्काल रूप कौन सा है?"
+        "english": "Which of the following is the passive voice of the verb 'लिख' (to write)?",
+        "hindi": "'लिख' (to write) क्रिया का कर्मवाच्य रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
-        "पठिष्यामि (I will read)",
-        "पठामि (I read)",
-        "पठितवान् (read)"
+        "लिखति (writes)",
+        "लिखायति (causes to write)",
+        "लिख्यते (is written)"
       ],
-      "correct_answer": "पठिष्यामि (I will read)"
+      "correct_answer": "लिख्यते (is written)"
     },
     {
-      "category": "Conjugation (धातु रूप)",
+      "category": "Voice (वाच्य)",
       "question": {
-        "english": "Which of the following is the present tense form of the verb 'गच्छति' (goes)?",
-        "hindi": "'गच्छति' (goes) क्रिया का वर्तमानकाल रूप कौन सा है?"
+        "english": "Which of the following is the causative form of the verb 'गच्छ' (to go)?",
+        "hindi": "'गच्छ' (to go) क्रिया का कृत्त्वाकारक रूप निम्नलिखित में से कौन सा है?"
       },
       "options": [
-        "गच्छत (going)",
         "गच्छति (goes)",
+        "गच्छायति (causes to go)",
         "गच्छिष्यति (will go)"
       ],
-      "correct_answer": "गच्छति (goes)"
+      "correct_answer": "गच्छायति (causes to go)"
+    },
+    {
+      "category": "Conjugation (धातु रूप)",
+      "question": {
+        "english": "Which of the following is the past tense form of 'पठ' (to read) for the first-person singular?",
+        "hindi": "'पठ' (to read) क्रिया का भूतकाल रूप प्रथमपुरुष एकवचन में निम्नलिखित में से कौन सा है?"
+      },
+      "options": [
+        "पठितवान् (I read)",
+        "पठामि (I read)",
+        "पठितः (You read)"
+      ],
+      "correct_answer": "पठितवान् (I read)"
+    },
+    {
+      "category": "Conjugation (धातु रूप)",
+      "question": {
+        "english": "Which of the following is the future tense form of 'लिख' (to write) for the second-person singular?",
+        "hindi": "'लिख' (to write) क्रिया का भविष्यत्काल रूप द्वितीयपुरुष एकवचन में निम्नलिखित में से कौन सा है?"
+      },
+      "options": [
+        "लिखिष्यसि (You will write)",
+        "लिखति (He writes)",
+        "लिखामि (I write)"
+      ],
+      "correct_answer": "लिखिष्यसि (You will write)"
     },
     {
       "category": "Types of Verbs",
       "question": {
         "english": "Which of the following is an example of a transitive verb in Sanskrit?",
-        "hindi": "निम्नलिखित में से कौन सा संस्कृत में सकर्मक क्रिया का उदाहरण है?"
+        "hindi": "निम्नलिखित में से कौन सा संस्कृत में सङ्गच्छक क्रिया का उदाहरण है?"
       },
       "options": [
-        "हसति (laughs)",
+        "गच्छति (goes)",
         "पठति (reads)",
-        "स्मितं करोति (smiles)"
+        "हसति (laughs)"
       ],
       "correct_answer": "पठति (reads)"
     },
@@ -95,40 +121,14 @@
       "category": "Types of Verbs",
       "question": {
         "english": "Which of the following is an example of an intransitive verb in Sanskrit?",
-        "hindi": "निम्नलिखित में से कौन सा संस्कृत में अकर्मक क्रिया का उदाहरण है?"
+        "hindi": "निम्नलिखित में से कौन सा संस्कृत में असङ्गच्छक क्रिया का उदाहरण है?"
       },
       "options": [
-        "लिखति (writes)",
         "गच्छति (goes)",
-        "हसति (laughs)"
+        "पठति (reads)",
+        "लिखति (writes)"
       ],
-      "correct_answer": "हसति (laughs)"
-    },
-    {
-      "category": "Conjugation Examples",
-      "question": {
-        "english": "Which of the following is the third person singular form of the verb 'लिखति' (writes)?",
-        "hindi": "'लिखति' (writes) क्रिया का तृतीयपुरुष एकवचन रूप कौन सा है?"
-      },
-      "options": [
-        "लिखामि (I write)",
-        "लिखति (He/She/It writes)",
-        "लिखसि (You write)"
-      ],
-      "correct_answer": "लिखति (He/She/It writes)"
-    },
-    {
-      "category": "Conjugation Examples",
-      "question": {
-        "english": "Which of the following is the past tense form of the verb 'लिखयति' (causes to write)?",
-        "hindi": "'लिखयति' (causes to write) क्रिया का भूतकाल रूप कौन सा है?"
-      },
-      "options": [
-        "लिखितवान् (wrote)",
-        "लिखयति (causes to write)",
-        "लिखितवयम् (wrote)"
-      ],
-      "correct_answer": "लिखितवान् (wrote)"
+      "correct_answer": "गच्छति (goes)"
     }
   ]
 }

@@ -1,0 +1,138 @@
+{
+    "lesson": "Preposition (पूर्वसर्ग)",
+    "definition": "A preposition (पूर्वसर्ग) in Sanskrit is a word that connects a noun or pronoun to other words in a sentence, usually indicating relationships such as location, direction, time, manner, etc.",
+    "categories": [
+      {
+        "category": "Location (स्थान)",
+        "description": "Prepositions of location indicate where something is located or the position of something.",
+        "onekinds": {
+          "in": "अस्ति (asti)",
+          "on": "उपरि (upari)",
+          "under": "अधः (adhaḥ)",
+          "near": "समीप (samīpa)",
+          "inside": "अन्तरे (antare)",
+          "outside": "बाह्ये (bāhye)"
+        },
+        "examples": {
+          "in": ["गृहे अस्ति (He is in the house)"],
+          "on": ["मेजे पुस्तकं अस्ति (The book is on the table)"],
+          "under": ["पुस्तकं मेज के अधः अस्ति (The book is under the table)"],
+          "near": ["रामे समीपे पुस्तकं अस्ति (The book is near Rama)"],
+          "inside": ["गृहस्य अन्तरे पुस्तकं अस्ति (The book is inside the house)"],
+          "outside": ["गृहस्य बाह्ये पुस्तकं अस्ति (The book is outside the house)"]
+        }
+      },
+      {
+        "category": "Direction (दिशा)",
+        "description": "Prepositions of direction indicate the movement or direction towards something.",
+        "twokinds": {
+          "towards": "प्रति (prati)",
+          "from": "अप्रति (apṛti)",
+          "into": "अन्ते (ante)",
+          "out of": "बाह्यं (bāhyaṃ)"
+        },
+        "examples": {
+          "towards": ["रामं प्रति गच्छ (Go towards Rama)"],
+          "from": ["रामात् गच्छ (Go from Rama)"],
+          "into": ["गृहं प्रति गच्छ (Go into the house)"],
+          "out of": ["गृहात् बाह्यं गच्छ (Go out of the house)"]
+        }
+      },
+      {
+        "category": "Time (समय)",
+        "description": "Prepositions of time indicate when an action takes place or the duration of an action.",
+        "threekinds": [
+          {
+            "preposition": "at",
+            "example": "सप्तमे समये (At seven o'clock)"
+          },
+          {
+            "preposition": "during",
+            "example": "द्वादशे अंशे (During the twelfth part)"
+          },
+          {
+            "preposition": "before",
+            "example": "पूर्वे (Before)"
+          },
+          {
+            "preposition": "after",
+            "example": "पश्चात् (After)"
+          },
+          {
+            "preposition": "since",
+            "example": "तत्कालात् (Since that time)"
+          }
+        ]
+      },
+      {
+        
+        "category": "Manner (विधान)",
+        "description": "Prepositions of manner indicate how or in what way something is done.",
+        "twokinds": {
+          "by": "कर्मणि (karmaṇi)",
+          "with": "साथ (sātha)",
+          "like": "समान (samāna)"
+        },
+        "examples": {
+          "by": ["रामेण पठति (He reads by Rama)"],
+          "with": ["पत्नीया साथ पठति (She reads with the wife)"],
+          "like": ["गंगा समान जलं अस्ति (The Ganga has water like the ocean)"]
+        }
+      },
+      {
+        "category": "Cause/Reason (कारण)",
+        "description": "Prepositions of cause or reason indicate why something happens or the cause of an action.",
+        "twokinds": {
+          "for": "संदर्भे (sandarbhe)",
+          "because of": "कारणं (kāraṇaṃ)"
+        },
+        "examples": {
+          "for": ["रामाय पुस्तकं दत्तं (The book was given for Rama)"],
+          "because of": ["दुःखं कारणं अस्ति (It is because of sorrow)"]
+        }
+      },
+      {
+        "category": "Accompaniment (सह)",
+        "description": "Prepositions of accompaniment describe what or whom something is done with.",
+        "twokinds": {
+          "with": "साथ (sātha)",
+          "without": "विना (vinā)"
+        },
+        "examples": {
+          "with": ["रामेण सह गच्छ (Go with Rama)"],
+          "without": ["रामेण विना गच्छ (Go without Rama)"]
+        }
+      }
+    ],
+    "types_of_prepositions": [
+      {
+        "type": "Simple Prepositions (साधारण पूर्वसर्ग)",
+        "description": "These are basic prepositions that typically describe relationships such as location, direction, time, etc.",
+        "examples": [
+          "अस्ति (asti) - in",
+          "समीप (samīpa) - near",
+          "प्रति (prati) - towards",
+          "साथ (sātha) - with"
+        ]
+      },
+      {
+        "type": "Compound Prepositions (संयुक्त पूर्वसर्ग)",
+        "description": "These are formed by combining two simple prepositions or a preposition with a noun.",
+        "examples": [
+          "उपरि-आयाति (upari-āyāti) - comes on (upwards)",
+          "बाह्यं-गच्छ (bāhyaṃ-gaccha) - goes out",
+          "अन्तरे-गच्छ (antare-gaccha) - goes inside"
+        ]
+      },
+      {
+        "type": "Impersonal Prepositions (अव्यक्त पूर्वसर्ग)",
+        "description": "These prepositions do not follow a specific form but are used to show general relationships.",
+        "examples": [
+          "कर्मणि (karmaṇi) - with",
+          "साथ (sātha) - with",
+          "विना (vinā) - without"
+        ]
+      }
+    ]
+  }
+  

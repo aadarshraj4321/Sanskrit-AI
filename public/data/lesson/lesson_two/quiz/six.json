@@ -1,0 +1,161 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Location (स्थान)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'in'?",
+          "hindi": "निम्नलिखित में से 'in' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "अस्ति (asti)",
+          "उपरि (upari)",
+          "अधः (adhaḥ)"
+        ],
+        "correct_answer": "अस्ति (asti)"
+      },
+      {
+        "category": "Location (स्थान)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'on'?",
+          "hindi": "निम्नलिखित में से 'on' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "अस्ति (asti)",
+          "उपरि (upari)",
+          "अधः (adhaḥ)"
+        ],
+        "correct_answer": "उपरि (upari)"
+      },
+      {
+        "category": "Direction (दिशा)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'towards'?",
+          "hindi": "निम्नलिखित में से 'towards' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "प्रति (prati)",
+          "अप्रति (apṛti)",
+          "अन्ते (ante)"
+        ],
+        "correct_answer": "प्रति (prati)"
+      },
+      {
+        "category": "Direction (दिशा)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'from'?",
+          "hindi": "निम्नलिखित में से 'from' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "प्रति (prati)",
+          "अप्रति (apṛti)",
+          "बाह्यं (bāhyaṃ)"
+        ],
+        "correct_answer": "अप्रति (apṛti)"
+      },
+      {
+        "category": "Time (समय)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'before'?",
+          "hindi": "निम्नलिखित में से 'before' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "पूर्वे (pūrve)",
+          "पश्चात् (paścāt)",
+          "सप्तमे समये (saptame samaye)"
+        ],
+        "correct_answer": "पूर्वे (pūrve)"
+      },
+      {
+        "category": "Time (समय)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'after'?",
+          "hindi": "निम्नलिखित में से 'after' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "पूर्वे (pūrve)",
+          "पश्चात् (paścāt)",
+          "सप्तमे समये (saptame samaye)"
+        ],
+        "correct_answer": "पश्चात् (paścāt)"
+      },
+      {
+        "category": "Manner (विधान)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'by' (indicating the means)?",
+          "hindi": "निम्नलिखित में से 'by' (साधन के रूप में) के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "कर्मणि (karmaṇi)",
+          "साथ (sātha)",
+          "समान (samāna)"
+        ],
+        "correct_answer": "कर्मणि (karmaṇi)"
+      },
+      {
+        "category": "Manner (विधान)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'with' (indicating accompaniment)?",
+          "hindi": "निम्नलिखित में से 'with' (साथ) के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "कर्मणि (karmaṇi)",
+          "साथ (sātha)",
+          "समान (samāna)"
+        ],
+        "correct_answer": "साथ (sātha)"
+      },
+      {
+        "category": "Cause/Reason (कारण)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'because of'?",
+          "hindi": "निम्नलिखित में से 'because of' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "संदर्भे (sandarbhe)",
+          "कारणं (kāraṇaṃ)",
+          "कर्मणि (karmaṇi)"
+        ],
+        "correct_answer": "कारणं (kāraṇaṃ)"
+      },
+      {
+        "category": "Cause/Reason (कारण)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'for'?",
+          "hindi": "निम्नलिखित में से 'for' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "संदर्भे (sandarbhe)",
+          "कारणं (kāraṇaṃ)",
+          "साथ (sātha)"
+        ],
+        "correct_answer": "संदर्भे (sandarbhe)"
+      },
+      {
+        "category": "Accompaniment (सह)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'with' (indicating accompaniment)?",
+          "hindi": "निम्नलिखित में से 'with' (सह) के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "साथ (sātha)",
+          "विना (vinā)",
+          "प्रति (prati)"
+        ],
+        "correct_answer": "साथ (sātha)"
+      },
+      {
+        "category": "Accompaniment (सह)",
+        "question": {
+          "english": "Which of the following is the Sanskrit preposition for 'without'?",
+          "hindi": "निम्नलिखित में से 'without' के लिए संस्कृत पूर्वसर्ग कौन सा है?"
+        },
+        "options": [
+          "साथ (sātha)",
+          "विना (vinā)",
+          "प्रति (prati)"
+        ],
+        "correct_answer": "विना (vinā)"
+      }
+    ]
+  }
+  

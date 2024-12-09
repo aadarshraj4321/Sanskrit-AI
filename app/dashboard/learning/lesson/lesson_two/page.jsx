@@ -676,6 +676,149 @@
 
 
 
+// "use client";
+
+// import { useState } from 'react';
+// import { useRouter } from 'next/navigation';
+// import { BookOpen, Menu, ArrowLeft } from 'lucide-react';
+
+// const GRAMMAR_CONCEPTS = [
+//   { id: "one", name: "Noun", Sanskrit: "संज्ञा", color: "blue" },
+//   { id: "two", name: "Pronoun", Sanskrit: "सर्वनाम", color: "green" },
+//   { id: "three", name: "Verb", Sanskrit: "क्रिया", color: "yellow" },
+//   { id: "four", name: "Adverb", Sanskrit: "क्रिया विशेषण", color: "red" },
+//   { id: "five", name: "Adjective", Sanskrit: "विशेषण", color: "purple" },
+//   { id: "six", name: "Preposition", Sanskrit: "पूर्वसर्ग", color: "pink" },
+//   { id: "seven", name: "Conjunction", Sanskrit: "संयोजक", color: "teal" },
+//   { id: "eight", name: "Interjection", Sanskrit: "विस्मयादिबोधक", color: "indigo" }
+// ];
+
+// const SANSKRIT_FACTS = [
+//   {
+//     title: "संस्कृत व्याकरण",
+//     description: "Sanskrit grammar is one of the most systematic and scientific language systems in the world."
+//   },
+//   {
+//     title: "व्याकरण महत्व",
+//     description: "Parts of speech in Sanskrit are called 'पदभेद' (Padabheda) and play a crucial role in understanding sentence structure."
+//   },
+//   {
+//     title: "भाषा संरचना",
+//     description: "Sanskrit has eight primary parts of speech, each with unique grammatical functions and characteristics."
+//   }
+// ];
+
+// export default function SanskritGrammarPage() {
+//   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+//   const router = useRouter();
+
+//   const navigateToLesson = (id) => {
+//     router.push(`/dashboard/learning/lesson/lesson_two/${id}`);
+//   };
+
+//   return (
+//     <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex flex-col md:flex-row text-white">
+//       {/* Mobile Header */}
+//       <header className="md:hidden flex justify-between items-center p-4 bg-black/20">
+//         <h1 className="text-xl font-bold">Sanskrit Grammar</h1>
+//         <button 
+//           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+//           className="text-white"
+//         >
+//           <Menu />
+//         </button>
+//       </header>
+
+//       {/* Main Content */}
+//       <main className="w-full md:w-3/4 p-4 md:p-8 flex flex-col items-center">
+//         {/* Back Button */}
+//         <div className="w-full max-w-4xl mb-6">
+//           <button 
+//             onClick={() => router.push('/dashboard/learning')}
+//             className="p-2 rounded-full hover:bg-white/10 transition"
+//           >
+//             <ArrowLeft className="text-white" />
+//           </button>
+//         </div>
+
+//         <h1 className="text-3xl font-bold mb-8 text-center text-white">
+//           Sanskrit Grammar Concepts
+//         </h1>
+
+//         {/* Grammar Concept Grid */}
+//         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl w-full">
+//           {GRAMMAR_CONCEPTS.map((concept) => (
+//             <div 
+//               key={concept.id}
+//               onClick={() => navigateToLesson(concept.id)}
+//               className={`
+//                 bg-white/10 border border-white/20 
+//                 rounded-lg p-4 text-center cursor-pointer 
+//                 hover:bg-white/20 transition-all
+//                 flex flex-col items-center justify-center
+//                 transform hover:scale-105
+//               `}
+//             >
+//               <div className={`mb-2 text-white text-3xl`}>
+//                 <BookOpen />
+//               </div>
+//               <h3 className="font-semibold text-lg">{concept.name}</h3>
+//               <p className="text-sm text-gray-300 mt-1">{concept.Sanskrit}</p>
+//             </div>
+//           ))}
+//         </div>
+//       </main>
+
+//       {/* Sidebar */}
+//       <aside 
+//         className={`
+//           fixed md:static inset-y-0 right-0 w-64 md:w-1/4 
+//           bg-black/30 transform 
+//           ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}
+//           md:translate-x-0 
+//           transition-transform duration-300 
+//           z-50 md:z-0
+//         `}
+//       >
+//         <div className="p-6">
+//           <h2 className="text-2xl font-bold mb-6 text-center">
+//             Sanskrit Grammar Facts
+//           </h2>
+//           <div className="space-y-4">
+//             {SANSKRIT_FACTS.map((fact, index) => (
+//               <div 
+//                 key={index} 
+//                 className="bg-white/10 rounded-lg p-4 border border-white/20"
+//               >
+//                 <h3 className="font-semibold text-lg mb-2">{fact.title}</h3>
+//                 <p className="text-sm text-gray-300">{fact.description}</p>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </aside>
+
+//       {/* Mobile Sidebar Overlay */}
+//       {isSidebarOpen && (
+//         <div 
+//           className="fixed inset-0 bg-black/50 md:hidden z-40"
+//           onClick={() => setIsSidebarOpen(false)}
+//         />
+//       )}
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
 "use client";
 
 import { useState } from 'react';
@@ -719,8 +862,8 @@ export default function SanskritGrammarPage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex flex-col md:flex-row text-white">
       {/* Mobile Header */}
-      <header className="md:hidden flex justify-between items-center p-4 bg-black/20">
-        <h1 className="text-xl font-bold">Sanskrit Grammar</h1>
+      <header className="md:hidden flex justify-between items-center p-4 bg-black/40 rounded-b-xl">
+        <h1 className="text-xl font-extrabold text-white">Sanskrit Grammar</h1>
         <button 
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
           className="text-white"
@@ -730,40 +873,37 @@ export default function SanskritGrammarPage() {
       </header>
 
       {/* Main Content */}
-      <main className="w-full md:w-3/4 p-4 md:p-8 flex flex-col items-center">
+      <main className="w-full md:w-3/4 p-4 md:p-8 flex flex-col items-center transition-transform duration-500 ease-in-out">
         {/* Back Button */}
-        <div className="w-full max-w-4xl mb-6">
+        <div className="w-full max-w-4xl mb-6 flex justify-start">
           <button 
             onClick={() => router.push('/dashboard/learning')}
-            className="p-2 rounded-full hover:bg-white/10 transition"
+            className="p-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full hover:bg-white/20 transition-all ease-in-out duration-300"
           >
-            <ArrowLeft className="text-white" />
+            <ArrowLeft className="text-white text-lg" />
           </button>
         </div>
 
-        <h1 className="text-3xl font-bold mb-8 text-center text-white">
+        <h1 className="text-4xl font-extrabold mb-8 text-center text-white drop-shadow-xl">
           Sanskrit Grammar Concepts
         </h1>
 
         {/* Grammar Concept Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl w-full">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl w-full">
           {GRAMMAR_CONCEPTS.map((concept) => (
             <div 
               key={concept.id}
               onClick={() => navigateToLesson(concept.id)}
-              className={`
-                bg-white/10 border border-white/20 
-                rounded-lg p-4 text-center cursor-pointer 
-                hover:bg-white/20 transition-all
-                flex flex-col items-center justify-center
-                transform hover:scale-105
-              `}
+              className={`bg-gradient-to-r from-${concept.color}-500 to-${concept.color}-700 hover:from-${concept.color}-600 hover:to-${concept.color}-800 
+                text-center rounded-lg p-6 cursor-pointer 
+                hover:scale-105 transform transition-all duration-300 ease-in-out 
+                flex flex-col items-center justify-center shadow-lg hover:shadow-2xl`}
             >
-              <div className={`mb-2 text-white text-3xl`}>
+              <div className={`mb-3 text-4xl text-white`}>
                 <BookOpen />
               </div>
-              <h3 className="font-semibold text-lg">{concept.name}</h3>
-              <p className="text-sm text-gray-300 mt-1">{concept.Sanskrit}</p>
+              <h3 className="font-extrabold text-xl text-white">{concept.name}</h3>
+              <p className="text-sm text-gray-200 mt-2">{concept.Sanskrit}</p>
             </div>
           ))}
         </div>
@@ -773,7 +913,7 @@ export default function SanskritGrammarPage() {
       <aside 
         className={`
           fixed md:static inset-y-0 right-0 w-64 md:w-1/4 
-          bg-black/30 transform 
+          bg-black/60 transform 
           ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}
           md:translate-x-0 
           transition-transform duration-300 
@@ -781,17 +921,17 @@ export default function SanskritGrammarPage() {
         `}
       >
         <div className="p-6">
-          <h2 className="text-2xl font-bold mb-6 text-center">
+          <h2 className="text-3xl font-extrabold mb-6 text-center text-white drop-shadow-xl">
             Sanskrit Grammar Facts
           </h2>
-          <div className="space-y-4">
+          <div className="space-y-6">
             {SANSKRIT_FACTS.map((fact, index) => (
               <div 
                 key={index} 
-                className="bg-white/10 rounded-lg p-4 border border-white/20"
+                className="bg-white/10 rounded-lg p-6 border border-white/20 hover:bg-white/20 transition-all ease-in-out"
               >
-                <h3 className="font-semibold text-lg mb-2">{fact.title}</h3>
-                <p className="text-sm text-gray-300">{fact.description}</p>
+                <h3 className="font-semibold text-xl text-indigo-400 mb-3">{fact.title}</h3>
+                <p className="text-sm text-gray-200">{fact.description}</p>
               </div>
             ))}
           </div>
@@ -801,7 +941,7 @@ export default function SanskritGrammarPage() {
       {/* Mobile Sidebar Overlay */}
       {isSidebarOpen && (
         <div 
-          className="fixed inset-0 bg-black/50 md:hidden z-40"
+          className="fixed inset-0 bg-black/70 md:hidden z-40"
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
