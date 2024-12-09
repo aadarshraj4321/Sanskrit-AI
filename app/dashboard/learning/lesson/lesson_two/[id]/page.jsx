@@ -5158,7 +5158,7 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
                         <button
                           key={option}
                           className={`bg-indigo-600 text-white px-6 py-2 rounded-lg 
-                            ${isSelected && isCorrect ? 'bg-emerald-500' : ''} 
+                            ${isSelected && isCorrect ? 'bg-orange-400' : ''} 
                             ${isIncorrect ? 'bg-red-600' : ''}`}
                           onClick={() => handleQuizAnswer(option, quiz.correct_answer, index)}
                         >
