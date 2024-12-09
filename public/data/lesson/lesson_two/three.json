@@ -1,0 +1,107 @@
+{
+  "lesson": "Verb (क्रिया)",
+  "definition": "A verb (क्रिया) in Sanskrit is a word that expresses an action, occurrence, or state of being.",
+  "categories": [
+    {
+      "category": "Tense (काल)",
+      "description": "Sanskrit verbs are conjugated according to three tenses: Present, Past, and Future.",
+      "genders": {
+        "present": "प्रस्तुतकाल (Prastutkāla)",
+        "past": "भूतकाल (Bhūtakāla)",
+        "future": "भविष्यत्काल (Bhaviṣyatkāla)"
+      },
+      "examples": {
+        "present": ["पठति (reads)", "गच्छति (goes)", "लिखति (writes)"],
+        "past": ["पठितवान् (read)", "गच्छितवान् (went)", "लिखितवान् (wrote)"],
+        "future": ["पठिष्यति (will read)", "गच्छिष्यति (will go)", "लिखिष्यति (will write)"]
+      }
+    },
+    {
+      "category": "Person (पुरुष)",
+      "description": "Sanskrit verbs are conjugated according to three persons: First person, Second person, and Third person.",
+      "numbers": {
+        "first_person": "प्रथमपुरुष (Prathamapurusha)",
+        "second_person": "द्वितीयपुरुष (Dvitīyapurusha)",
+        "third_person": "तृतीयपुरुष (Tṛtīyapurusha)"
+      },
+      "examples": {
+        "first_person": ["पठामि (I read)", "गच्छामि (I go)", "लिखामि (I write)"],
+        "second_person": ["पठसि (You read)", "गच्छसि (You go)", "लिखसि (You write)"],
+        "third_person": ["पठति (He/She/It reads)", "गच्छति (He/She/It goes)", "लिखति (He/She/It writes)"]
+      }
+    },
+    {
+      "category": "Conjugation (धातु रूप)",
+      "description": "Verbs in Sanskrit change their forms based on tense, person, number, and gender.",
+      "forms": [
+        {
+          "tense": "Present (प्रस्तुतकाल)",
+          "form": "presents the action as happening now.",
+          "example": "रामः पठति (Rama reads)."
+        },
+        {
+          "tense": "Past (भूतकाल)",
+          "form": "presents the action as completed in the past.",
+          "example": "रामः पठितवान् (Rama read)."
+        },
+        {
+          "tense": "Future (भविष्यत्काल)",
+          "form": "presents the action as expected in the future.",
+          "example": "रामः पठिष्यति (Rama will read)."
+        }
+      ]
+    },
+    {
+      "category": "Conjugation Examples",
+      "examples": [
+        {
+          "person": "First Person",
+          "verb": "पठामि (I read)",
+          "conjugation": {
+            "present": "पठामि (I read)",
+            "past": "पठितवान् (I read)",
+            "future": "पठिष्यामि (I will read)"
+          }
+        },
+        {
+          "person": "Second Person",
+          "verb": "पठसि (You read)",
+          "conjugation": {
+            "present": "पठसि (You read)",
+            "past": "पठितवान् (You read)",
+            "future": "पठिष्यसि (You will read)"
+          }
+        },
+        {
+          "person": "Third Person",
+          "verb": "पठति (He/She/It reads)",
+          "conjugation": {
+            "present": "पठति (He/She/It reads)",
+            "past": "पठितवान् (He/She/It read)",
+            "future": "पठिष्यति (He/She/It will read)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Types of Verbs",
+      "types": [
+        {
+          "type": "Transitive Verbs (सकर्मक क्रिया)",
+          "description": "Transitive verbs require a direct object to complete their meaning.",
+          "examples": ["पठति (reads)", "लिखति (writes)", "गच्छति (goes)"]
+        },
+        {
+          "type": "Intransitive Verbs (अकर्मक क्रिया)",
+          "description": "Intransitive verbs do not require a direct object.",
+          "examples": ["हसति (laughs)", "नृत्यति (dances)", "स्मितं करोति (smiles)"]
+        },
+        {
+          "type": "Causative Verbs (कर्तरि क्रिया)",
+          "description": "Causative verbs indicate causing an action to happen.",
+          "examples": ["ददाति (causes to give)", "गच्छयति (causes to go)", "लिखयति (causes to write)"]
+        }
+      ]
+    }
+  ]
+}

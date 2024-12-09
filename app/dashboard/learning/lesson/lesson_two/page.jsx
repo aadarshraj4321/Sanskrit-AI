@@ -494,178 +494,316 @@
 
 
 
+// "use client";
+
+// import { useState } from 'react';
+// import { useRouter } from 'next/navigation';
+// import Head from 'next/head';
+// import Link from 'next/link'; 
+// import { FaRegUser, FaPen, FaQuoteRight, FaAd, FaPencilAlt, FaArrowCircleUp, FaLink, FaExclamationCircle, FaArrowLeft, FaBookOpen, FaBars } from 'react-icons/fa'; // Added FaBars for mobile menu
+
+// export default function Home() {
+//   const [data, setData] = useState(null);
+//   const [loading, setLoading] = useState(false);
+//   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+//   const router = useRouter();
+
+//   const handleClick = async (id) => {
+//     setLoading(true);
+//     setTimeout(() => {
+//       router.push(`/dashboard/learning/lesson/lesson_two/${id}`);
+//       setLoading(false);
+//     }, 500);
+//   };
+
+//   // Facts about Parts of Speech in Sanskrit
+//   const factCards = [
+//     {
+//       icon: <FaBookOpen className="text-blue-500 text-4xl" />,
+//       title: "संस्कृत व्याकरण",
+//       description: "Sanskrit grammar is one of the most systematic and scientific language systems in the world."
+//     },
+//     {
+//       icon: <FaBookOpen className="text-green-500 text-4xl" />,
+//       title: "व्याकरण महत्व",
+//       description: "Parts of speech in Sanskrit are called 'पदभेद' (Padabheda) and play a crucial role in understanding sentence structure."
+//     },
+//     {
+//       icon: <FaBookOpen className="text-purple-500 text-4xl" />,
+//       title: "भाषा संरचना",
+//       description: "Sanskrit has eight primary parts of speech, each with unique grammatical functions and characteristics."
+//     }
+//   ];
+
+//   // Grammar Concepts Cards
+//   const grammarConcepts = [ 
+//     { id: "one", label: "संज्ञा (Noun)", icon: <FaRegUser size={50} />, background: 'bg-gradient-to-r from-blue-400 to-blue-600' },
+//     { id: "two", label: "सर्वनाम (Pronoun)", icon: <FaQuoteRight size={50} />, background: 'bg-gradient-to-r from-green-400 to-green-600' },
+//     { id: "three", label: "क्रिया (Verb)", icon: <FaPen size={50} />, background: 'bg-gradient-to-r from-yellow-400 to-yellow-600' },
+//     { id: "four", label: "क्रिया विशेषण (Adverb)", icon: <FaAd size={50} />, background: 'bg-gradient-to-r from-red-400 to-red-600' },
+//     { id: "five", label: "विशेषण (Adjective)", icon: <FaPencilAlt size={50} />, background: 'bg-gradient-to-r from-purple-400 to-purple-600' },
+//     { id: "six", label: "पूर्वसर्ग (Preposition)", icon: <FaArrowCircleUp size={50} />, background: 'bg-gradient-to-r from-pink-400 to-pink-600' },
+//     { id: "seven", label: "संयोजक (Conjunction)", icon: <FaLink size={50} />, background: 'bg-gradient-to-r from-teal-400 to-teal-600' },
+//     { id: "eight", label: "विस्मयादिबोधक (Interjection)", icon: <FaExclamationCircle size={50} />, background: 'bg-gradient-to-r from-indigo-400 to-indigo-600' }
+//   ];
+
+//   return (
+//     <div className="bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen flex flex-col lg:flex-row">
+//       {/* Mobile Header with Hamburger Menu */}
+//       <div className="lg:hidden bg-gradient-to-r from-slate-900 to-slate-700 text-white py-4 px-4 flex justify-between items-center">
+//         <h1 className="text-xl font-bold">Sanskrit Grammar</h1>
+//         <button 
+//           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+//           className="focus:outline-none"
+//         >
+//           <FaBars className="text-2xl" />
+//         </button>
+//       </div>
+
+//       {/* Main Content Container */}
+//       <div className={`
+//         ${isMobileMenuOpen ? 'hidden' : 'block'}
+//         lg:block lg:w-3/4 w-full p-2 sm:p-4 md:p-6
+//       `}>
+//         {/* SEO Head Section */}
+//         <Head>
+//           <title>Grammar Concepts in Sanskrit</title>
+//           <meta name="description" content="Learn Sanskrit grammar concepts in an interactive and engaging way." />
+//           <meta name="viewport" content="width=device-width, initial-scale=1" />
+//           <link rel="icon" href="/favicon.ico" />
+//         </Head>
+
+//         {/* Header Section - Hidden on Mobile, Visible on Larger Screens */}
+//         <header className="hidden lg:block bg-gradient-to-r from-slate-900 to-slate-700 text-white text-2xl sm:text-3xl font-bold text-center py-2 shadow-xl relative">
+//           <h1>Grammar Concepts in Sanskrit</h1>
+//           <p className="text-lg sm:text-xl mt-0.5 font-light">Explore Sanskrit Grammar in an Engaging Way</p>
+//         </header>
+
+//         {/* Back to Lesson Button */}
+//         <div className="absolute top-4 sm:top-6 left-4 sm:left-6">
+//           <Link href="/dashboard/learning" passHref>
+//             <button
+//               className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-3 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+//             >
+//               <FaArrowLeft className="text-lg" />
+//             </button>
+//           </Link>
+//         </div>
+
+//         {/* Main Content: Cards for Grammar Concepts */}
+//         <main className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 sm:mt-20 px-2 sm:px-4">
+//           {grammarConcepts.map((item) => (
+//             <div
+//               key={item.id}
+//               id={item.id}
+//               className={`
+//                 w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 
+//                 ${item.background} rounded-full shadow-2xl 
+//                 transition-transform transform hover:scale-110 
+//                 hover:shadow-2xl relative cursor-pointer 
+//                 overflow-hidden hover:opacity-90
+//               `}
+//               onClick={() => handleClick(item.id)}
+//             >
+//               <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40 text-center">
+//                 <div className="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+//                   <div className="text-white">{item.icon}</div>
+//                   <span className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-bold">{item.label}</span>
+//                 </div>
+//               </div>
+//             </div>
+//           ))}
+//         </main>
+
+//         {/* Footer Section */}
+//         <footer className="bg-gradient-to-r from-slate-900 to-slate-700 text-white text-center py-4 sm:py-6 mt-8 sm:mt-12 shadow-xl text-xs sm:text-sm">
+//           © 2024 Grammar Concepts in Sanskrit | All rights reserved
+//         </footer>
+//       </div>
+
+//       {/* Right Side - Facts Section */}
+//       <div className={`
+//         ${isMobileMenuOpen ? 'block' : 'hidden'}
+//         lg:block lg:w-1/4 w-full 
+//         bg-slate-700 bg-opacity-10 
+//         border-t-4 lg:border-l-2 border-slate-700 
+//         p-4 sm:p-6
+//       `}>
+//         <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 text-center">
+//           Sanskrit Grammar Facts
+//         </h2>
+//         <div className="space-y-4 sm:space-y-6">
+//           {factCards.map((card, index) => (
+//             <div 
+//               key={index} 
+//               className="
+//                 bg-slate-900 bg-opacity-10 
+//                 rounded-lg p-3 sm:p-4 
+//                 shadow-lg 
+//                 hover:bg-opacity-20 
+//                 transition-all duration-300 ease-in-out
+//               "
+//             >
+//               <div className="flex items-center mb-2 sm:mb-3">
+//                 {card.icon}
+//                 <h3 className="ml-2 sm:ml-3 text-base sm:text-xl font-semibold text-white">
+//                   {card.title}
+//                 </h3>
+//               </div>
+//               <p className="text-xs sm:text-sm text-gray-200">
+//                 {card.description}
+//               </p>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+//       {/* Loading Spinner */}
+//       {loading && (
+//         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
+//           <div className="spinner-border text-white" role="status">
+//             <span className="sr-only">Loading...</span>
+//           </div>
+//         </div>
+//       )}
+//     </div>
+//   );
+// }
+
+
+
+
+
+
 "use client";
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Head from 'next/head';
-import Link from 'next/link'; 
-import { FaRegUser, FaPen, FaQuoteRight, FaAd, FaPencilAlt, FaArrowCircleUp, FaLink, FaExclamationCircle, FaArrowLeft, FaBookOpen, FaBars } from 'react-icons/fa'; // Added FaBars for mobile menu
+import { BookOpen, Menu, ArrowLeft } from 'lucide-react';
 
-export default function Home() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const GRAMMAR_CONCEPTS = [
+  { id: "one", name: "Noun", Sanskrit: "संज्ञा", color: "blue" },
+  { id: "two", name: "Pronoun", Sanskrit: "सर्वनाम", color: "green" },
+  { id: "three", name: "Verb", Sanskrit: "क्रिया", color: "yellow" },
+  { id: "four", name: "Adverb", Sanskrit: "क्रिया विशेषण", color: "red" },
+  { id: "five", name: "Adjective", Sanskrit: "विशेषण", color: "purple" },
+  { id: "six", name: "Preposition", Sanskrit: "पूर्वसर्ग", color: "pink" },
+  { id: "seven", name: "Conjunction", Sanskrit: "संयोजक", color: "teal" },
+  { id: "eight", name: "Interjection", Sanskrit: "विस्मयादिबोधक", color: "indigo" }
+];
 
+const SANSKRIT_FACTS = [
+  {
+    title: "संस्कृत व्याकरण",
+    description: "Sanskrit grammar is one of the most systematic and scientific language systems in the world."
+  },
+  {
+    title: "व्याकरण महत्व",
+    description: "Parts of speech in Sanskrit are called 'पदभेद' (Padabheda) and play a crucial role in understanding sentence structure."
+  },
+  {
+    title: "भाषा संरचना",
+    description: "Sanskrit has eight primary parts of speech, each with unique grammatical functions and characteristics."
+  }
+];
+
+export default function SanskritGrammarPage() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const router = useRouter();
 
-  const handleClick = async (id) => {
-    setLoading(true);
-    setTimeout(() => {
-      router.push(`/dashboard/learning/lesson/lesson_two/${id}`);
-      setLoading(false);
-    }, 500);
+  const navigateToLesson = (id) => {
+    router.push(`/dashboard/learning/lesson/lesson_two/${id}`);
   };
 
-  // Facts about Parts of Speech in Sanskrit
-  const factCards = [
-    {
-      icon: <FaBookOpen className="text-blue-500 text-4xl" />,
-      title: "संस्कृत व्याकरण",
-      description: "Sanskrit grammar is one of the most systematic and scientific language systems in the world."
-    },
-    {
-      icon: <FaBookOpen className="text-green-500 text-4xl" />,
-      title: "व्याकरण महत्व",
-      description: "Parts of speech in Sanskrit are called 'पदभेद' (Padabheda) and play a crucial role in understanding sentence structure."
-    },
-    {
-      icon: <FaBookOpen className="text-purple-500 text-4xl" />,
-      title: "भाषा संरचना",
-      description: "Sanskrit has eight primary parts of speech, each with unique grammatical functions and characteristics."
-    }
-  ];
-
-  // Grammar Concepts Cards
-  const grammarConcepts = [ 
-    { id: "one", label: "संज्ञा (Noun)", icon: <FaRegUser size={50} />, background: 'bg-gradient-to-r from-blue-400 to-blue-600' },
-    { id: "two", label: "सर्वनाम (Pronoun)", icon: <FaQuoteRight size={50} />, background: 'bg-gradient-to-r from-green-400 to-green-600' },
-    { id: "three", label: "क्रिया (Verb)", icon: <FaPen size={50} />, background: 'bg-gradient-to-r from-yellow-400 to-yellow-600' },
-    { id: "four", label: "क्रिया विशेषण (Adverb)", icon: <FaAd size={50} />, background: 'bg-gradient-to-r from-red-400 to-red-600' },
-    { id: "five", label: "विशेषण (Adjective)", icon: <FaPencilAlt size={50} />, background: 'bg-gradient-to-r from-purple-400 to-purple-600' },
-    { id: "six", label: "पूर्वसर्ग (Preposition)", icon: <FaArrowCircleUp size={50} />, background: 'bg-gradient-to-r from-pink-400 to-pink-600' },
-    { id: "seven", label: "संयोजक (Conjunction)", icon: <FaLink size={50} />, background: 'bg-gradient-to-r from-teal-400 to-teal-600' },
-    { id: "eight", label: "विस्मयादिबोधक (Interjection)", icon: <FaExclamationCircle size={50} />, background: 'bg-gradient-to-r from-indigo-400 to-indigo-600' }
-  ];
-
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen flex flex-col lg:flex-row">
-      {/* Mobile Header with Hamburger Menu */}
-      <div className="lg:hidden bg-gradient-to-r from-slate-900 to-slate-700 text-white py-4 px-4 flex justify-between items-center">
+    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex flex-col md:flex-row text-white">
+      {/* Mobile Header */}
+      <header className="md:hidden flex justify-between items-center p-4 bg-black/20">
         <h1 className="text-xl font-bold">Sanskrit Grammar</h1>
         <button 
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="focus:outline-none"
+          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+          className="text-white"
         >
-          <FaBars className="text-2xl" />
+          <Menu />
         </button>
-      </div>
+      </header>
 
-      {/* Main Content Container */}
-      <div className={`
-        ${isMobileMenuOpen ? 'hidden' : 'block'}
-        lg:block lg:w-3/4 w-full p-2 sm:p-4 md:p-6
-      `}>
-        {/* SEO Head Section */}
-        <Head>
-          <title>Grammar Concepts in Sanskrit</title>
-          <meta name="description" content="Learn Sanskrit grammar concepts in an interactive and engaging way." />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
-        {/* Header Section - Hidden on Mobile, Visible on Larger Screens */}
-        <header className="hidden lg:block bg-gradient-to-r from-slate-900 to-slate-700 text-white text-2xl sm:text-3xl font-bold text-center py-2 shadow-xl relative">
-          <h1>Grammar Concepts in Sanskrit</h1>
-          <p className="text-lg sm:text-xl mt-0.5 font-light">Explore Sanskrit Grammar in an Engaging Way</p>
-        </header>
-
-        {/* Back to Lesson Button */}
-        <div className="absolute top-4 sm:top-6 left-4 sm:left-6">
-          <Link href="/dashboard/learning" passHref>
-            <button
-              className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-3 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
-            >
-              <FaArrowLeft className="text-lg" />
-            </button>
-          </Link>
+      {/* Main Content */}
+      <main className="w-full md:w-3/4 p-4 md:p-8 flex flex-col items-center">
+        {/* Back Button */}
+        <div className="w-full max-w-4xl mb-6">
+          <button 
+            onClick={() => router.push('/dashboard/learning')}
+            className="p-2 rounded-full hover:bg-white/10 transition"
+          >
+            <ArrowLeft className="text-white" />
+          </button>
         </div>
 
-        {/* Main Content: Cards for Grammar Concepts */}
-        <main className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 sm:mt-20 px-2 sm:px-4">
-          {grammarConcepts.map((item) => (
-            <div
-              key={item.id}
-              id={item.id}
-              className={`
-                w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 
-                ${item.background} rounded-full shadow-2xl 
-                transition-transform transform hover:scale-110 
-                hover:shadow-2xl relative cursor-pointer 
-                overflow-hidden hover:opacity-90
-              `}
-              onClick={() => handleClick(item.id)}
-            >
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40 text-center">
-                <div className="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
-                  <div className="text-white">{item.icon}</div>
-                  <span className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-bold">{item.label}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </main>
+        <h1 className="text-3xl font-bold mb-8 text-center text-white">
+          Sanskrit Grammar Concepts
+        </h1>
 
-        {/* Footer Section */}
-        <footer className="bg-gradient-to-r from-slate-900 to-slate-700 text-white text-center py-4 sm:py-6 mt-8 sm:mt-12 shadow-xl text-xs sm:text-sm">
-          © 2024 Grammar Concepts in Sanskrit | All rights reserved
-        </footer>
-      </div>
-
-      {/* Right Side - Facts Section */}
-      <div className={`
-        ${isMobileMenuOpen ? 'block' : 'hidden'}
-        lg:block lg:w-1/4 w-full 
-        bg-slate-700 bg-opacity-10 
-        border-t-4 lg:border-l-2 border-slate-700 
-        p-4 sm:p-6
-      `}>
-        <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 text-center">
-          Sanskrit Grammar Facts
-        </h2>
-        <div className="space-y-4 sm:space-y-6">
-          {factCards.map((card, index) => (
+        {/* Grammar Concept Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl w-full">
+          {GRAMMAR_CONCEPTS.map((concept) => (
             <div 
-              key={index} 
-              className="
-                bg-slate-900 bg-opacity-10 
-                rounded-lg p-3 sm:p-4 
-                shadow-lg 
-                hover:bg-opacity-20 
-                transition-all duration-300 ease-in-out
-              "
+              key={concept.id}
+              onClick={() => navigateToLesson(concept.id)}
+              className={`
+                bg-white/10 border border-white/20 
+                rounded-lg p-4 text-center cursor-pointer 
+                hover:bg-white/20 transition-all
+                flex flex-col items-center justify-center
+                transform hover:scale-105
+              `}
             >
-              <div className="flex items-center mb-2 sm:mb-3">
-                {card.icon}
-                <h3 className="ml-2 sm:ml-3 text-base sm:text-xl font-semibold text-white">
-                  {card.title}
-                </h3>
+              <div className={`mb-2 text-white text-3xl`}>
+                <BookOpen />
               </div>
-              <p className="text-xs sm:text-sm text-gray-200">
-                {card.description}
-              </p>
+              <h3 className="font-semibold text-lg">{concept.name}</h3>
+              <p className="text-sm text-gray-300 mt-1">{concept.Sanskrit}</p>
             </div>
           ))}
         </div>
-      </div>
+      </main>
 
-      {/* Loading Spinner */}
-      {loading && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
-          <div className="spinner-border text-white" role="status">
-            <span className="sr-only">Loading...</span>
+      {/* Sidebar */}
+      <aside 
+        className={`
+          fixed md:static inset-y-0 right-0 w-64 md:w-1/4 
+          bg-black/30 transform 
+          ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}
+          md:translate-x-0 
+          transition-transform duration-300 
+          z-50 md:z-0
+        `}
+      >
+        <div className="p-6">
+          <h2 className="text-2xl font-bold mb-6 text-center">
+            Sanskrit Grammar Facts
+          </h2>
+          <div className="space-y-4">
+            {SANSKRIT_FACTS.map((fact, index) => (
+              <div 
+                key={index} 
+                className="bg-white/10 rounded-lg p-4 border border-white/20"
+              >
+                <h3 className="font-semibold text-lg mb-2">{fact.title}</h3>
+                <p className="text-sm text-gray-300">{fact.description}</p>
+              </div>
+            ))}
           </div>
         </div>
+      </aside>
+
+      {/* Mobile Sidebar Overlay */}
+      {isSidebarOpen && (
+        <div 
+          className="fixed inset-0 bg-black/50 md:hidden z-40"
+          onClick={() => setIsSidebarOpen(false)}
+        />
       )}
     </div>
   );

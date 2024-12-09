@@ -1506,9 +1506,9 @@ const lessonsData = [
     { id: 0, title: "Introduction to Sanskrit", subtitle: "Understanding the Roots of Language", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit6.png", specialLink: "/dashboard/learning/lesson/0" },
     { id: 1, title: "Mastering Alphabets", subtitle: "The Building Blocks of Language", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit3.png" },
     { id: 2, title: "Grammar Basics", subtitle: "Fundamentals of Sentence Structure", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit5.png" },
-    { id: 3, title: "Speak & Converse", subtitle: "Practice Everyday Dialogues", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit.png" },
-    { id: 4, title: "Power Words", subtitle: "Expand Your Vocabulary", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit2.png" },
-    { id: 5, title: "Everyday Conversations", subtitle: "Speak Like a Native", gif: "https://d8q326uv7ym5m.cloudfront.net/public/sun.gif" },
+    // { id: 3, title: "Speak & Converse", subtitle: "Practice Everyday Dialogues", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit.png" },
+    // { id: 4, title: "Power Words", subtitle: "Expand Your Vocabulary", gif: "https://d8q326uv7ym5m.cloudfront.net/public/learning_page/sanskrit2.png" },
+    // { id: 5, title: "Everyday Conversations", subtitle: "Speak Like a Native", gif: "https://d8q326uv7ym5m.cloudfront.net/public/sun.gif" },
 ];
 
 const facts = [

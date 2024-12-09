@@ -1,0 +1,135 @@
+{
+    "quiz_questions": [
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is a masculine pronoun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में पुल्लिंग सर्वनाम है?"
+        },
+        "options": [
+          "सा (She)",
+          "सः (He)",
+          "तत् (It)"
+        ],
+        "correct_answer": "सः (He)"
+      },
+      {
+        "category": "Gender (लिंग)",
+        "question": {
+          "english": "Which of the following is a neuter pronoun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में नपुंसकलिंग सर्वनाम है?"
+        },
+        "options": [
+          "सः (He)",
+          "सा (She)",
+          "तत् (It)"
+        ],
+        "correct_answer": "तत् (It)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the plural form of the pronoun 'सः' (He)?",
+          "hindi": "'सः' (He) सर्वनाम का बहुवचन रूप कौन सा है?"
+        },
+        "options": [
+          "ते (They, masculine)",
+          "ताः (They, feminine)",
+          "तानि (They, neuter)"
+        ],
+        "correct_answer": "ते (They, masculine)"
+      },
+      {
+        "category": "Number (वचन)",
+        "question": {
+          "english": "Which of the following is the dual form of 'सा' (She)?",
+          "hindi": "'सा' (She) सर्वनाम का द्विवचन रूप कौन सा है?"
+        },
+        "options": [
+          "द्वे (Two of them, feminine)",
+          "द्वौ (Two of them, masculine)",
+          "द्वे (Two of them, neuter)"
+        ],
+        "correct_answer": "द्वे (Two of them, feminine)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the pronoun 'सः' (He) used for the subject of the sentence?",
+          "hindi": "'सः' (He) सर्वनाम का प्रयोग वाक्य के कर्ता के रूप में किस विभक्ति में किया जाता है?"
+        },
+        "options": [
+          "Nominative (प्रथमा)",
+          "Accusative (द्वितीया)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Nominative (प्रथमा)"
+      },
+      {
+        "category": "Declension (विकरण)",
+        "question": {
+          "english": "In which case is the pronoun 'सा' (She) used for addressing someone directly?",
+          "hindi": "'सा' (She) सर्वनाम का प्रयोग किसी को सीधे संबोधित करने के लिए किस विभक्ति में किया जाता है?"
+        },
+        "options": [
+          "Nominative (प्रथमा)",
+          "Accusative (द्वितीया)",
+          "Vocative (स्मरण)"
+        ],
+        "correct_answer": "Vocative (स्मरण)"
+      },
+      {
+        "category": "Types of Pronouns",
+        "question": {
+          "english": "Which of the following is an example of a demonstrative pronoun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में निश्चितवाचक सर्वनाम का उदाहरण है?"
+        },
+        "options": [
+          "कः (Who)",
+          "एष (This)",
+          "आत्मनं (Himself)"
+        ],
+        "correct_answer": "एष (This)"
+      },
+      {
+        "category": "Types of Pronouns",
+        "question": {
+          "english": "Which of the following is an example of an interrogative pronoun in Sanskrit?",
+          "hindi": "निम्नलिखित में से कौन सा संस्कृत में प्रश्नवाचक सर्वनाम का उदाहरण है?"
+        },
+        "options": [
+          "सः (He)",
+          "कः (Who)",
+          "तस्मिन (In him)"
+        ],
+        "correct_answer": "कः (Who)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "What is the accusative form of 'सः' (He) in the singular?",
+          "hindi": "'सः' (He) सर्वनाम का द्वितीय विभक्ति एकवचन रूप कौन सा है?"
+        },
+        "options": [
+          "तं (Him)",
+          "तया (By him)",
+          "तस्मै (To him)"
+        ],
+        "correct_answer": "तं (Him)"
+      },
+      {
+        "category": "Declension Examples",
+        "question": {
+          "english": "What is the instrumental form of 'सा' (She) in the dual?",
+          "hindi": "'सा' (She) सर्वनाम का तृतीय विभक्ति द्विवचन रूप कौन सा है?"
+        },
+        "options": [
+          "ताभ्याम् (By two of them, feminine)",
+          "द्वाभ्याम् (By two of them, masculine)",
+          "तया (By her)"
+        ],
+        "correct_answer": "ताभ्याम् (By two of them, feminine)"
+      }
+    ]
+  }
+  

@@ -4996,6 +4996,13 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
     (question) => question.category === currentCategory.category
   );
 
+
+
+
+
+
+
+
   return (
     <div className="p-8 min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
       {/* Header and Back Button */}
@@ -5020,28 +5027,80 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
     <p className="mt-4 text-lg text-gray-200">{currentCategory.description}</p>
 
     {/* Display Genders */}
-    {currentCategory.genders && (
-      <div className="mt-6 space-y-3">
-        {Object.entries(currentCategory.genders).map(([gender, value]) => (
-          <div key={gender} className="flex justify-between">
-            <span className="text-sm font-medium text-white capitalize">{gender}</span>
-            <span className="text-md text-gray-400">{value}</span>
-          </div>
-        ))}
+{/* {currentCategory.genders && (
+  <div className="mt-6 space-y-3">
+    {Object.entries(currentCategory.genders).map(([gender, value]) => (
+      <div key={gender} className="flex justify-between mb-4">
+        <span className="text-sm font-medium text-white capitalize">{gender}</span>
+        <span className="text-md text-gray-400">{value}</span>
       </div>
-    )}
+    ))}
+
+<div className="mt-10 space-y-3">
+{Object.entries(currentCategory.examples).map(([example, value]) => (
+      <div key={example} className="flex justify-between mb-4">
+        <span className="text-sm font-medium text-white capitalize">{example}</span>
+        <span className="text-md text-gray-400">{value}</span>
+      </div>
+    ))}
+    </div>
+    
+  </div>
+)} */}
+
+{/* Display Genders and Examples */}
+{currentCategory.genders && currentCategory.examples && (
+  <div className="space-y-6">
+    {/* Display Genders */}
+    <div className="mt-6 space-y-3">
+      {Object.entries(currentCategory.genders).map(([gender, value]) => (
+        <div key={gender} className="flex justify-between mb-4">
+          <span className="text-sm font-medium text-white capitalize">{gender}</span>
+          <span className="text-md text-gray-400">{value}</span>
+        </div>
+      ))}
+    </div>
+
+    {/* Display Examples */}
+    <div className="mt-6 space-y-3">
+      {Object.entries(currentCategory.examples).map(([example, value]) => (
+        <div key={example} className="flex justify-between mb-4">
+          <span className="text-sm font-medium text-white capitalize">{example}</span>
+          <span className="text-md text-gray-400">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+
+
+
 
     {/* Display Numbers */}
-    {currentCategory.numbers && (
-      <div className="mt-6 space-y-3">
-        {Object.entries(currentCategory.numbers).map(([number, value]) => (
-          <div key={number} className="flex justify-between">
-            <span className="text-sm font-medium text-white capitalize">{number}</span>
-            <span className="text-md text-gray-400">{value}</span>
-          </div>
-        ))}
-      </div>
-    )}
+    {currentCategory.numbers && currentCategory.examples && (
+  <div className="space-y-6">
+    {/* Display Numbers */}
+    <div className="mt-6 space-y-3">
+      {Object.entries(currentCategory.numbers).map(([number, value]) => (
+        <div key={number} className="flex justify-between mb-4">
+          <span className="text-sm font-medium text-white capitalize">{number}</span>
+          <span className="text-md text-gray-400">{value}</span>
+        </div>
+      ))}
+    </div>
+
+    {/* Display Examples */}
+    <div className="mt-6 space-y-3">
+      {Object.entries(currentCategory.examples).map(([example, value]) => (
+        <div key={example} className="flex justify-between mb-4">
+          <span className="text-sm font-medium text-white capitalize">{example}</span>
+          <span className="text-md text-gray-400">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
 
     {/* Display Declension Cases */}
     {currentCategory.vibhaktis && currentCategory.vibhaktis.length > 0 && (
@@ -5139,10 +5198,9 @@ const handleQuizAnswer = (answer, correctAnswer, index) => {
 
 
           {/* Interactive Quiz in a Card with Animation */}
-          <div className="mt-6 flex flex-col items-center">
+          <div className="mt-8 flex flex-col items-center">
             <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg shadow-lg p-6 w-full max-w-lg transform transition-all duration-500 ease-in-out hover:scale-105">
-              <h4 className="text-lg font-semibold text-indigo-100 text-center mb-4">Level Up Your Knowledge</h4>
-
+              <h4 className="text-lg font-semibold text-indigo-500 text-center mb-4">Answer this to go next</h4>
               {/* Display quiz questions based on the category */}
               {filteredQuizQuestions.map((quiz, index) => (
                 <div key={index} className="mt-4">
