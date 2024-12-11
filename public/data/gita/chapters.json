@@ -1,0 +1,182 @@
+[
+    {
+        "chapter_number": 1,
+        "chapter_summary": "The first chapter of the Bhagavad Gita, 'Arjuna Vishada Yoga', introduces the setup of the Mahabharata battle. Arjuna, upon seeing his relatives and friends on both sides, becomes sad and seeks guidance from Lord Krishna, who reveals the wisdom of the Gita.",
+        "chapter_summary_hindi": "भगवद गीता का पहला अध्याय अर्जुन विशाद योग पांडवों और कौरवों के बीच महाभारत के युद्ध की परिस्थिति प्रस्तुत करता है। अर्जुन अपने रिश्तेदारों को देखकर दुखी हो जाते हैं और श्री कृष्ण से मार्गदर्शन प्राप्त करते हैं।",
+        "id": 1,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/one.jpg",
+        "name": "अर्जुनविषादयोग",
+        "name_meaning": "Arjuna's Dilemma",
+        "verses_count": 47
+    },
+    {
+        "chapter_number": 2,
+        "chapter_summary": "The second chapter, 'Sankhya Yoga', condenses the teachings of the entire Gita. Krishna explains selfless action, the nature of the Self, and describes a perfect person.",
+        "chapter_summary_hindi": "भगवद गीता का दूसरा अध्याय सांख्य योग पूरी गीता की शिक्षाओं को संक्षेप में प्रस्तुत करता है। श्री कृष्ण कर्मयोग, आत्मा की प्रकृति और एक परिपूर्ण व्यक्ति का वर्णन करते हैं।",
+        "id": 2,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/two.jpg",
+        "name": "सांख्ययोग",
+        "name_meaning": "Transcendental Knowledge",
+        "verses_count": 72
+    },
+    {
+        "chapter_number": 3,
+        "chapter_summary": "The third chapter, 'Karma Yoga', emphasizes the importance of action. Krishna explains how actions, when done selflessly, lead to liberation.",
+        "chapter_summary_hindi": "भगवद गीता का तीसरा अध्याय कर्मयोग कर्म के महत्व पर जोर देता है। श्री कृष्ण बताते हैं कि नि:स्वार्थ कर्म मुक्ति का मार्ग है।",
+        "id": 3,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/three.jpg",
+        "name": "कर्मयोग",
+        "name_meaning": "Path of Selfless Service",
+        "verses_count": 43
+    },
+    {
+        "chapter_number": 4,
+        "chapter_summary": "The fourth chapter, 'Jnana Karma Sanyasa Yoga', explains the importance of knowledge in action. Krishna reveals his divine purpose and the eternal nature of his incarnations.",
+        "chapter_summary_hindi": "भगवद गीता का चौथा अध्याय ज्ञानकर्मसंन्यासयोग कर्म में ज्ञान के महत्व को बताता है। श्री कृष्ण अपने अवतारों और उनके शाश्वत स्वभाव को प्रकट करते हैं।",
+        "id": 4,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/four.jpg",
+        "name": "ज्ञानकर्मसंन्यासयोग",
+        "name_meaning": "Path of Knowledge and the Disciplines of Action",
+        "verses_count": 42
+    },
+    {
+        "chapter_number": 5,
+        "chapter_summary": "The fifth chapter, 'Karma Sanyasa Yoga', compares renunciation of actions with detached action. Both paths lead to the same goal of liberation.",
+        "chapter_summary_hindi": "भगवद गीता का पांचवा अध्याय कर्मसन्यासयोग कर्मों के त्याग और निराकार कर्म योग की तुलना करता है। दोनों मार्ग मुक्ति के लिए समान हैं।",
+        "id": 5,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/five.jpg",
+        "name": "कर्मसंन्यासयोग",
+        "name_meaning": "Path of Renunciation",
+        "verses_count": 29
+    },
+    {
+        "chapter_number": 6,
+        "chapter_summary": "The sixth chapter, 'Dhyana Yoga', describes the Yoga of Meditation. Krishna explains the role of devotion and action in meditation, and how to control the mind to unite with God.",
+        "chapter_summary_hindi": "भगवद गीता का छठा अध्याय ध्यान योग ध्यान साधना के मार्ग को बताता है। कृष्ण भक्ति और कर्म के महत्व को बताते हैं और मन को नियंत्रित करने के तरीके बताते हैं।",
+        "id": 6,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/six.jpg",
+        "name": "ध्यानयोग",
+        "name_meaning": "Path of Meditation",
+        "verses_count": 47
+    },
+    {
+        "chapter_number": 7,
+        "chapter_summary": "The seventh chapter, 'Gyaan Vigyana Yoga', reveals Krishna as the Supreme Truth and the power of devotion. Those who surrender to him gain spiritual realization and liberation.",
+        "chapter_summary_hindi": "भगवद गीता का सातवां अध्याय ज्ञानविज्ञानयोग कृष्ण को सर्वोच्च सत्य के रूप में प्रकट करता है और भक्ति के द्वारा मुक्ति प्राप्ति की बात करता है।",
+        "id": 7,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/seven.jpg",
+        "name": "ज्ञानविज्ञानयोग",
+        "name_meaning": "Self-Knowledge and Enlightenment",
+        "verses_count": 30
+    },
+    {
+        "chapter_number": 8,
+        "chapter_summary": "The eighth chapter, 'Akshara Brahma Yoga', explains the importance of remembering Krishna at the time of death. Constant devotion helps one transcend material existence.",
+        "chapter_summary_hindi": "भगवद गीता का आठवां अध्याय अक्षरब्रह्मयोग मृत्यु के समय कृष्ण की याद को महत्वपूर्ण बताता है और निरंतर भक्ति के द्वारा भौतिक संसार से परे जाने का मार्ग दिखाता है।",
+        "id": 8,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/eight.jpg",
+        "name": "अक्षरब्रह्मयोग",
+        "name_meaning": "Path of the Eternal God",
+        "verses_count": 28
+    },
+    {
+        "chapter_number": 9,
+        "chapter_summary": "The ninth chapter, 'Raja Vidya Yoga', explains the role of devotion in spiritual awakening. Krishna describes how Bhakti leads to liberation from the material world.",
+        "chapter_summary_hindi": "भगवद गीता का नौवां अध्याय राजविद्याराजगुह्ययोग भक्ति के महत्व को बताता है और यह कैसे भक्ति हमें भौतिक संसार से मुक्ति दिलाती है।",
+        "id": 9,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/nine.jpg",
+        "name": "राजविद्याराजगुह्ययोग",
+        "name_meaning": "Yoga through the King of Sciences",
+        "verses_count": 34
+    },
+    {
+        "chapter_number": 10,
+        "chapter_summary": "The tenth chapter, 'Vibhooti Yoga', describes Krishna as the source of all causes and his divine manifestations. Arjuna recognizes Krishna's supreme position.",
+        "chapter_summary_hindi": "भगवद गीता का दसवां अध्याय विभूतियोग कृष्ण को सभी कारणों के स्रोत और उनके दिव्य अवतारों के रूप में प्रस्तुत करता है। अर्जुन कृष्ण की सर्वोच्चता को स्वीकार करते हैं।",
+        "id": 10,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/ten.jpg",
+        "name": "विभूतियोग",
+        "name_meaning": "Yoga through Appreciating the Infinite Opulences of God",
+        "verses_count": 42
+    },
+    {
+        "chapter_number": 11,
+        "chapter_summary": "In this chapter, Arjuna requests Krishna to reveal His Universal Cosmic Form that encompasses all the universes. Arjuna is granted divine vision to see the entirety of creation in the body of Lord Krishna.",
+        "chapter_summary_hindi": "इस अध्याय में अर्जुन कृष्ण से उनके विश्व रूप को देखने का अनुरोध करते हैं और दिव्य दृष्टि प्राप्त करते हैं जिससे वे भगवान कृष्ण के शरीर में संपूर्ण सृष्टि देख पाते हैं।",
+        "id": 11,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/eleven.jpg",
+        "name": "विश्वरूपदर्शनयोग",
+        "name_meaning": "Yoga through Beholding the Cosmic Form of God",
+        "verses_count": 55
+    },
+    {
+        "chapter_number": 12,
+        "chapter_summary": "In this chapter, Krishna emphasizes the importance of Bhakti Yoga (devotion) and reveals that those who dedicate their actions and consciousness to Him attain liberation quickly.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण भक्ति योग की महिमा बताते हैं और कहते हैं कि जो अपने कर्मों को भगवान को समर्पित करते हैं, वे जल्दी मुक्ति प्राप्त कर लेते हैं।",
+        "id": 12,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/twelve.jpg",
+        "name": "भक्तियोग",
+        "name_meaning": "The Yoga of Devotion",
+        "verses_count": 20
+    },
+    {
+        "chapter_number": 13,
+        "chapter_summary": "Krishna explains the distinction between the physical body and the eternal soul. The body is temporary, while the soul is immortal, and those who understand this achieve the realization of Brahman.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण शरीर और आत्मा के बीच अंतर बताते हैं। शरीर नाशवान है जबकि आत्मा शाश्वत है। जो इस अंतर को समझता है, वह ब्रह्म को प्राप्त करता है।",
+        "id": 13,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/thirteen.jpg",
+        "name": "क्षेत्र-क्षेत्रज्ञविभागयोग",
+        "name_meaning": "Yoga through Distinguishing the Field and the Knower of the Field",
+        "verses_count": 35
+    },
+    {
+        "chapter_number": 14,
+        "chapter_summary": "Krishna reveals the three gunas (modes) of nature: goodness, passion, and ignorance. Those who transcend these gunas achieve spiritual freedom.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण तीन गुणों - अच्छाई, लालसा और अज्ञान का वर्णन करते हैं। जो इन गुणों को पार करते हैं, वे आत्मिक मुक्ति प्राप्त करते हैं।",
+        "id": 14,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/fourteen.jpg",
+        "name": "गुणत्रयविभागयोग",
+        "name_meaning": "Yoga through Understanding the Three Modes of Material Nature",
+        "verses_count": 27
+    },
+    {
+        "chapter_number": 15,
+        "chapter_summary": "Krishna reveals that the transcendental knowledge of God leads us to detach from material bondage and recognize Krishna as the Supreme Divine Personality.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण बताते हैं कि भगवान के पारलौकिक ज्ञान से हम भौतिक बंधन से मुक्त होते हैं और कृष्ण को सर्वोच्च दिव्य व्यक्तित्व के रूप में पहचानते हैं।",
+        "id": 15,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/fifteen.jpg",
+        "name": "पुरुषोत्तमयोग",
+        "name_meaning": "The Yoga of the Supreme Divine Personality",
+        "verses_count": 20
+    },
+    {
+        "chapter_number": 16,
+        "chapter_summary": "Krishna describes the two kinds of natures in human beings: divine and demoniac. Those with divine qualities purify themselves and attain spiritual realization.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण दैवीय और दानवीय स्वभाव का वर्णन करते हैं। जो दैवीय गुणों वाले होते हैं, वे आत्मिक रूप से शुद्ध होते हैं और आत्मज्ञान प्राप्त करते हैं।",
+        "id": 16,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/sixteen.jpg",
+        "name": "दैवासुरसम्पद्विभागयोग",
+        "name_meaning": "Yoga through Discerning the Divine and Demoniac Natures",
+        "verses_count": 24
+    },
+    {
+        "chapter_number": 17,
+        "chapter_summary": "Krishna explains the three types of faith based on the modes of material nature, emphasizing that faith in goodness leads to spiritual purification.",
+        "chapter_summary_hindi": "इस अध्याय में कृष्ण भौतिक प्रकृति के तीन प्रकार के विश्वासों का वर्णन करते हैं और बताते हैं कि अच्छाई में विश्वास से आत्मिक शुद्धि होती है।",
+        "id": 17,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/seventeen.jpg",
+        "name": "श्रद्धात्रयविभागयोग",
+        "name_meaning": "Yoga through Discerning the Three Divisions of Faith",
+        "verses_count": 28
+    },
+    {
+        "chapter_number": 18,
+        "chapter_summary": "Arjuna asks Krishna about renunciation and Krishna explains the difference between sanyaas (renunciation of actions) and tyaag (renunciation of desires). Krishna recommends tyaag for liberation.",
+        "chapter_summary_hindi": "इस अध्याय में अर्जुन संन्यास और त्याग के बीच अंतर पूछते हैं और कृष्ण त्याग को श्रेष्ठ बताते हैं, जो मुक्ति की ओर ले जाता है।",
+        "id": 18,
+        "image_name": "https://d8q326uv7ym5m.cloudfront.net/public/gita/chapter_image/eighteen.jpg",
+        "name": "मोक्षसंन्यासयोग",
+        "name_meaning": "Yoga through the Perfection of Renunciation and Surrender",
+        "verses_count": 78
+    }
+]

@@ -412,6 +412,27 @@ div::-webkit-scrollbar-corner {
 
 
 
+/* In your global CSS or styles file */
+@keyframes floating {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+/* Apply the animation to the image */
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+
+
+
 
 
 

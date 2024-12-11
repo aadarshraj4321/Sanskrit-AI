@@ -4877,23 +4877,931 @@
 
 
 
+// "use client";
+// import { useState, useEffect } from 'react';
+// import { useRouter } from 'next/navigation';
+// import Link from 'next/link';
+// import { FaArrowLeft } from 'react-icons/fa';
+
+// export default function LessonPage({ params }) {
+//   const [lessonId, setLessonId] = useState(null);
+//   const [lessonData, setLessonData] = useState(null);
+//   const [quizData, setQuizData] = useState(null); // Store the quiz data
+//   const [currentPage, setCurrentPage] = useState(0); // Track the current page
+//   const [selectedAnswers, setSelectedAnswers] = useState([]); // Store selected answers for all questions
+//   const [quizFeedback, setQuizFeedback] = useState(""); // Store feedback message
+//   const [nextEnabled, setNextEnabled] = useState(false); // Track if Next button should be enabled for current category
+//   const [categoryAnswersStatus, setCategoryAnswersStatus] = useState({}); // Track the correctness of answers per category
+//   const router = useRouter(); // Initialize the router
+
+//   useEffect(() => {
+//     const fetchLessonId = async () => {
+//       const unwrappedParams = await params;
+//       setLessonId(unwrappedParams.id);
+//     };
+//     fetchLessonId();
+//   }, [params]);
+
+//   useEffect(() => {
+//     if (!lessonId) return;
+
+//     const fetchLessonData = async () => {
+//       try {
+//         const res = await fetch(`/data/lesson/lesson_two/${lessonId}.json`);
+//         if (!res.ok) {
+//           throw new Error('Lesson not found');
+//         }
+//         const data = await res.json();
+//         setLessonData(data);
+//       } catch (error) {
+//         console.error('Error fetching lesson data:', error);
+//       }
+//     };
+
+//     fetchLessonData();
+//   }, [lessonId]);
+
+//   // Fetch quiz questions dynamically based on the lessonId
+//   useEffect(() => {
+//     if (!lessonId) return;
+
+//     const fetchQuizData = async () => {
+//       try {
+//         const res = await fetch(`/data/lesson/lesson_two/quiz/${lessonId}.json`);
+//         if (!res.ok) {
+//           throw new Error('Quiz data not found');
+//         }
+//         const data = await res.json();
+//         setQuizData(data.quiz_questions); // Store quiz questions
+//       } catch (error) {
+//         console.error('Error fetching quiz data:', error);
+//       }
+//     };
+
+//     fetchQuizData();
+//   }, [lessonId]);
+
+//   const handleNext = () => {
+//     if (nextEnabled) {
+//       if (currentPage < lessonData.categories.length - 1) {
+//         setCurrentPage(currentPage + 1);
+//         setSelectedAnswers([]); // Reset the selected answers for the next category
+//         setQuizFeedback(""); // Reset feedback for the next category
+//         setNextEnabled(false); // Reset the Next button
+//       }
+//     }
+//   };
+
+//   const handlePrevious = () => {
+//     if (currentPage > 0) {
+//       setCurrentPage(currentPage - 1);
+//     }
+//   };
+
+//   const handleFinish = () => {
+//     // Navigate to the lesson selection page when Finish is clicked
+//     router.push('/dashboard/learning/lesson/lesson_two');
+//   };
+
+
+
+//   const handleQuizAnswer = (answer, correctAnswer, index) => {
+//     const updatedAnswers = [...selectedAnswers];
+//     updatedAnswers[index] = answer; // Update the answer for the specific question
+//     setSelectedAnswers(updatedAnswers);
+
+//     // Check if the current question is correct
+//     if (answer === correctAnswer) {
+//       setQuizFeedback("Correct! Well done.");
+//     } else {
+//       setQuizFeedback("Incorrect. Please try again.");
+//     }
+
+//     // Check if all questions in the category are answered correctly
+//     // Directly check the answers instead of using selectedAnswers
+//     const currentCategoryQuestions = filteredQuizQuestions;
+//     const allCorrect = currentCategoryQuestions.every((quiz, i) => updatedAnswers[i] === quiz.correct_answer);
+
+//     setNextEnabled(allCorrect); // Enable "Next" button only if all answers are correct
+//   };
+
+
+//   if (!lessonData || !quizData) return <div>Loading...</div>;
+
+//   const currentCategory = lessonData.categories[currentPage];
+//   const isLastPage = currentPage === lessonData.categories.length - 1;
+
+//   // Filter quiz questions based on the category of the current page
+//   const filteredQuizQuestions = quizData.filter(
+//     (question) => question.category === currentCategory.category
+//   );
+
+
+
+
+
+
+
+
+//   return (
+//     <div className="p-8 min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+//       {/* Header and Back Button */}
+//       <div className="flex justify-between items-center mb-8">
+//         <Link href="/dashboard/learning/lesson/lesson_two" passHref>
+//           <button
+//             className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-3 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+//           >
+//             <FaArrowLeft className="text-lg" />
+//           </button>
+//         </Link>
+//         <h1 className="text-4xl font-extrabold text-white mx-auto">{lessonData.lesson}</h1>
+//       </div>
+
+//       {/* Lesson Description */}
+//       <p className="mt-4 text-xl text-gray-200 text-center">{lessonData.definition}</p>
+
+//       {/* Display One Category Data at a Time */}
+//       <div className="space-y-6">
+//         <div className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl rounded-lg p-6">
+//           <h3 className="text-3xl font-extrabold text-white">{currentCategory.category}</h3>
+//           <p className="mt-4 text-lg text-gray-200">{currentCategory.description}</p>
+
+//           {/* Display Genders */}
+//           {/* {currentCategory.genders && (
+//   <div className="mt-6 space-y-3">
+//     {Object.entries(currentCategory.genders).map(([gender, value]) => (
+//       <div key={gender} className="flex justify-between mb-4">
+//         <span className="text-sm font-medium text-white capitalize">{gender}</span>
+//         <span className="text-md text-gray-400">{value}</span>
+//       </div>
+//     ))}
+
+// <div className="mt-10 space-y-3">
+// {Object.entries(currentCategory.examples).map(([example, value]) => (
+//       <div key={example} className="flex justify-between mb-4">
+//         <span className="text-sm font-medium text-white capitalize">{example}</span>
+//         <span className="text-md text-gray-400">{value}</span>
+//       </div>
+//     ))}
+//     </div>
+    
+//   </div>
+// )} */}
+
+//           {/* Display Genders and Examples */}
+//           {currentCategory.onekinds && currentCategory.examples && (
+//             <div className="space-y-6">
+//               {/* Display Genders */}
+//               <div className="mt-6 space-y-3">
+//                 {Object.entries(currentCategory.onekinds).map(([onekind, value]) => (
+//                   <div
+//                     key={onekind}
+//                     className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+//                     onClick={() => alert(`You clicked on: ${onekind}`)} // Placeholder for interactivity
+//                   >
+//                     <span className="text-lg font-semibold text-white capitalize">{onekind}</span>
+//                     <span className="text-lg text-gray-300">{value}</span>
+//                   </div>
+//                 ))}
+//               </div>
+
+//               {/* Display Examples */}
+//               <div className="mt-6 space-y-3">
+//                 {Object.entries(currentCategory.examples).map(([example, value]) => (
+//                   <div
+//                     key={example}
+//                     className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+//                     onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
+//                   >
+//                     <span className="text-lg font-semibold text-white capitalize">{example}</span>
+//                     <span className="text-lg text-gray-300">{value}</span>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+//           )}
+
+
+
+
+
+//           {/* Display Numbers */}
+//           {currentCategory.twokinds && currentCategory.examples && (
+//             <div className="space-y-6">
+//               {/* Display Numbers */}
+//               <div className="mt-6 space-y-3">
+//                 {Object.entries(currentCategory.twokinds).map(([twokind, value]) => (
+//                   <div
+//                     key={twokind}
+//                     className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+//                     onClick={() => alert(`You clicked on: ${twokind}`)} // Placeholder for interactivity
+//                   >
+//                     <span className="text-lg font-semibold text-white capitalize">{twokind}</span>
+//                     <span className="text-lg text-gray-300">{value}</span>
+//                   </div>
+//                 ))}
+//               </div>
+
+//               {/* Display Examples */}
+//               <div className="mt-6 space-y-3">
+//                 {Object.entries(currentCategory.examples).map(([example, value]) => (
+//                   <div
+//                     key={example}
+//                     className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
+//                     onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
+//                   >
+//                     <span className="text-lg font-semibold text-white capitalize">{example}</span>
+//                     <span className="text-lg text-gray-300">{value}</span>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+//           )}
+
+
+//           {/* Display Declension Cases */}
+//           {/* {currentCategory.threekind && currentCategory.vibhaktis.length > 0 && (
+//       <div className="mt-6">
+//         <h4 className="text-lg font-semibold text-indigo-600">Cases (विभक्ति)</h4>
+//         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
+//           {currentCategory.vibhaktis.map((vibhakti, idx) => (
+//             <li key={idx} className="flex flex-col space-y-1">
+//               <span className="font-medium text-white">{vibhakti.case}</span>
+//               <span className="text-md text-gray-400">{vibhakti.function}</span>
+//               <span className="italic text-md text-gray-300">{vibhakti.example}</span>
+//             </li>
+//           ))}
+//         </ul>
+//       </div>
+//     )} */}
+
+
+//           {currentCategory.threekinds && currentCategory.threekinds.length > 0 && (
+//             <div className="mt-6">
+//               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
+//                 {currentCategory.threekinds.map((theekind, idx) => (
+//                   <li
+//                     key={idx}
+//                     className="flex flex-col space-y-4 p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
+//                   >
+//                     <div className="space-y-3">
+//                       {Object.entries(theekind).map(([key, value], index) => (
+//                         <div
+//                           key={index}
+//                           className="flex justify-between items-center mb-3 transition-all duration-200 transform hover:scale-105"
+//                         >
+//                           <span className="text-lg font-semibold text-indigo-400">{key}:</span>
+//                           <span className="text-lg text-white italic">{value}</span>
+//                           {index < Object.entries(theekind).length - 1 && (
+//                             <div className="border-t-2 border-indigo-500 mt-2"></div>
+//                           )}
+//                         </div>
+//                       ))}
+//                     </div>
+//                   </li>
+//                 ))}
+//               </ul>
+//             </div>
+//           )}
+
+
+
+
+
+
+//           {/* Display Declension Examples */}
+//           {currentCategory.examples && currentCategory.examples.length > 0 && (
+//             <div className="mt-6">
+//               <h4 className="text-2xl font-semibold text-indigo-600 mb-4">{currentCategory.category}</h4>
+//               <div className="space-y-6 mt-6">
+//                 {currentCategory.examples.map((example, idx) => (
+//                   <div
+//                     key={idx}
+//                     className="bg-gradient-to-r from-slate-800 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300"
+//                   >
+//                     {/* Display example details */}
+//                     {Object.entries(example).map(([key, value]) => (
+//                       <div key={key} className="mt-4">
+//                         {/* Title for each section */}
+//                         <div className="text-xl font-semibold text-indigo-500 flex items-center space-x-2">
+//                           {/* Optional: Add an icon for each key */}
+//                           <span className="text-xl">
+//                             <i className="fas fa-info-circle"></i>
+//                           </span>
+//                           <span>{key}</span>
+//                         </div>
+
+//                         {/* Check if the value is an object or a simple value */}
+//                         {typeof value === 'object' ? (
+//                           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+//                             {/* If value is an object, we go deeper into its entries */}
+//                             {Object.entries(value).map(([subKey, subValue]) => (
+//                               <div
+//                                 key={subKey}
+//                                 className="bg-slate-900 p-4 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300"
+//                               >
+//                                 <div className="text-lg font-semibold text-white">{subKey}</div>
+//                                 {typeof subValue === 'object' ? (
+//                                   Object.entries(subValue).map(([caseType, form]) => (
+//                                     <div key={caseType} className="flex items-center justify-between space-x-2 mt-2">
+//                                       <span className="font-medium text-indigo-300">{caseType}:</span>
+//                                       <span className="text-gray-200">{form}</span>
+//                                     </div>
+//                                   ))
+//                                 ) : (
+//                                   <div className="text-gray-200">{subValue}</div>
+//                                 )}
+//                               </div>
+//                             ))}
+//                           </div>
+//                         ) : (
+//                           // If it's a simple value (like a string), display it full width
+//                           <div className="bg-slate-900 p-4 rounded-lg shadow-md mt-2">
+//                             <div className="text-lg font-semibold text-white">{value}</div>
+//                           </div>
+//                         )}
+//                       </div>
+//                     ))}
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+//           )}
+
+
+
+//           {/* Types of Nouns */}
+//           {currentCategory.types && currentCategory.types.length > 0 && (
+//             <div className="mt-6">
+//               <h4 className="text-2xl font-semibold text-indigo-600 mb-6">{currentCategory.category}</h4>
+//               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+//                 {currentCategory.types.map((type, idx) => (
+//                   <div
+//                     key={idx}
+//                     className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
+//                   >
+//                     <h5 className="text-xl font-semibold text-white">{type.type}</h5>
+//                     <p className="mt-2 text-sm text-gray-200">{type.description}</p>
+
+//                     <div className="mt-4">
+//                       <p className="text-sm text-gray-200">Examples:</p>
+//                       <ul className="space-y-2 mt-2">
+//                         {type.examples.map((example, i) => (
+//                           <li key={i} className="text-md text-gray-300">
+//                             <span className="text-indigo-400">- </span>{example}
+//                           </li>
+//                         ))}
+//                       </ul>
+//                     </div>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+//           )}
+
+
+
+
+//           {/* Interactive Quiz in a Card with Animation */}
+//           <div className="mt-8 flex flex-col items-center">
+//             <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg shadow-lg p-8 w-full max-w-3xl transform transition-all duration-500 ease-in-out hover:scale-105">
+//               <h4 className="text-2xl font-semibold text-indigo-500 text-center mb-6">Answer this to go next</h4>
+
+//               {/* Display quiz questions based on the category */}
+//               {filteredQuizQuestions.map((quiz, index) => (
+//                 <div key={index} className="mt-6">
+//                   <p className="text-xl text-white text-center">{quiz.question.english}</p>
+
+//                   {/* Increase space between English and Hindi text */}
+//                   <p className="text-lg text-gray-300 text-center mt-4">{quiz.question.hindi}</p>
+
+//                   <div className="flex flex-wrap justify-center gap-6 mt-6">
+//                     {quiz.options.map((option) => {
+//                       const isSelected = selectedAnswers[index] === option;
+//                       const isCorrect = option === quiz.correct_answer;
+//                       const isIncorrect = isSelected && !isCorrect;
+
+//                       return (
+//                         <button
+//                           key={option}
+//                           className={`bg-indigo-600 text-white text-lg px-8 py-3 rounded-lg shadow-md 
+//                             ${isSelected && isCorrect ? 'bg-orange-400' : ''} 
+//                             ${isIncorrect ? 'bg-red-600' : ''} 
+//                             transform transition-all duration-50 hover:scale-105`}
+//                           onClick={() => handleQuizAnswer(option, quiz.correct_answer, index)}
+//                         >
+//                           {option}
+//                         </button>
+//                       );
+//                     })}
+//                   </div>
+//                 </div>
+//               ))}
+
+//               {quizFeedback && (
+//                 <p className="mt-6 text-lg text-center text-gray-200">{quizFeedback}</p>
+//               )}
+//             </div>
+//           </div>
+
+//         </div>
+//       </div>
+
+//       {/* Navigation Buttons */}
+//       <div className="mt-8 flex justify-between">
+//         <button
+//           className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 disabled:bg-indigo-300"
+//           onClick={handlePrevious}
+//           disabled={currentPage === 0}
+//         >
+//           Previous
+//         </button>
+
+//         {isLastPage ? (
+//           <button
+//             className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700"
+//             onClick={handleFinish}
+//           >
+//             Finish
+//           </button>
+//         ) : (
+//           <button
+//             className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 disabled:bg-indigo-300"
+//             onClick={handleNext}
+//             disabled={!nextEnabled}
+//           >
+//             Next
+//           </button>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "use client";
+// import { useState, useEffect } from 'react';
+// import { useRouter } from 'next/navigation';
+// import Link from 'next/link';
+// import { 
+//   MoveLeft, 
+//   Sun, 
+//   Moon, 
+//   ChevronRight, 
+//   ChevronLeft, 
+//   CheckCircle2, 
+//   XCircle 
+// } from 'lucide-react';
+// import { motion, AnimatePresence } from 'framer-motion';
+
+// export default function ModernLessonPage({ params }) {
+//   // State management
+//   const [theme, setTheme] = useState('dark');
+//   const [lessonId, setLessonId] = useState(null);
+//   const [lessonData, setLessonData] = useState(null);
+//   const [quizData, setQuizData] = useState(null);
+//   const [currentPage, setCurrentPage] = useState(0);
+//   const [selectedAnswers, setSelectedAnswers] = useState([]);
+//   const [quizFeedback, setQuizFeedback] = useState("");
+//   const [nextEnabled, setNextEnabled] = useState(false);
+//   const router = useRouter();
+
+//   // Toggle theme
+//   const toggleTheme = () => {
+//     const newTheme = theme === 'dark' ? 'light' : 'dark';
+//     setTheme(newTheme);
+//     document.documentElement.classList.toggle('dark');
+//   };
+
+//   // Use effect to fetch lesson and quiz data (similar to previous implementation)
+//   useEffect(() => {
+//     const fetchLessonId = async () => {
+//       const unwrappedParams = await params;
+//       setLessonId(unwrappedParams.id);
+//     };
+//     fetchLessonId();
+//   }, [params]);
+
+//   useEffect(() => {
+//     if (!lessonId) return;
+
+//     const fetchLessonData = async () => {
+//       try {
+//         const res = await fetch(`/data/lesson/lesson_two/${lessonId}.json`);
+//         if (!res.ok) {
+//           throw new Error('Lesson not found');
+//         }
+//         const data = await res.json();
+//         setLessonData(data);
+//       } catch (error) {
+//         console.error('Error fetching lesson data:', error);
+//       }
+//     };
+
+//     const fetchQuizData = async () => {
+//       try {
+//         const res = await fetch(`/data/lesson/lesson_two/quiz/${lessonId}.json`);
+//         if (!res.ok) {
+//           throw new Error('Quiz data not found');
+//         }
+//         const data = await res.json();
+//         setQuizData(data.quiz_questions);
+//       } catch (error) {
+//         console.error('Error fetching quiz data:', error);
+//       }
+//     };
+
+//     fetchLessonData();
+//     fetchQuizData();
+//   }, [lessonId]);
+
+//   // Navigation and quiz handling methods
+//   const handleNext = () => {
+//     if (nextEnabled && currentPage < lessonData.categories.length - 1) {
+//       setCurrentPage(currentPage + 1);
+//       setSelectedAnswers([]);
+//       setQuizFeedback("");
+//       setNextEnabled(false);
+//     }
+//   };
+
+//   const handlePrevious = () => {
+//     if (currentPage > 0) {
+//       setCurrentPage(currentPage - 1);
+//     }
+//   };
+
+//   const handleFinish = () => {
+//     router.push('/dashboard/learning/lesson/lesson_two');
+//   };
+
+//   const handleQuizAnswer = (answer, correctAnswer, index) => {
+//     const updatedAnswers = [...selectedAnswers];
+//     updatedAnswers[index] = answer;
+//     setSelectedAnswers(updatedAnswers);
+
+//     if (answer === correctAnswer) {
+//       setQuizFeedback("Correct! Well done.");
+//     } else {
+//       setQuizFeedback("Incorrect. Please try again.");
+//     }
+
+//     const currentCategoryQuestions = filteredQuizQuestions;
+//     const allCorrect = currentCategoryQuestions.every((quiz, i) => 
+//       updatedAnswers[i] === quiz.correct_answer
+//     );
+
+//     setNextEnabled(allCorrect);
+//   };
+
+//   // Wait for data to load
+//   if (!lessonData || !quizData) {
+//     return (
+//       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-zinc-100 to-zinc-300 dark:from-zinc-900 dark:to-zinc-700">
+//         <div className="animate-pulse text-2xl dark:text-white">Loading...</div>
+//       </div>
+//     );
+//   }
+
+//   const currentCategory = lessonData.categories[currentPage];
+//   const isLastPage = currentPage === lessonData.categories.length - 1;
+//   const filteredQuizQuestions = quizData.filter(
+//     (question) => question.category === currentCategory.category
+//   );
+
+//   return (
+//     <div className={`min-h-screen transition-colors duration-300 ${
+//       theme === 'dark' 
+//         ? 'bg-gradient-to-br from-zinc-900 to-zinc-800 text-white' 
+//         : 'bg-gradient-to-br from-zinc-100 to-zinc-300 text-zinc-900'
+//     }`}>
+      // {/* Header with Theme Toggle */}
+      // <header className="sticky top-0 z-50 backdrop-blur-md bg-white/10 dark:bg-zinc-900/10 shadow-sm">
+      //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      //     <Link href="/dashboard/learning/lesson/lesson_two" passHref>
+      //       <button className="text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors">
+      //         <MoveLeft className="h-8 w-8" />
+      //       </button>
+      //     </Link>
+          
+      //     <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center flex-grow">
+      //       {lessonData.lesson}
+      //     </h1>
+          
+      //     <button 
+      //       onClick={toggleTheme}
+      //       className="text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors"
+      //     >
+      //       {theme === 'dark' ? (
+      //         <Sun className="h-6 w-6" />
+      //       ) : (
+      //         <Moon className="h-6 w-6" />
+      //       )}
+      //     </button>
+      //   </div>
+      // </header>
+
+//       {/* Main Content */}
+//       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+//         {/* Lesson Description */}
+//         <motion.div 
+//           initial={{ opacity: 0, y: 20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.5 }}
+//           className="text-center mb-8 max-w-2xl mx-auto"
+//         >
+//           <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-300">
+//             {lessonData.definition}
+//           </p>
+//         </motion.div>
+
+//         {/* Category Content */}
+//         <motion.div 
+//           key={currentPage}
+//           initial={{ opacity: 0, x: 50 }}
+//           animate={{ opacity: 1, x: 0 }}
+//           transition={{ duration: 0.3 }}
+//           className="bg-white/10 dark:bg-zinc-800/50 rounded-2xl shadow-xl p-6 md:p-8 lg:p-10"
+//         >
+//           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+//             {currentCategory.category}
+//           </h2>
+
+//           {/* Render different content types dynamically */}
+//           {currentCategory.onekinds && (
+//             <div className="grid md:grid-cols-2 gap-4">
+//               {Object.entries(currentCategory.onekinds).map(([key, value]) => (
+//                 <motion.div 
+//                   key={key}
+//                   whileHover={{ scale: 1.05 }}
+//                   className="bg-white/5 dark:bg-zinc-900/20 rounded-lg p-4 shadow-md"
+//                 >
+//                   <h3 className="font-semibold text-lg capitalize">{key}</h3>
+//                   <p className="text-zinc-600 dark:text-zinc-300">{value}</p>
+//                 </motion.div>
+//               ))}
+//             </div>
+//           )}
+
+          // {/* Examples Section */}
+          // {currentCategory.examples && (
+          //   <div className="mt-8">
+          //     <h3 className="text-xl font-semibold mb-4 text-center">Examples</h3>
+          //     <div className="grid md:grid-cols-2 gap-4">
+          //       {Object.entries(currentCategory.examples).map(([key, value]) => (
+          //         <motion.div 
+          //           key={key}
+          //           whileHover={{ scale: 1.05 }}
+          //           className="bg-white/5 dark:bg-zinc-900/20 rounded-lg p-4 shadow-md"
+          //         >
+          //           <h4 className="font-medium text-lg capitalize">{key}</h4>
+          //           <p className="text-zinc-600 dark:text-zinc-300">{value}</p>
+          //         </motion.div>
+          //       ))}
+          //     </div>
+          //   </div>
+          // )}
+
+//           {/* Quiz Section */}
+//           <div className="mt-8">
+//             <AnimatePresence>
+//               {filteredQuizQuestions.map((quiz, index) => (
+//                 <motion.div 
+//                   key={index}
+//                   initial={{ opacity: 0, y: 20 }}
+//                   animate={{ opacity: 1, y: 0 }}
+//                   exit={{ opacity: 0, y: -20 }}
+//                   className="bg-white/10 dark:bg-zinc-900/20 rounded-2xl p-6 shadow-lg"
+//                 >
+//                   <h4 className="text-xl font-semibold text-center mb-4">
+//                     {quiz.question.english}
+//                   </h4>
+//                   <p className="text-center text-zinc-600 dark:text-zinc-300 mb-6">
+//                     {quiz.question.hindi}
+//                   </p>
+                  
+//                   <div className="flex flex-wrap justify-center gap-4">
+//                     {quiz.options.map((option) => {
+//                       const isSelected = selectedAnswers[index] === option;
+//                       const isCorrect = option === quiz.correct_answer;
+//                       const isIncorrect = isSelected && !isCorrect;
+
+//                       return (
+//                         <motion.button
+//                           key={option}
+//                           whileHover={{ scale: 1.05 }}
+//                           whileTap={{ scale: 0.95 }}
+//                           className={`
+//                             px-6 py-3 rounded-lg transition-all duration-300
+//                             ${isSelected && isCorrect 
+//                               ? 'bg-green-500 text-white' 
+//                               : isIncorrect 
+//                               ? 'bg-red-500 text-white' 
+//                               : 'bg-white/10 dark:bg-zinc-800/50 hover:bg-blue-500/20'}
+//                           `}
+//                           onClick={() => handleQuizAnswer(option, quiz.correct_answer, index)}
+//                         >
+//                           {option}
+//                         </motion.button>
+//                       );
+//                     })}
+//                   </div>
+//                 </motion.div>
+//               ))}
+//             </AnimatePresence>
+
+//             {quizFeedback && (
+//               <motion.div 
+//                 initial={{ opacity: 0 }}
+//                 animate={{ opacity: 1 }}
+//                 className="text-center mt-4 flex items-center justify-center"
+//               >
+//                 {quizFeedback.includes('Correct') ? (
+//                   <CheckCircle2 className="text-green-500 mr-2" />
+//                 ) : (
+//                   <XCircle className="text-red-500 mr-2" />
+//                 )}
+//                 <p className="text-lg">{quizFeedback}</p>
+//               </motion.div>
+//             )}
+//           </div>
+//         </motion.div>
+
+//         {/* Navigation Buttons */}
+//         <div className="mt-8 flex justify-between">
+//           <motion.button
+//             whileHover={{ scale: 1.1 }}
+//             whileTap={{ scale: 0.9 }}
+//             onClick={handlePrevious}
+//             disabled={currentPage === 0}
+//             className="
+//               flex items-center gap-2 
+//               bg-white/10 dark:bg-zinc-800/50 
+//               px-6 py-3 rounded-lg
+//               disabled:opacity-50
+//               hover:bg-blue-500/10
+//               transition-all duration-300
+//             "
+//           >
+//             <ChevronLeft />
+//             Previous
+//           </motion.button>
+
+//           {isLastPage ? (
+//             <motion.button
+//               whileHover={{ scale: 1.1 }}
+//               whileTap={{ scale: 0.9 }}
+//               onClick={handleFinish}
+//               className="
+//                 flex items-center gap-2
+//                 bg-green-500 text-white
+//                 px-6 py-3 rounded-lg
+//                 hover:bg-green-600
+//                 transition-all duration-300
+//               "
+//             >
+//               Finish
+//               <CheckCircle2 />
+//             </motion.button>
+//           ) : (
+//             <motion.button
+//               whileHover={{ scale: 1.1 }}
+//               whileTap={{ scale: 0.9 }}
+//               onClick={handleNext}
+//               disabled={!nextEnabled}
+//               className="
+//                 flex items-center gap-2
+//                 bg-blue-500 text-white
+//                 px-6 py-3 rounded-lg
+//                 disabled:opacity-50
+//                 hover:bg-blue-600
+//                 transition-all duration-300
+//               "
+//             >
+//               Next
+//               <ChevronRight />
+//             </motion.button>
+//           )}
+//         </div>
+//       </main>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "use client";
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { FaArrowLeft } from 'react-icons/fa';
+import { 
+  MoveLeft, 
+  Sun, 
+  Moon, 
+  ChevronRight, 
+  ChevronLeft, 
+  CheckCircle2, 
+  XCircle 
+} from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-export default function LessonPage({ params }) {
+import dynamic from "next/dynamic";
+
+
+const FaArrowLeft = dynamic(() => import("react-icons/fa").then(mod => mod.FaArrowLeft));
+
+
+export default function ModernLessonPage({ params }) {
+  // State management
+  const [theme, setTheme] = useState('dark');
   const [lessonId, setLessonId] = useState(null);
   const [lessonData, setLessonData] = useState(null);
-  const [quizData, setQuizData] = useState(null); // Store the quiz data
-  const [currentPage, setCurrentPage] = useState(0); // Track the current page
-  const [selectedAnswers, setSelectedAnswers] = useState([]); // Store selected answers for all questions
-  const [quizFeedback, setQuizFeedback] = useState(""); // Store feedback message
-  const [nextEnabled, setNextEnabled] = useState(false); // Track if Next button should be enabled for current category
-  const [categoryAnswersStatus, setCategoryAnswersStatus] = useState({}); // Track the correctness of answers per category
-  const router = useRouter(); // Initialize the router
+  const [quizData, setQuizData] = useState(null);
+  const [currentPage, setCurrentPage] = useState(0);
+  const [selectedAnswers, setSelectedAnswers] = useState([]);
+  const [quizFeedback, setQuizFeedback] = useState("");
+  const [nextEnabled, setNextEnabled] = useState(false);
+  const router = useRouter();
 
+
+
+  // Toggle theme
+  const toggleTheme = () => {
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+    document.documentElement.classList.toggle('dark');
+  };
+
+  // Use effect to fetch lesson and quiz data (similar to previous implementation)
   useEffect(() => {
     const fetchLessonId = async () => {
       const unwrappedParams = await params;
@@ -4901,6 +5809,11 @@ export default function LessonPage({ params }) {
     };
     fetchLessonId();
   }, [params]);
+
+
+
+
+
 
   useEffect(() => {
     if (!lessonId) return;
@@ -4941,14 +5854,19 @@ export default function LessonPage({ params }) {
     fetchQuizData();
   }, [lessonId]);
 
+
+
+
+
+
+
+  // Navigation and quiz handling methods
   const handleNext = () => {
-    if (nextEnabled) {
-      if (currentPage < lessonData.categories.length - 1) {
-        setCurrentPage(currentPage + 1);
-        setSelectedAnswers([]); // Reset the selected answers for the next category
-        setQuizFeedback(""); // Reset feedback for the next category
-        setNextEnabled(false); // Reset the Next button
-      }
+    if (nextEnabled && currentPage < lessonData.categories.length - 1) {
+      setCurrentPage(currentPage + 1);
+      setSelectedAnswers([]);
+      setQuizFeedback("");
+      setNextEnabled(false);
     }
   };
 
@@ -4959,381 +5877,664 @@ export default function LessonPage({ params }) {
   };
 
   const handleFinish = () => {
-    // Navigate to the lesson selection page when Finish is clicked
     router.push('/dashboard/learning/lesson/lesson_two');
   };
 
-
-
   const handleQuizAnswer = (answer, correctAnswer, index) => {
     const updatedAnswers = [...selectedAnswers];
-    updatedAnswers[index] = answer; // Update the answer for the specific question
+    updatedAnswers[index] = answer;
     setSelectedAnswers(updatedAnswers);
 
-    // Check if the current question is correct
     if (answer === correctAnswer) {
       setQuizFeedback("Correct! Well done.");
     } else {
       setQuizFeedback("Incorrect. Please try again.");
     }
 
-    // Check if all questions in the category are answered correctly
-    // Directly check the answers instead of using selectedAnswers
     const currentCategoryQuestions = filteredQuizQuestions;
-    const allCorrect = currentCategoryQuestions.every((quiz, i) => updatedAnswers[i] === quiz.correct_answer);
+    const allCorrect = currentCategoryQuestions.every((quiz, i) => 
+      updatedAnswers[i] === quiz.correct_answer
+    );
 
-    setNextEnabled(allCorrect); // Enable "Next" button only if all answers are correct
+    setNextEnabled(allCorrect);
   };
 
-
-  if (!lessonData || !quizData) return <div>Loading...</div>;
+  // Wait for data to load
+  if (!lessonData || !quizData) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-zinc-100 to-zinc-300 dark:from-zinc-900 dark:to-zinc-700">
+        <div className="animate-pulse text-2xl dark:text-white">Loading...</div>
+      </div>
+    );
+  }
 
   const currentCategory = lessonData.categories[currentPage];
   const isLastPage = currentPage === lessonData.categories.length - 1;
-
-  // Filter quiz questions based on the category of the current page
   const filteredQuizQuestions = quizData.filter(
     (question) => question.category === currentCategory.category
   );
 
-
-
-
-
-
-
-
   return (
-    <div className="p-8 min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
-      {/* Header and Back Button */}
-      <div className="flex justify-between items-center mb-8">
-        <Link href="/dashboard/learning/lesson/lesson_two" passHref>
+    <div className={`min-h-screen transition-colors duration-300 ${
+      theme === 'dark' 
+        ? 'bg-gradient-to-br from-zinc-900 to-zinc-800 text-white' 
+        : 'bg-gradient-to-br from-zinc-100 to-zinc-300 text-zinc-900'
+    }`}>
+      {/* Back Button */}
+      <div className="absolute top-4 left-4">
+        <Link href="/dashboard">
           <button
-            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-3 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
+            className="text-white p-2 rounded-full hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg shadow-purple-500/50"
           >
             <FaArrowLeft className="text-lg" />
           </button>
         </Link>
-        <h1 className="text-4xl font-extrabold text-white mx-auto">{lessonData.lesson}</h1>
       </div>
 
-      {/* Lesson Description */}
-      <p className="mt-4 text-xl text-gray-200 text-center">{lessonData.definition}</p>
+        {/* Header with Theme Toggle */}
+        <header className="sticky top-0 z-50 backdrop-blur-md bg-white/10 dark:bg-zinc-900/10 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+          <Link href="/dashboard/learning/lesson/lesson_two" passHref>
+            <button className="text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors">
+              <MoveLeft className="h-8 w-8" />
+            </button>
+          </Link>
+          
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center flex-grow">
+            {lessonData.lesson}
+          </h1>
+          
+          <button 
+            onClick={toggleTheme}
+            className="text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors"
+          >
+            {theme === 'dark' ? (
+              <Sun className="h-6 w-6" />
+            ) : (
+              <Moon className="h-6 w-6" />
+            )}
+          </button>
+        </div>
+      </header>
 
-      {/* Display One Category Data at a Time */}
-      <div className="space-y-6">
-        <div className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl rounded-lg p-6">
-          <h3 className="text-3xl font-extrabold text-white">{currentCategory.category}</h3>
-          <p className="mt-4 text-lg text-gray-200">{currentCategory.description}</p>
+      {/* Main Content */}
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Lesson Description */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-8 max-w-2xl mx-auto"
+        >
+          <p className="text-lg md:text-xl text-white dark:text-black">
+            {lessonData.definition}
+          </p>
+        </motion.div>
 
-          {/* Display Genders */}
-          {/* {currentCategory.genders && (
-  <div className="mt-6 space-y-3">
-    {Object.entries(currentCategory.genders).map(([gender, value]) => (
-      <div key={gender} className="flex justify-between mb-4">
-        <span className="text-sm font-medium text-white capitalize">{gender}</span>
-        <span className="text-md text-gray-400">{value}</span>
-      </div>
+        {/* Category Content */}
+        <motion.div 
+          key={currentPage}
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.3 }}
+          className="bg-white/10 dark:bg-zinc-800/50 rounded-2xl shadow-xl p-6 md:p-8 lg:p-10"
+        >
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+            {currentCategory.category}
+          </h2>
+
+
+
+
+
+{/* Onekinds and Examples */}
+{currentCategory.onekinds && currentCategory.examples && (
+  <div className="grid md:grid-cols-2 gap-4">
+    {Object.entries(currentCategory.onekinds).map(([key, value]) => (
+      <motion.div 
+        key={key}
+        whileHover={{ scale: 1.05 }}
+        className="bg-white/5 dark:bg-zinc-900/20 rounded-lg p-4 shadow-md"
+      >
+        <h3 className="font-semibold text-lg capitalize">{key}</h3>
+        <p className="text-white dark:text-zinc-300">{value}</p>
+      </motion.div>
     ))}
-
-<div className="mt-10 space-y-3">
-{Object.entries(currentCategory.examples).map(([example, value]) => (
-      <div key={example} className="flex justify-between mb-4">
-        <span className="text-sm font-medium text-white capitalize">{example}</span>
-        <span className="text-md text-gray-400">{value}</span>
-      </div>
-    ))}
-    </div>
-    
   </div>
-)} */}
+)}
 
-          {/* Display Genders and Examples */}
-          {currentCategory.onekinds && currentCategory.examples && (
-            <div className="space-y-6">
-              {/* Display Genders */}
-              <div className="mt-6 space-y-3">
-                {Object.entries(currentCategory.onekinds).map(([onekind, value]) => (
-                  <div
-                    key={onekind}
-                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
-                    onClick={() => alert(`You clicked on: ${onekind}`)} // Placeholder for interactivity
-                  >
-                    <span className="text-lg font-semibold text-white capitalize">{onekind}</span>
-                    <span className="text-lg text-gray-300">{value}</span>
-                  </div>
-                ))}
-              </div>
 
-              {/* Display Examples */}
-              <div className="mt-6 space-y-3">
-                {Object.entries(currentCategory.examples).map(([example, value]) => (
-                  <div
-                    key={example}
-                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
-                    onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
-                  >
-                    <span className="text-lg font-semibold text-white capitalize">{example}</span>
-                    <span className="text-lg text-gray-300">{value}</span>
-                  </div>
-                ))}
-              </div>
+{currentCategory.onekinds && currentCategory.examples && (
+  <div className="mt-10">
+    <div className="flex items-center justify-center mb-6">
+      <div className="w-12 h-1 bg-blue-500 mr-4"></div>
+      <h3 className="text-2xl font-bold text-blue-500 dark:text-blue-400 uppercase tracking-wider">
+        Examples
+      </h3>
+      <div className="w-12 h-1 bg-blue-500 ml-4"></div>
+    </div>
+    <div className="grid md:grid-cols-2 gap-6">
+      {Object.entries(currentCategory.examples).map(([key, value]) => (
+        <motion.div 
+          key={key}
+          whileHover={{ scale: 1.03 }}
+          className="
+            bg-white/10 dark:bg-zinc-800/30 
+            rounded-xl 
+            p-6 
+            shadow-lg 
+            border 
+            border-white/10 
+            dark:border-zinc-700/30 
+            transition-all 
+            duration-300
+          "
+        >
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <h4 className="
+              font-bold 
+              text-xl 
+              text-green-400 
+              dark:text-green-300 
+              capitalize
+            ">
+              {key}
+            </h4>
+          </div>
+          <p className="
+            text-zinc-600 
+            dark:text-zinc-300 
+            text-base 
+            leading-relaxed
+          ">
+            {value}
+          </p>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+)}
+
+
+
+
+
+
+
+{/* Twokinds and Examples */}
+{currentCategory.twokinds && currentCategory.examples && (
+  <div className="grid md:grid-cols-2 gap-4">
+    {Object.entries(currentCategory.twokinds).map(([key, value]) => (
+      <motion.div 
+        key={key}
+        whileHover={{ scale: 1.05 }}
+        className="bg-white/5 dark:bg-zinc-900/20 rounded-lg p-4 shadow-md"
+      >
+        <h3 className="font-semibold text-lg capitalize">{key}</h3>
+        <p className="text-white dark:text-zinc-300">{value}</p>
+      </motion.div>
+    ))}
+  </div>
+)}
+
+
+{currentCategory.twokinds && currentCategory.examples && (
+  <div className="mt-10">
+    <div className="flex items-center justify-center mb-6">
+      <div className="w-12 h-1 bg-blue-500 mr-4"></div>
+      <h3 className="text-2xl font-bold text-blue-500 dark:text-blue-400 uppercase tracking-wider">
+        Examples
+      </h3>
+      <div className="w-12 h-1 bg-blue-500 ml-4"></div>
+    </div>
+    <div className="grid md:grid-cols-2 gap-6">
+      {Object.entries(currentCategory.examples).map(([key, value]) => (
+        <motion.div 
+          key={key}
+          whileHover={{ scale: 1.03 }}
+          className="
+            bg-white/10 dark:bg-zinc-800/30 
+            rounded-xl 
+            p-6 
+            shadow-lg 
+            border 
+            border-white/10 
+            dark:border-zinc-700/30 
+            transition-all 
+            duration-300
+          "
+        >
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+            <h4 className="
+              font-bold 
+              text-xl 
+              text-green-400 
+              dark:text-green-300 
+              capitalize
+            ">
+              {key}
+            </h4>
+          </div>
+          <p className="
+            text-zinc-600 
+            dark:text-zinc-300 
+            text-base 
+            leading-relaxed
+          ">
+            {value}
+          </p>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+)}
+
+{/* Threekinds */}
+{currentCategory.threekinds && currentCategory.threekinds.length > 0 && (
+  <div className="grid md:grid-cols-2 gap-4">
+    {currentCategory.threekinds.map((theekind, idx) => (
+      <motion.div 
+        key={idx}
+        whileHover={{ scale: 1.05 }}
+        className="bg-white/5 dark:bg-zinc-900/20 rounded-lg p-4 shadow-md"
+      >
+        {Object.entries(theekind).map(([key, value]) => (
+          <div key={key} className="mb-2">
+            <h3 className="font-semibold text-lg capitalize">{key}</h3>
+            <p className="text-white dark:text-zinc-300">{value}</p>
+          </div>
+        ))}
+      </motion.div>
+    ))}
+  </div>
+)}
+
+
+
+
+
+
+
+{/* Types */}
+{currentCategory.types && currentCategory.types.length > 0 && (
+  <div className="grid md:grid-cols-2 gap-6">
+    {currentCategory.types.map((type, idx) => (
+      <motion.div 
+        key={idx}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ 
+          duration: 0.3, 
+          delay: idx * 0.1 
+        }}
+        whileHover={{ 
+          scale: 1.03,
+          boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)"
+        }}
+        className="
+          group
+          bg-white 
+          dark:bg-zinc-800 
+          rounded-2xl 
+          p-6 
+          shadow-lg 
+          border 
+          border-zinc-100 
+          dark:border-zinc-700
+          transition-all 
+          duration-300 
+          hover:border-blue-200 
+          dark:hover:border-blue-900
+          transform 
+          hover:-translate-y-2
+        "
+      >
+        <div className="flex items-center mb-4">
+          <div className="
+            w-3 h-3 
+            bg-blue-500 
+            rounded-full 
+            mr-3 
+            group-hover:animate-pulse
+          "></div>
+          <h3 className="
+            font-bold 
+            text-xl 
+            text-zinc-800 
+            dark:text-zinc-100 
+            capitalize
+            group-hover:text-blue-600 
+            dark:group-hover:text-blue-400
+            transition-colors
+          ">
+            {type.type}
+          </h3>
+        </div>
+        <p className="
+          text-zinc-600 
+          dark:text-zinc-300 
+          mb-4 
+          text-base 
+          leading-relaxed
+          group-hover:text-zinc-800 
+          dark:group-hover:text-zinc-200
+          transition-colors
+        ">
+          {type.description}
+        </p>
+        {type.examples && (
+          <div className="
+            bg-zinc-50 
+            dark:bg-zinc-900 
+            p-4 
+            rounded-lg 
+            border 
+            border-zinc-100 
+            dark:border-zinc-700
+          ">
+            <h4 className="
+              font-semibold 
+              text-sm 
+              text-zinc-700 
+              dark:text-zinc-200 
+              mb-2 
+              uppercase 
+              tracking-wider
+            ">
+              Examples
+            </h4>
+            <ul className="space-y-1">
+              {type.examples.map((example, i) => (
+                <motion.li 
+                  key={i} 
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.1 }}
+                  className="
+                    text-sm 
+                    text-zinc-600 
+                    dark:text-zinc-300
+                    before:content-['▹'] 
+                    before:mr-2 
+                    before:text-blue-500
+                    hover:text-blue-600 
+                    dark:hover:text-blue-400
+                    transition-colors
+                    cursor-default
+                  "
+                >
+                  {example}
+                </motion.li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </motion.div>
+    ))}
+  </div>
+)}
+
+{/* Detailed Examples */}
+{currentCategory.examples && currentCategory.examples.length > 0 && (
+  <div className="grid md:grid-cols-2 gap-6">
+    {currentCategory.examples.map((example, idx) => (
+      <motion.div 
+        key={idx}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ 
+          duration: 0.3, 
+          delay: idx * 0.1 
+        }}
+        whileHover={{ 
+          scale: 1.03,
+          boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)"
+        }}
+        className="
+          group
+          bg-white 
+          dark:bg-zinc-800 
+          rounded-2xl 
+          p-6 
+          shadow-lg 
+          border 
+          border-zinc-100 
+          dark:border-zinc-700
+          transition-all 
+          duration-300 
+          hover:border-green-200 
+          dark:hover:border-green-900
+          transform 
+          hover:-translate-y-2
+        "
+      >
+        {Object.entries(example).map(([key, value]) => (
+          <div key={key} className="mb-4">
+            <div className="flex items-center mb-3">
+              <div className="
+                w-3 h-3 
+                bg-green-500 
+                rounded-full 
+                mr-3 
+                group-hover:animate-pulse
+              "></div>
+              <h3 className="
+                font-bold 
+                text-xl 
+                text-zinc-800 
+                dark:text-zinc-100 
+                capitalize
+                group-hover:text-green-600 
+                dark:group-hover:text-green-400
+                transition-colors
+              ">
+                {key}
+              </h3>
             </div>
-          )}
-
-
-
-
-
-          {/* Display Numbers */}
-          {currentCategory.twokinds && currentCategory.examples && (
-            <div className="space-y-6">
-              {/* Display Numbers */}
-              <div className="mt-6 space-y-3">
-                {Object.entries(currentCategory.twokinds).map(([twokind, value]) => (
-                  <div
-                    key={twokind}
-                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
-                    onClick={() => alert(`You clicked on: ${twokind}`)} // Placeholder for interactivity
+            
+            {typeof value === 'object' ? (
+              <div className="
+                bg-zinc-50 
+                dark:bg-zinc-900 
+                p-4 
+                rounded-lg 
+                border 
+                border-zinc-100 
+                dark:border-zinc-700 
+                space-y-2
+              ">
+                {Object.entries(value).map(([subKey, subValue]) => (
+                  <motion.div 
+                    key={subKey}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    className="
+                      border-b 
+                      border-zinc-200 
+                      dark:border-zinc-700 
+                      pb-2 
+                      last:border-b-0
+                      hover:bg-zinc-100 
+                      dark:hover:bg-zinc-800 
+                      transition-colors 
+                      rounded-lg 
+                      p-2
+                    "
                   >
-                    <span className="text-lg font-semibold text-white capitalize">{twokind}</span>
-                    <span className="text-lg text-gray-300">{value}</span>
-                  </div>
+                    <h4 className="
+                      text-sm 
+                      font-semibold 
+                      text-zinc-700 
+                      dark:text-zinc-200 
+                      mb-1 
+                      uppercase 
+                      tracking-wider
+                    ">
+                      {subKey}
+                    </h4>
+                    <p className="
+                      text-zinc-600 
+                      dark:text-zinc-300 
+                      text-sm
+                      group-hover:text-zinc-800 
+                      dark:group-hover:text-zinc-200
+                      transition-colors
+                    ">
+                      {typeof subValue === 'object' 
+                        ? Object.entries(subValue).map(([caseType, form]) => 
+                            `${caseType}: ${form}`
+                          ).join(', ')
+                        : subValue
+                      }
+                    </p>
+                  </motion.div>
                 ))}
               </div>
-
-              {/* Display Examples */}
-              <div className="mt-6 space-y-3">
-                {Object.entries(currentCategory.examples).map(([example, value]) => (
-                  <div
-                    key={example}
-                    className="flex justify-between mb-4 p-4 hover:bg-gray-700 rounded-lg transition-transform duration-200 transform hover:scale-105 cursor-pointer"
-                    onClick={() => alert(`You clicked on: ${example}`)} // Placeholder for interactivity
-                  >
-                    <span className="text-lg font-semibold text-white capitalize">{example}</span>
-                    <span className="text-lg text-gray-300">{value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-
-          {/* Display Declension Cases */}
-          {/* {currentCategory.threekind && currentCategory.vibhaktis.length > 0 && (
-      <div className="mt-6">
-        <h4 className="text-lg font-semibold text-indigo-600">Cases (विभक्ति)</h4>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
-          {currentCategory.vibhaktis.map((vibhakti, idx) => (
-            <li key={idx} className="flex flex-col space-y-1">
-              <span className="font-medium text-white">{vibhakti.case}</span>
-              <span className="text-md text-gray-400">{vibhakti.function}</span>
-              <span className="italic text-md text-gray-300">{vibhakti.example}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )} */}
-
-
-          {currentCategory.threekinds && currentCategory.threekinds.length > 0 && (
-            <div className="mt-6">
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
-                {currentCategory.threekinds.map((theekind, idx) => (
-                  <li
-                    key={idx}
-                    className="flex flex-col space-y-4 p-6 bg-gray-800 rounded-lg shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
-                  >
-                    <div className="space-y-3">
-                      {Object.entries(theekind).map(([key, value], index) => (
-                        <div
-                          key={index}
-                          className="flex justify-between items-center mb-3 transition-all duration-200 transform hover:scale-105"
-                        >
-                          <span className="text-lg font-semibold text-indigo-400">{key}:</span>
-                          <span className="text-lg text-white italic">{value}</span>
-                          {index < Object.entries(theekind).length - 1 && (
-                            <div className="border-t-2 border-indigo-500 mt-2"></div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            ) : (
+              <p className="
+                text-zinc-600 
+                dark:text-zinc-300
+                group-hover:text-zinc-800 
+                dark:group-hover:text-zinc-200
+                transition-colors
+              ">
+                {value}
+              </p>
+            )}
+          </div>
+        ))}
+      </motion.div>
+    ))}
+  </div>
+)}
 
 
 
+        
 
-
-
-          {/* Display Declension Examples */}
-          {currentCategory.examples && currentCategory.examples.length > 0 && (
-            <div className="mt-6">
-              <h4 className="text-2xl font-semibold text-indigo-600 mb-4">{currentCategory.category}</h4>
-              <div className="space-y-6 mt-6">
-                {currentCategory.examples.map((example, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-gradient-to-r from-slate-800 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300"
-                  >
-                    {/* Display example details */}
-                    {Object.entries(example).map(([key, value]) => (
-                      <div key={key} className="mt-4">
-                        {/* Title for each section */}
-                        <div className="text-xl font-semibold text-indigo-500 flex items-center space-x-2">
-                          {/* Optional: Add an icon for each key */}
-                          <span className="text-xl">
-                            <i className="fas fa-info-circle"></i>
-                          </span>
-                          <span>{key}</span>
-                        </div>
-
-                        {/* Check if the value is an object or a simple value */}
-                        {typeof value === 'object' ? (
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
-                            {/* If value is an object, we go deeper into its entries */}
-                            {Object.entries(value).map(([subKey, subValue]) => (
-                              <div
-                                key={subKey}
-                                className="bg-slate-900 p-4 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300"
-                              >
-                                <div className="text-lg font-semibold text-white">{subKey}</div>
-                                {typeof subValue === 'object' ? (
-                                  Object.entries(subValue).map(([caseType, form]) => (
-                                    <div key={caseType} className="flex items-center justify-between space-x-2 mt-2">
-                                      <span className="font-medium text-indigo-300">{caseType}:</span>
-                                      <span className="text-gray-200">{form}</span>
-                                    </div>
-                                  ))
-                                ) : (
-                                  <div className="text-gray-200">{subValue}</div>
-                                )}
-                              </div>
-                            ))}
-                          </div>
-                        ) : (
-                          // If it's a simple value (like a string), display it full width
-                          <div className="bg-slate-900 p-4 rounded-lg shadow-md mt-2">
-                            <div className="text-lg font-semibold text-white">{value}</div>
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-
-
-          {/* Types of Nouns */}
-          {currentCategory.types && currentCategory.types.length > 0 && (
-            <div className="mt-6">
-              <h4 className="text-2xl font-semibold text-indigo-600 mb-6">{currentCategory.category}</h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {currentCategory.types.map((type, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
-                  >
-                    <h5 className="text-xl font-semibold text-white">{type.type}</h5>
-                    <p className="mt-2 text-sm text-gray-200">{type.description}</p>
-
-                    <div className="mt-4">
-                      <p className="text-sm text-gray-200">Examples:</p>
-                      <ul className="space-y-2 mt-2">
-                        {type.examples.map((example, i) => (
-                          <li key={i} className="text-md text-gray-300">
-                            <span className="text-indigo-400">- </span>{example}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-
-
-
-          {/* Interactive Quiz in a Card with Animation */}
-          <div className="mt-8 flex flex-col items-center">
-            <div className="bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg shadow-lg p-8 w-full max-w-3xl transform transition-all duration-500 ease-in-out hover:scale-105">
-              <h4 className="text-2xl font-semibold text-indigo-500 text-center mb-6">Answer this to go next</h4>
-
-              {/* Display quiz questions based on the category */}
+          {/* Quiz Section */}
+          <div className="mt-8 space-y-8">
+            <AnimatePresence>
               {filteredQuizQuestions.map((quiz, index) => (
-                <div key={index} className="mt-6">
-                  <p className="text-xl text-white text-center">{quiz.question.english}</p>
-
-                  {/* Increase space between English and Hindi text */}
-                  <p className="text-lg text-gray-300 text-center mt-4">{quiz.question.hindi}</p>
-
-                  <div className="flex flex-wrap justify-center gap-6 mt-6">
+                <motion.div 
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  className="bg-white/10 dark:bg-zinc-900/20 rounded-2xl p-6 shadow-lg"
+                >
+                  <h4 className="text-xl font-semibold text-center mb-4">
+                    {quiz.question.english}
+                  </h4>
+                  <p className="text-center text-white dark:text-zinc-300 mb-6">
+                    {quiz.question.hindi}
+                  </p>
+                  
+                  <div className="flex flex-wrap justify-center gap-4">
                     {quiz.options.map((option) => {
                       const isSelected = selectedAnswers[index] === option;
                       const isCorrect = option === quiz.correct_answer;
                       const isIncorrect = isSelected && !isCorrect;
 
                       return (
-                        <button
+                        <motion.button
                           key={option}
-                          className={`bg-indigo-600 text-white text-lg px-8 py-3 rounded-lg shadow-md 
-                            ${isSelected && isCorrect ? 'bg-orange-400' : ''} 
-                            ${isIncorrect ? 'bg-red-600' : ''} 
-                            transform transition-all duration-50 hover:scale-105`}
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          className={`px-6 py-3 rounded-lg transition-all duration-300 ${
+                            isSelected && isCorrect 
+                              ? 'bg-green-500 text-white' 
+                              : isIncorrect 
+                              ? 'bg-red-500 text-white' 
+                              : 'bg-white/10 dark:bg-zinc-800/50 hover:bg-blue-500/20'
+                          }`}
                           onClick={() => handleQuizAnswer(option, quiz.correct_answer, index)}
                         >
                           {option}
-                        </button>
+                        </motion.button>
                       );
                     })}
                   </div>
-                </div>
+                </motion.div>
               ))}
+            </AnimatePresence>
 
-              {quizFeedback && (
-                <p className="mt-6 text-lg text-center text-gray-200">{quizFeedback}</p>
-              )}
-            </div>
+            {quizFeedback && (
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="text-center mt-4 flex items-center justify-center"
+              >
+                {quizFeedback.includes('Correct') ? (
+                  <CheckCircle2 className="text-green-500 mr-2" />
+                ) : (
+                  <XCircle className="text-red-500 mr-2" />
+                )}
+                <p className="text-lg">{quizFeedback}</p>
+              </motion.div>
+            )}
           </div>
+        </motion.div>
 
+        {/* Navigation Buttons */}
+        <div className="mt-8 flex justify-between">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={handlePrevious}
+            disabled={currentPage === 0}
+            className="
+              flex items-center gap-2 
+              bg-white/10 dark:bg-zinc-800/50 
+              px-6 py-3 rounded-lg
+              disabled:opacity-50
+              hover:bg-blue-500/10
+              transition-all duration-300
+            "
+          >
+            <ChevronLeft />
+            Previous
+          </motion.button>
+
+          {isLastPage ? (
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={handleFinish}
+              className="
+                flex items-center gap-2
+                bg-green-500 text-white
+                px-6 py-3 rounded-lg
+                hover:bg-green-600
+                transition-all duration-300
+              "
+            >
+              Finish
+              <CheckCircle2 />
+            </motion.button>
+          ) : (
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={handleNext}
+              disabled={!nextEnabled}
+              className="
+                flex items-center gap-2
+                bg-blue-500 text-white
+                px-6 py-3 rounded-lg
+                disabled:opacity-50
+                hover:bg-blue-600
+                transition-all duration-300
+              "
+            >
+              Next
+              <ChevronRight />
+            </motion.button>
+          )}
         </div>
-      </div>
-
-      {/* Navigation Buttons */}
-      <div className="mt-8 flex justify-between">
-        <button
-          className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 disabled:bg-indigo-300"
-          onClick={handlePrevious}
-          disabled={currentPage === 0}
-        >
-          Previous
-        </button>
-
-        {isLastPage ? (
-          <button
-            className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700"
-            onClick={handleFinish}
-          >
-            Finish
-          </button>
-        ) : (
-          <button
-            className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 disabled:bg-indigo-300"
-            onClick={handleNext}
-            disabled={!nextEnabled}
-          >
-            Next
-          </button>
-        )}
-      </div>
+      </main>
     </div>
   );
 }
