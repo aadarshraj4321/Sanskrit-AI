@@ -1,49 +1,68 @@
 {
-  "word": [
-    {
-      "symbol": "संस्कृत",
-      "name": "Sanskrit",
-      "image": "/data/images/lesson0/karma-yoga-2.png",
-      "audio": "/data/audio/lesson0/sanskrit.mp3",
-      "pronunciation": "'Sanskrit', as in 'Sanskrit' (the ancient language of India).",
-      "learning_tip": "Sanskrit is not only the foundation of many Indian languages but also a crucial gateway to understanding the depth of ancient Indian knowledge. It is the language in which the oldest spiritual and philosophical texts of India were written, such as the Vedas, Upanishads, and the epics like the Mahabharata and Ramayana. Sanskrit has a unique grammatical structure that is highly systematic and can express complex ideas with precision. By learning Sanskrit, you open the door to thousands of years of wisdom that shaped not only Indian culture but also influenced global thought, particularly in the fields of mathematics, astronomy, and metaphysics.",
-      "hindi_learning_tip": "संस्कृत केवल भारतीय भाषाओं की नींव नहीं है, बल्कि यह प्राचीन भारतीय ज्ञान को समझने की एक महत्वपूर्ण कुंजी भी है। यह वह भाषा है जिसमें भारत के सबसे प्राचीन आध्यात्मिक और दार्शनिक ग्रंथ जैसे वेद, उपनिषद और महाभारत और रामायण जैसी महाकाव्य लिखे गए थे। संस्कृत का एक अद्वितीय व्याकरण संरचना है जो अत्यधिक व्यवस्थित है और जटिल विचारों को सटीकता से व्यक्त कर सकती है। संस्कृत सीखकर, आप हजारों वर्षों का ज्ञान प्राप्त करते हैं, जिसने न केवल भारतीय संस्कृति को आकार दिया बल्कि गणित, खगोलशास्त्र और तात्त्विकता के क्षेत्रों में वैश्विक सोच को भी प्रभावित किया।"
-    },
-    {
-      "symbol": "वेद",
-      "name": "Veda",
-      "image": "/data/images/lesson0/veda.png",
-      "audio": "/data/audio/lesson0/veda.mp3",
-      "pronunciation": "'Veda', as in 'Rigveda' (one of the four Vedas).",
-      "learning_tip": "The Vedas are not just texts, but the embodiment of spiritual knowledge passed down through generations. They were composed in an era where oral transmission was the primary mode of preserving knowledge, and hence, they are meticulously crafted with rhythmic and phonetic precision. The Vedas are divided into four major texts – Rigveda, Samaveda, Yajurveda, and Atharvaveda – each serving a different purpose, from hymns to rituals to philosophical discourse. Studying the Vedas allows one to delve into the foundational concepts of Hinduism, such as the nature of the divine, the purpose of human existence, and the laws of karma and dharma.",
-      "hindi_learning_tip": "वेद केवल ग्रंथ नहीं हैं, बल्कि वे आध्यात्मिक ज्ञान का एक रूप हैं जो पीढ़ी दर पीढ़ी हस्तांतरित किया गया है। इन्हें उस युग में रचा गया था जब ज्ञान को मौखिक रूप से संजोने का मुख्य तरीका था, इसलिए ये अत्यधिक सही ढंग से लयबद्ध और ध्वन्यात्मक रूप से तैयार किए गए हैं। वेद चार प्रमुख ग्रंथों में विभाजित हैं – ऋग्वेद, सामवेद, यजुर्वेद और अथर्ववेद – प्रत्येक का अलग उद्देश्य है, जैसे मंत्रों से लेकर अनुष्ठानों और दार्शनिक चर्चाओं तक। वेदों का अध्ययन करने से आप हिंदू धर्म के मौलिक सिद्धांतों में गहरी समझ प्राप्त करते हैं, जैसे कि ईश्वर का स्वरूप, मानव जीवन का उद्देश्य, और कर्म और धर्म के नियम।"
-    },
-    {
-      "symbol": "धर्म",
-      "name": "Dharma",
-      "image": "/data/images/lesson0/dharma.png",
-      "audio": "/data/audio/lesson0/dharma.mp3",
-      "pronunciation": "'Dharma', as in 'Dharma' (the cosmic law and order).",
-      "learning_tip": "Dharma is a concept that is central to not only Hinduism but also other Indian religions like Buddhism, Jainism, and Sikhism. It refers to the cosmic law and order that governs the universe and the moral duties of individuals. Dharma is deeply interconnected with the idea of righteousness, justice, and duty, and it teaches individuals to act in harmony with the greater cosmic order. Each person’s dharma is determined by their age, social position, and circumstances, making it a highly personalized ethical framework. It also underscores the importance of balance and respect for all living beings.",
-      "hindi_learning_tip": "धर्म केवल हिंदू धर्म ही नहीं, बल्कि बौद्ध धर्म, जैन धर्म और सिख धर्म जैसी अन्य भारतीय धर्मों में भी केंद्रीय सिद्धांत है। यह ब्रह्मांड के क़ानून और व्यवस्था को संदर्भित करता है, जो पूरे ब्रह्मांड और व्यक्तियों के नैतिक कर्तव्यों को नियंत्रित करता है। धर्म का गहरा संबंध सदाचार, न्याय और कर्तव्य के विचार से है, और यह व्यक्तियों को ब्रह्मांडीय व्यवस्था के साथ सामंजस्यपूर्ण तरीके से कार्य करने की शिक्षा देता है। प्रत्येक व्यक्ति का धर्म उसकी उम्र, सामाजिक स्थिति और परिस्थितियों के आधार पर निर्धारित होता है, जिससे यह एक अत्यधिक व्यक्तिगत नैतिक ढांचा बनता है। यह संतुलन और सभी जीवों के प्रति सम्मान का महत्व भी रेखांकित करता है।"
-    },
-    {
-      "symbol": "मंत्र",
-      "name": "Mantra",
-      "image": "/data/images/lesson0/mantra.png",
-      "audio": "/data/audio/lesson0/mantra.mp3",
-      "pronunciation": "'Mantra', as in 'Om Mani Padme Hum' (a sacred Buddhist mantra).",
-      "learning_tip": "Mantras are believed to have immense spiritual power. They are composed of sacred sounds or syllables that, when chanted correctly, are said to bring about profound mental, physical, and spiritual changes. The power of mantras is thought to lie in their vibrational frequency, which can influence the mind and body on a molecular level. In addition to their use in meditation, mantras are often employed during rituals and ceremonies to invoke specific energies, blessings, or deities. Regular repetition of a mantra is said to lead to mental clarity, focus, and a sense of inner peace.",
-      "hindi_learning_tip": "मंत्रों को अपार आध्यात्मिक शक्ति का स्रोत माना जाता है। ये पवित्र ध्वनियाँ या वर्ण होते हैं, जो जब सही तरीके से जाप किए जाते हैं, तो मानसिक, शारीरिक और आध्यात्मिक परिवर्तन लाने की शक्ति रखते हैं। मंत्रों की शक्ति उनके कंपन की आवृत्ति में निहित मानी जाती है, जो मानसिक और शारीरिक स्तर पर शरीर और मन को प्रभावित कर सकती है। ध्यान में उपयोग के अलावा, मंत्रों का उपयोग अक्सर अनुष्ठानों और संस्कारों में विशिष्ट ऊर्जा, आशीर्वाद या देवताओं को आह्वान करने के लिए किया जाता है। नियमित रूप से मंत्र का जाप मानसिक स्पष्टता, एकाग्रता और आंतरिक शांति की भावना को जन्म देता है।"
-    },
-    {
-      "symbol": "योग",
-      "name": "Yoga",
-      "image": "/data/images/lesson0/yoga.png",
-      "audio": "/data/audio/lesson0/yoga.mp3",
-      "pronunciation": "'Yoga', as in 'Hatha Yoga' (a form of physical and spiritual exercise).",
-      "learning_tip": "Yoga, as a spiritual and physical practice, has been central to Indian culture for thousands of years. It encompasses not just physical postures, but also breathing techniques (pranayama), meditation (dhyana), and ethical precepts (yamas and niyamas). Yoga’s ultimate goal is self-realization and union with the divine. There are various paths of yoga, such as Hatha Yoga (which focuses on physical postures), Bhakti Yoga (the path of devotion), Karma Yoga (the path of selfless action), and Jnana Yoga (the path of knowledge). Each path offers a unique approach to spiritual growth and enlightenment, depending on an individual’s nature and inclinations.",
-      "hindi_learning_tip": "योग, एक आध्यात्मिक और शारीरिक अभ्यास के रूप में, हजारों वर्षों से भारतीय संस्कृति का केंद्रीय हिस्सा रहा है। इसमें केवल शारीरिक आसन ही नहीं, बल्कि श्वास-प्रश्वास तकनीक (प्राणायाम), ध्यान (ध्यान) और नैतिक सिद्धांत (यम और नियम) भी शामिल हैं। योग का अंतिम लक्ष्य आत्म-साक्षात्कार और दिव्य के साथ एकता प्राप्त करना है। योग के विभिन्न मार्ग हैं, जैसे हठ योग (जो शारीरिक आसनों पर ध्यान केंद्रित करता है), भक्ति योग (जो भक्ति का मार्ग है), कर्म योग (जो निस्वार्थ क्रियाओं का मार्ग है) और ज्ञान योग (जो ज्ञान का मार्ग है)। प्रत्येक मार्ग आध्यात्मिक विकास और आत्मज्ञान की ओर एक विशिष्ट दृष्टिकोण प्रदान करता है, जो व्यक्ति के स्वभाव और प्रवृत्तियों पर निर्भर करता है।"
-    }
-  ]
-}
+    "word": [
+      {
+        "symbol": "संस्कृत",
+        "name": "Timeless Language",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_one.jpg",
+        "audio": "/data/audio/sanskrit/timeless-language.mp3",
+        "pronunciation": "'Timeless Language', as in 'Sanskrit' (the ancient language of India).",
+        "learning_tip": "Sanskrit is not only the root of many modern Indian languages but also the gateway to exploring the ancient wisdom of India. It holds a unique place in the world as the language of sacred texts like the Vedas, Upanishads, and Bhagavad Gita, which are essential for a deeper understanding of Indian culture, philosophy, and global knowledge that has shaped human thought for millennia.",
+        "hindi_learning_tip": "संस्कृत केवल कई आधुनिक भारतीय भाषाओं की जड़ नहीं है, बल्कि यह भारत के प्राचीन ज्ञान की खोज का द्वार भी है। यह वेदों, उपनिषदों और भगवद गीता जैसी पवित्र ग्रंथों की भाषा है, जो भारतीय संस्कृति, दर्शन और वैश्विक ज्ञान को समझने के लिए अत्यंत आवश्यक हैं, जिनका मानव सोच पर हजारों वर्षों से प्रभाव रहा है।"
+      },
+      {
+        "symbol": "क्यों संस्कृत",
+        "name": "The Essence of Sanskrit",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_five.jpg",
+        "audio": "/data/audio/sanskrit/essence-of-sanskrit.mp3",
+        "pronunciation": "'The Essence of Sanskrit?', as in 'Why is Sanskrit still relevant in today’s world?'",
+        "learning_tip": "Sanskrit holds the key to unlocking ancient knowledge that continues to impact modern science, philosophy, and art. Its study provides deep insights into the foundations of many modern disciplines, making it crucial for those seeking a deeper connection to ancient traditions, intellectual exploration, and understanding the philosophical underpinnings of contemporary thought.",
+        "hindi_learning_tip": "संस्कृत प्राचीन ज्ञान को अनलॉक करने की कुंजी है जो आधुनिक विज्ञान, दर्शन और कला पर प्रभाव डालता है। इसका अध्ययन कई आधुनिक क्षेत्रों की नींव में गहरी समझ प्रदान करता है, जिससे यह उन लोगों के लिए महत्वपूर्ण है जो प्राचीन परंपराओं और बौद्धिक अन्वेषण से गहरा संबंध चाहते हैं और समकालीन विचारधारा के दार्शनिक आधार को समझना चाहते हैं।"
+      },
+      {
+        "symbol": "कहाँ संस्कृत",
+        "name": "The Reach of Sanskrit",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_six.jpg",
+        "audio": "/data/audio/sanskrit/reach-of-sanskrit.mp3",
+        "pronunciation": "'The Reach of Sanskrit', referring to where Sanskrit is used or studied today.",
+        "learning_tip": "Although not spoken widely in daily conversations, Sanskrit remains a crucial part of religious rituals, academic studies, and cultural preservation. It is still taught in universities, spiritual centers, and research institutions globally, helping maintain the continuity of India’s rich intellectual heritage across generations.",
+        "hindi_learning_tip": "हालाँकि संस्कृत का उपयोग दैनिक संवादों में व्यापक रूप से नहीं किया जाता, लेकिन यह धार्मिक अनुष्ठानों, शैक्षिक अध्ययन और सांस्कृतिक संरक्षण में महत्वपूर्ण है। इसे विश्वभर में विश्वविद्यालयों, आध्यात्मिक केंद्रों और अनुसंधान संस्थानों में पढ़ाया जाता है, जो भारत की समृद्ध बौद्धिक धरोहर की निरंतरता बनाए रखने में मदद करता है।"
+      },
+      {
+        "symbol": "आधुनिक संस्कृत",
+        "name": "Sanskrit Today",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_seven.jpg",
+        "audio": "/data/audio/sanskrit/sanskrit-today.mp3",
+        "pronunciation": "'Sanskrit Today', referring to its contemporary relevance in literature and academia.",
+        "learning_tip": "Modern Sanskrit is not just a relic of the past; it thrives in contemporary literature, scholarly pursuits, and technological applications. With its rich grammatical structure, Sanskrit is used in fields such as artificial intelligence, natural language processing, and even modern literature, bridging the ancient knowledge with modern advancements to create a harmonious blend of tradition and innovation.",
+        "hindi_learning_tip": "आधुनिक संस्कृत केवल अतीत का एक अवशेष नहीं है; यह समकालीन साहित्य, शैक्षिक प्रयासों और तकनीकी अनुप्रयोगों में जीवित है। इसके समृद्ध व्याकरण संरचना के कारण संस्कृत का उपयोग एआई, प्राकृतिक भाषा प्रसंस्करण और समकालीन साहित्य जैसे क्षेत्रों में किया जा रहा है, जो प्राचीन ज्ञान और आधुनिक प्रगति को जोड़ने में मदद करता है, जिससे परंपरा और नवाचार का सामंजस्यपूर्ण संगम बनता है।"
+      },
+      {
+        "symbol": "चिकित्सा संस्कृत",
+        "name": "Healing Wisdom",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_twelve.jpg",
+        "audio": "/data/audio/sanskrit/healing-wisdom.mp3",
+        "pronunciation": "'Healing Wisdom', focusing on the use of Sanskrit in Ayurveda and traditional medicine.",
+        "learning_tip": "Sanskrit plays a vital role in the ancient practice of Ayurveda, a holistic system of healing. The knowledge of herbal remedies, healing rituals, and wellness practices is meticulously preserved in Sanskrit texts like the Charaka Samhita and Sushruta Samhita, which offer timeless wisdom for physical, mental, and spiritual well-being.",
+        "hindi_learning_tip": "संस्कृत आयुर्वेद के प्राचीन अभ्यास में एक महत्वपूर्ण भूमिका निभाती है, जो एक समग्र चिकित्सा पद्धति है। हर्बल उपचार, उपचारक अनुष्ठान और कल्याण प्रथाओं का ज्ञान संस्कृत ग्रंथों जैसे चरक संहिता और सुश्रुत संहिता में सावधानीपूर्वक संरक्षित किया गया है, जो शारीरिक, मानसिक और आध्यात्मिक कल्याण के लिए शाश्वत ज्ञान प्रदान करते हैं।"
+      },
+      {
+        "symbol": "ध्यान संस्कृत",
+        "name": "Mantras of Peace",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_ten.jpg",
+        "audio": "/data/audio/sanskrit/mantras-of-peace.mp3",
+        "pronunciation": "'Mantras of Peace', referring to the role of Sanskrit in spiritual practices and meditation.",
+        "learning_tip": "Sanskrit mantras are central to many meditation and spiritual practices. These ancient and sacred words resonate deeply within the practitioner, promoting mental clarity, inner peace, and spiritual awakening. Their vibrational power enhances the overall meditation experience, allowing individuals to connect with deeper states of consciousness.",
+        "hindi_learning_tip": "संस्कृत मंत्र कई ध्यान और आध्यात्मिक अभ्यासों का केंद्रीय हिस्सा हैं। ये प्राचीन और पवित्र शब्द साधक के भीतर गहरे रूप से गूंजते हैं, मानसिक स्पष्टता, आंतरिक शांति और आध्यात्मिक जागृति को बढ़ावा देते हैं। इन मंत्रों की कंपन शक्ति ध्यान के अनुभव को बढ़ाती है, जिससे व्यक्ति उच्चतम चेतना की अवस्थाओं से जुड़ सकता है।"
+      },
+      {
+        "symbol": "प्रौद्योगिकी संस्कृत",
+        "name": "Sanskrit in the Digital Age",
+        "image": "https://d8q326uv7ym5m.cloudfront.net/public/lesson_zero/zero_eight.jpg",
+        "audio": "/data/audio/sanskrit/sanskrit-digital-age.mp3",
+        "pronunciation": "'Sanskrit in the Digital Age', referring to the integration of Sanskrit in modern technology and AI.",
+        "learning_tip": "Sanskrit is being explored for its precision in computational linguistics and artificial intelligence (AI). Its highly structured grammar and systematic nature make it an ideal language for enhancing modern technologies, particularly in areas like data processing, natural language understanding, and machine learning, where precision and clarity are paramount.",
+        "hindi_learning_tip": "संस्कृत को संगणक भाषाशास्त्र और एआई में इसकी सटीकता के लिए अन्वेषित किया जा रहा है। इसका अत्यधिक संरचित व्याकरण और व्यवस्थित स्वभाव इसे आधुनिक तकनीकों के लिए आदर्श भाषा बनाता है, विशेष रूप से डेटा प्रसंस्करण, प्राकृतिक भाषा समझ और मशीन लर्निंग जैसे क्षेत्रों में, जहाँ सटीकता और स्पष्टता अत्यंत महत्वपूर्ण हैं।"
+      }
+    ]
+  }
+  

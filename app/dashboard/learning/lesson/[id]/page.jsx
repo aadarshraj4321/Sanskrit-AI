@@ -2696,7 +2696,7 @@ const LessonPage = ({ params }) => {
     const [lessonData, setLessonData] = useState(null);
     const [currentStep, setCurrentStep] = useState(0);
     const [isQuizVisible, setIsQuizVisible] = useState(false);
-    const [isHindi, setIsHindi] = useState(false);
+    const [isHindi, setIsHindi] = useState(true);
     const [audioProgress, setAudioProgress] = useState(0);
     const [audioDuration, setAudioDuration] = useState(0);
     const router = useRouter();

@@ -3,7 +3,7 @@
       {
           "symbol": "अ",
           "name": "a",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/a.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/a.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/1.mp3",
           "pronunciation": "'a', as in 'Agni' (Fire).",
           "example": {
@@ -19,7 +19,7 @@
       {
           "symbol": "आ",
           "name": "aa",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/aa.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/aa.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/2.mp3",
           "pronunciation": "'aa', as in 'Aangan' (courtyard).",
           "example": {
@@ -35,7 +35,7 @@
       {
           "symbol": "इ",
           "name": "i",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/3.mp3",
           "pronunciation": "'i', as in 'India' (country).",
           "example": {
@@ -51,7 +51,7 @@
       {
           "symbol": "ई",
           "name": "ee",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ee.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ee.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/4.mp3",
           "pronunciation": "'ee', as in 'Eent' (brick).",
           "example": {
@@ -67,7 +67,7 @@
       {
           "symbol": "उ",
           "name": "u",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/u.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/u.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/5.mp3",
           "pronunciation": "'u', as in 'Uttar' (north).",
           "example": {
@@ -83,7 +83,7 @@
       {
           "symbol": "ऊ",
           "name": "oo",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/oo.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/oo.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/6.mp3",
           "pronunciation": "'oo', as in 'Oonh' (wool).",
           "example": {
@@ -99,7 +99,7 @@
       {
           "symbol": "ए",
           "name": "e",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/e.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/e.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/7.mp3",
           "pronunciation": "'e', as in 'Ek' (one).",
           "example": {
@@ -115,7 +115,7 @@
       {
           "symbol": "ऐ",
           "name": "ai",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ai.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ai.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/8.mp3",
           "pronunciation": "'ai', as in 'Aise' (like this).",
           "example": {
@@ -131,7 +131,7 @@
       {
           "symbol": "ओ",
           "name": "o",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/o.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/o.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/9.mp3",
           "pronunciation": "'o', as in 'Ooper' (above).",
           "example": {
@@ -147,7 +147,7 @@
       {
           "symbol": "औ",
           "name": "au",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/au.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/au.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/10.mp3",
           "pronunciation": "'au', as in 'Aurat' (woman).",
           "example": {
@@ -163,7 +163,7 @@
       {
           "symbol": "अं",
           "name": "Anusvara",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/anusvara.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/anusvara.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/11.mp3",
           "pronunciation": "'Anusvara', as in 'Sankalp' (resolution). It is a nasal sound.",
           "example": {
@@ -179,7 +179,7 @@
       {
           "symbol": "अः",
           "name": "Visarga",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/visarga.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/visarga.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/12.mp3",
           "pronunciation": "'Visarga', as in 'Om' (sacred syllable). It is a soft aspirated sound.",
           "example": {
@@ -197,7 +197,7 @@
       {
           "symbol": "क",
           "name": "Ka",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ka.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ka.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/13.mp3",
           "pronunciation": "'ka', as in 'Kamal' (lotus).",
           "example": {
@@ -213,7 +213,7 @@
       {
           "symbol": "ख",
           "name": "Kha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/kha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/kha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/14.mp3",
           "pronunciation": "'kha', as in 'Khanjar' (dagger).",
           "example": {
@@ -229,7 +229,7 @@
       {
           "symbol": "ग",
           "name": "Ga",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ga.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ga.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/15.mp3",
           "pronunciation": "'ga', as in 'Gagan' (sky).",
           "example": {
@@ -245,7 +245,7 @@
       {
           "symbol": "घ",
           "name": "Gha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/gha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/gha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/16.mp3",
           "pronunciation": "'gha', as in 'Ghar' (house).",
           "example": {
@@ -261,7 +261,7 @@
       {
           "symbol": "ङ",
           "name": "Nga",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nga.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nga.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/17.mp3",
           "pronunciation": "'nga', as in 'Anga' (body part).",
           "example": {
@@ -277,7 +277,7 @@
       {
           "symbol": "च",
           "name": "Cha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/cha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/cha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/18.mp3",
           "pronunciation": "'cha', as in 'Chandra' (moon).",
           "example": {
@@ -293,7 +293,7 @@
       {
           "symbol": "छ",
           "name": "Chha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/chha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/chha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/19.mp3",
           "pronunciation": "'chha', as in 'Chhatri' (umbrella).",
           "example": {
@@ -309,7 +309,7 @@
       {
           "symbol": "ज",
           "name": "Ja",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ja.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ja.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/20.mp3",
           "pronunciation": "'ja', as in 'Jal' (water).",
           "example": {
@@ -325,7 +325,7 @@
       {
           "symbol": "झ",
           "name": "Jha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/jha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/jha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/21.mp3",
           "pronunciation": "'jha', as in 'Jhanjhar' (ring).",
           "example": {
@@ -341,7 +341,7 @@
       {
           "symbol": "ञ",
           "name": "Nya",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nya.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/nya.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/22.mp3",
           "pronunciation": "'nya', as in 'Gyan' (knowledge).",
           "example": {
@@ -357,7 +357,7 @@
       {
           "symbol": "ट",
           "name": "Tta",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tta.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tta.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/23.mp3",
           "pronunciation": "'tta', as in 'Tatak' (arena).",
           "example": {
@@ -373,7 +373,7 @@
       {
           "symbol": "ठ",
           "name": "Ttha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ttha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ttha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/24.mp3",
           "pronunciation": "'ttha', as in 'Tthara' (strong).",
           "example": {
@@ -389,7 +389,7 @@
       {
           "symbol": "ड",
           "name": "Dda",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dda.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dda.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/25.mp3",
           "pronunciation": "'dda', as in 'Dhan' (wealth).",
           "example": {
@@ -405,7 +405,7 @@
       {
           "symbol": "ढ",
           "name": "Ddha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ddha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ddha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/26.mp3",
           "pronunciation": "'ddha', as in 'Dharma' (religion).",
           "example": {
@@ -421,7 +421,7 @@
       {
           "symbol": "ण",
           "name": "Na",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/27.mp3",
           "pronunciation": "'na', as in 'Nadi' (river).",
           "example": {
@@ -437,7 +437,7 @@
       {
           "symbol": "त",
           "name": "Ta",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ta.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ta.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/28.mp3",
           "pronunciation": "'ta', as in 'Taj' (crown).",
           "example": {
@@ -453,7 +453,7 @@
       {
           "symbol": "थ",
           "name": "Tha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/tha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/29.mp3",
           "pronunciation": "'tha', as in 'Thali' (plate).",
           "example": {
@@ -469,7 +469,7 @@
       {
           "symbol": "द",
           "name": "Da",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/da.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/da.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/30.mp3",
           "pronunciation": "'da', as in 'Dost' (friend).",
           "example": {
@@ -485,7 +485,7 @@
       {
           "symbol": "ध",
           "name": "Dha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/dha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/31.mp3",
           "pronunciation": "'dha', as in 'Dharm' (religion).",
           "example": {
@@ -501,7 +501,7 @@
       {
           "symbol": "न",
           "name": "Na",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/na.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/32.mp3",
           "pronunciation": "'na', as in 'Nadi' (river).",
           "example": {
@@ -517,7 +517,7 @@
       {
           "symbol": "प",
           "name": "Pa",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pa.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pa.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/33.mp3",
           "pronunciation": "'pa', as in 'Pani' (water).",
           "example": {
@@ -533,7 +533,7 @@
       {
           "symbol": "फ",
           "name": "Pha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/pha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/34.mp3",
           "pronunciation": "'pha', as in 'Phool' (flower).",
           "example": {
@@ -549,7 +549,7 @@
       {
           "symbol": "ब",
           "name": "Ba",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ba.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ba.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/35.mp3",
           "pronunciation": "'ba', as in 'Bhai' (brother).",
           "example": {
@@ -565,7 +565,7 @@
       {
           "symbol": "भ",
           "name": "Bha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/bha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/36.mp3",
           "pronunciation": "'bha', as in 'Bharat' (India).",
           "example": {
@@ -581,7 +581,7 @@
       {
           "symbol": "म",
           "name": "ma",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ma.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ma.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/37.mp3",
           "pronunciation": "'ma', as in 'Maa' (mother).",
           "example": {
@@ -597,7 +597,7 @@
       {
           "symbol": "य",
           "name": "ya",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ya.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ya.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/38.mp3",
           "pronunciation": "'ya', as in 'Yaar' (friend).",
           "example": {
@@ -613,7 +613,7 @@
       {
           "symbol": "र",
           "name": "ra",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ra.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ra.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/39.mp3",
           "pronunciation": "'ra', as in 'Raat' (night).",
           "example": {
@@ -629,7 +629,7 @@
       {
           "symbol": "ल",
           "name": "la",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/la.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/la.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/lesson1/40.mp3",
           "pronunciation": "'la', as in 'Ladki' (girl).",
           "example": {
@@ -645,7 +645,7 @@
       {
           "symbol": "व",
           "name": "va",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/va.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/va.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/va.mp3",
           "pronunciation": "'va', as in 'Vah' (he/she).",
           "example": {
@@ -661,7 +661,7 @@
       {
           "symbol": "श",
           "name": "sha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha_one.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sha.mp3",
           "pronunciation": "'sha', as in 'Shakti' (strength).",
           "example": {
@@ -677,7 +677,7 @@
       {
           "symbol": "ष",
           "name": "sha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha_one.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sha.mp3",
           "pronunciation": "'sha', as in 'Shastra' (scripture).",
           "example": {
@@ -693,7 +693,7 @@
       {
           "symbol": "स",
           "name": "sa",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sa.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/sa.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/sa.mp3",
           "pronunciation": "'sa', as in 'Samaj' (society).",
           "example": {
@@ -709,7 +709,7 @@
       {
           "symbol": "ह",
           "name": "ha",
-          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ha.png",
+          "image": "https://d8q326uv7ym5m.cloudfront.net/public/data/images/lesson1/ha.jpg",
           "audio": "https://d8q326uv7ym5m.cloudfront.net/public/data/audio/ha.mp3",
           "pronunciation": "'ha', as in 'Hawa' (air).",
           "example": {

@@ -191,7 +191,7 @@ import Link from "next/link"; // Importing Link from next/link
 const Lesson = () => {
   const [data, setData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showHindi, setShowHindi] = useState(false);
+  const [showHindi, setShowHindi] = useState(true);
   const audioRef = useRef(null);  // To control the audio player
 
   useEffect(() => {
