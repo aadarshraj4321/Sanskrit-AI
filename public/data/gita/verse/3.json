@@ -1,0 +1,263 @@
+{
+    "verses": [
+        {
+            "number": 1,
+            "sanskrit": "सञ्जय उवाच:\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम्।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः।।",
+            "hindi": "सञ्जय ने कहा:\nकरुणा से व्याप्त, अश्रुपूर्ण नेत्रों और व्याकुल मन वाले अर्जुन से मधुसूदन (श्रीकृष्ण) ने यह वचन कहा।",
+            "english": "Sanjaya said:\nTo him who was thus overwhelmed with pity, whose eyes were filled with tears and agitated, Madhusudana (Krishna) spoke these words."
+        },
+        {
+            "number": 2,
+            "sanskrit": "श्रीभगवानुवाच:\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम्।\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन।।",
+            "hindi": "श्री भगवान ने कहा:\nहे अर्जुन, यह मोह इस महत्वपूर्ण समय में तुम्हें कैसे आ गया? यह आर्य सभ्यता के योग्य नहीं है, न ही स्वर्ग प्रदान करता है और न ही कीर्ति।",
+            "english": "The Blessed Lord said:\nWhence has this dejection come upon you at this critical juncture? It is unworthy of an Aryan, does not lead to heaven, and causes disgrace."
+        },
+        {
+            "number": 3,
+            "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप।।",
+            "hindi": "हे पार्थ, यह कायरता को प्राप्त मत हो। यह तुम्हारे लिए योग्य नहीं है। हे परन्तप, क्षुद्र हृदय की दुर्बलता को त्यागकर उठो।",
+            "english": "O Partha, do not yield to unmanliness. It does not befit you. Cast off this petty faint-heartedness and arise, O scorcher of foes."
+        },
+        {
+            "number": 4,
+            "sanskrit": "Arjuna uvacha:\nजन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः।\nत्यक्त्वा देहं पुनर्जन्म निति मामेति सोऽर्जुन।।",
+            "hindi": "अर्जुन ने कहा:\nहे कृष्ण, जो व्यक्ति इस तरह के कर्मों को जानता है, वह जन्म और कर्म दोनों में नष्ट नहीं होता। वह मुझसे असीम रूप से जुड़ा रहता है।",
+            "english": "Arjuna said: O Krishna, those who know of this knowledge, who understand the reality of life, do not go through the cycle of birth and death. They are eternal and one with you."
+        },
+        {
+            "number": 5,
+            "sanskrit": "श्रीभगवानुवाच:\nन हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "श्री भगवान ने कहा:\nयह देहधारी शरीर पूरी तरह से कर्मों से मुक्त नहीं हो सकता। परंतु जो कर्म के परिणामों से हट जाता है, वही त्यागी कहलाता है।",
+            "english": "The Blessed Lord said: The embodied soul cannot renounce all action. But one who renounces the fruits of actions is called a renunciant."
+        },
+        {
+            "number": 6,
+            "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\nतदर्थं कर्म कौन्तेय मुख्तसंगः समाचर।।",
+            "hindi": "जो कर्म यज्ञ के लिए किए जाते हैं, वे लोकों के कर्म बन्धन को समाप्त करते हैं। इसलिए, हे कुन्ती पुत्र, यज्ञ में सम्मिलित होकर कर्म करो।",
+            "english": "For actions performed for the sake of the yajna (sacrifice), the bonds of worldly existence are undone. Therefore, O son of Kunti, perform your duties as an offering to the divine."
+        },
+        {
+            "number": 7,
+            "sanskrit": "नियतं संहितं कर्म युक्तः कर्मफलत्यागी।\nशरीरवाङ्मनोभिर्यज्ञं समर्पितम्।।",
+            "hindi": "जो व्यक्ति शरीर, वचन, और मन के द्वारा यज्ञ में सम्मिलित होकर कर्म करता है, वह कार्य का फल त्यागता है।",
+            "english": "He who performs work in a disciplined manner, offering his body, speech, and mind to the Lord, gives up the fruits of his actions."
+        },
+        {
+            "number": 8,
+            "sanskrit": "शरीरवाङ्मनोभिर्यज्ञं समर्पितम्।",
+            "hindi": "प्रत्येक व्यक्ति का कार्य भगवान को अर्पित होकर होना चाहिए, साथ ही सच्ची निष्ठा से कर्म किया जाना चाहिए।",
+            "english": "Every person's work should be dedicated to the Lord, and should be performed with sincere devotion."
+        },
+        {
+            "number": 9,
+            "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि।।",
+            "hindi": "तुम्हारा अधिकार केवल कर्म करने में है, इसके परिणामों में नहीं। तुम कर्म के फल के लिए कभी भी चिंतित मत हो, और किसी भी कार्य को करने से विमुख मत हो।",
+            "english": "Your right is to perform your duties, but never to the results. Never consider yourself the cause of the results of your actions, nor should you attach yourself to inaction."
+        },
+        {
+            "number": 10,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं।",
+            "hindi": "जो व्यक्ति अपने सभी कर्मों को संन्यास करके, मन में परमात्मा को ध्यान करता है, वही परम सुख प्राप्त करता है।",
+            "english": "He who renounces all actions mentally, and meditates on the Supreme being, attains ultimate bliss."
+        },
+        {
+            "number": 11,
+            "sanskrit": "देवन्यैव श्रियं यज्ञं व्रजत एष आत्मा प्राचीन।\nकृष्ण के संदर्भ में यो अधिक अर्थ करता है।।",
+            "hindi": "देवों के लिए यज्ञ करना चाहिए, क्योंकि सभी प्राणियों की उत्पत्ति उनके द्वारा होती है। यज्ञ से ही दुनिया का संचालन होता है।",
+            "english": "Performing sacrifice for the gods, which originated from the Supreme, is the way the world is sustained."
+        },
+        {
+            "number": 12,
+            "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\nतदर्थं कर्म कौन्तेय मुख्तसंगः समाचर।।",
+            "hindi": "सभी कर्मों का उद्देश्य यज्ञ (सुरुचि) होना चाहिए, ताकि कर्म के बंधन से मुक्ति मिल सके।",
+            "english": "The world is bound by actions other than those performed as yajna (sacrifice); therefore, O son of Kunti, perform your duties for the sake of yajna."
+        },
+        {
+            "number": 13,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "देहधारी शरीर से कर्मों को त्यागना कठिन है, परंतु जो व्यक्ति कर्म के फल का त्याग करता है, वही त्यागी कहलाता है।",
+            "english": "An embodied being cannot renounce all actions. But one who renounces the fruits of action is called a renunciant."
+        },
+        {
+            "number": 14,
+            "sanskrit": "नियतं संहितं कर्म युक्तः कर्मफलत्यागी।\nशरीरवाङ्मनोभिर्यज्ञं समर्पितम्।।",
+            "hindi": "जिन्होंने कर्म के परिणामों से वंचित होकर, शरीर, वचन और मन से यज्ञ में सम्मिलित किया है, वही भगवान के करीब पहुंचते हैं।",
+            "english": "One who performs actions in the right manner, dedicating them to the divine with body, speech, and mind, is freed from the bondage of actions."
+        },
+        {
+            "number": 15,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं।",
+            "hindi": "जो मन से सभी कर्मों को त्याग कर परमात्मा की पूजा करता है, वही सच्चे सुख को प्राप्त करता है।",
+            "english": "He who renounces all actions in mind and worships the supreme being attains supreme bliss."
+        },
+        {
+            "number": 16,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "जो व्यक्ति कार्यों के फल का त्याग करता है, वही सच्चा त्यागी कहलाता है।",
+            "english": "He who renounces the fruits of actions is called a true renunciant."
+        },
+        {
+            "number": 17,
+            "sanskrit": "न हि कर्मण्येव अधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि।।",
+            "hindi": "तुम्हारा अधिकार केवल कर्म करने में है, इसके परिणामों में नहीं। तुम कर्म के फल के लिए कभी भी चिंतित मत हो, और किसी भी कार्य को करने से विमुख मत हो।",
+            "english": "Your right is to perform your duties, but never to the results. Never consider yourself the cause of the results of your actions, nor should you attach yourself to inaction."
+        },
+        {
+            "number": 18,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं।",
+            "hindi": "जो व्यक्ति अपने सभी कर्मों को संन्यास करके, मन में परमात्मा को ध्यान करता है, वही परम सुख प्राप्त करता है।",
+            "english": "He who renounces all actions mentally, and meditates on the Supreme being, attains ultimate bliss."
+        },
+        {
+            "number": 19,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं।",
+            "hindi": "इसमें संकोच न करें और संकीर्ण कर्मों को।",
+            "english": "Through actions done in harmony with divine principles, one is able to transcend worldly attachments."
+        },
+        {
+            "number": 20,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं।",
+            "hindi": "सर्वे कर्तृत्व कर्मों के ज्ञाते ही रजकृपाएं अब।",
+            "english": "All your actions are fulfilled once you transcend worldly attachments."
+        },
+        {
+            "number": 21,
+            "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते।।",
+            "hindi": "जो कुछ श्रेष्ठ व्यक्ति करता है, अन्य लोग वही करते हैं। जिस प्रकार वह कार्य करता है, वैसे ही लोग उसका अनुसरण करते हैं।",
+            "english": "Whatever a great person does, the same is followed by others. The world follows the example set by a leader."
+        },
+        {
+            "number": 22,
+            "sanskrit": "न मे पार्थस्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।\nनानवाप्तमवाप्तव्यं वर्त एव च कर्माणि।।",
+            "hindi": "हे पार्थ, मुझे त्रैलोक्य में करने योग्य कोई कार्य नहीं है, न ही मुझे कुछ प्राप्त करने की आवश्यकता है। मैं कर्मों में लगा हुआ हूं, यह मेरा स्वभाव है।",
+            "english": "O Partha, there is no duty for Me to perform in the three worlds, nor is there anything to be attained. Yet, I engage in action."
+        },
+        {
+            "number": 23,
+            "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\nममावश्यं विहितं कर्म सर्वं कार्यं दिशं समर्थय।।",
+            "hindi": "यदि मैं कर्मों में रत नहीं होता, तो यह संसार नष्ट हो जाता। मैं अनिवार्य रूप से कर्म करने के लिए बाध्य हूं।",
+            "english": "If I did not perform the prescribed duties, O Partha, all would be in ruin. I am compelled to perform my duties."
+        },
+        {
+            "number": 24,
+            "sanskrit": "नहि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "मनुष्य के लिए कर्मों को त्यागना संभव नहीं है। जो व्यक्ति कार्यों के फल को त्यागता है, वही सच्चा त्यागी कहलाता है।",
+            "english": "It is not possible for an embodied being to renounce all action. The one who renounces the fruits of action is called a true renunciant."
+        },
+        {
+            "number": 25,
+            "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि।।",
+            "hindi": "तुम्हारा अधिकार केवल कर्म करने में है, इसके परिणामों में नहीं। तुम कर्म के फल के लिए कभी भी चिंतित मत हो, और किसी भी कार्य को करने से विमुख मत हो।",
+            "english": "Your right is to perform your duties, but never to the results. Never consider yourself the cause of the results of your actions, nor should you attach yourself to inaction."
+        },
+        {
+            "number": 26,
+            "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।",
+            "hindi": "हे धनंजय, जो व्यक्ति योग में स्थिर होकर कर्म करता है और इसके फल से मुक्त रहता है, वही सच्चा योगी कहलाता है।",
+            "english": "Perform your duties, O Dhananjaya, in a state of yoga, renouncing attachment, and equanimous in success and failure. This is true yoga."
+        },
+        {
+            "number": 27,
+            "sanskrit": "कर्माणि सम्प्रकारेण यथा परितापे वै।",
+            "hindi": "व्यक्तियों के लिए कर्म से उद्देश्य देखा जाता हो।",
+            "english": "Perform all your actions as prescribed without attachment to outcomes."
+        },
+        {
+            "number": 28,
+            "sanskrit": "एवं ज्ञात्वा क्रियं कर्म प्रारभन्ते नराधमाः।\nअज्ञानविमूढात्मानं त्ते परन्ति तं पन:।।",
+            "hindi": "इस प्रकार कर्म का ज्ञान प्राप्त करने वाले लोग कर्मों को आरंभ करते हैं, जबकि मूर्ख आत्मा से अज्ञानी लोग उन्हें नष्ट कर देते हैं।",
+            "english": "Thus, those who know the truth about action perform their duties, while ignorant souls, deluded by their desires, destroy their work."
+        },
+        {
+            "number": 29,
+            "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धन:।\nतदर्थं कर्म कौन्तेय मुक्तसंग: समाचर।।",
+            "hindi": "कर्म को यज्ञ के उद्देश्य से किया जाता है, क्योंकि यह कर्मों का बंधन नहीं बनाता। इसलिए, अर्जुन, इस प्रकार से कर्म करो, जो बंधन से मुक्त हो।",
+            "english": "Actions performed for the sake of sacrifice, O son of Kunti, do not bind a person. Therefore, perform your duty with the aim of sacrifice, free from attachment."
+        },
+        {
+            "number": 30,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी।\nनायं कर्मनमात्मानं यत्ति निष्ठा यति प्रभु।।",
+            "hindi": "सभी कार्यों को मन से त्याग कर, व्यक्ति सुखी और आत्म-नियंत्रित रहता है। कोई भी कार्य अपने आत्म-निष्ठा में और प्रभु की इच्छा में आधारित नहीं होता।",
+            "english": "Having renounced all actions in the mind, the person who remains self-controlled and detached enjoys peace. No action binds the soul who is devoted to the Supreme."
+        },
+        {
+            "number": 31,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्मान्यशेषत:।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "किसी भी शरीर में स्थित व्यक्ति द्वारा कर्मों को पूरी तरह से छोड़ना संभव नहीं है। जो कर्मों के फल को छोड़ देता है, वह त्यागी कहलाता है।",
+            "english": "It is not possible for one embodied to renounce all actions. The one who renounces the fruits of actions is said to have renounced."
+        },
+        {
+            "number": 32,
+            "sanskrit": "यस्य सर्वे समारम्भा कामसंगिन: अनाश्रिता:।\nज्ञानयोगेना तु भक्तिरक्षति कर्मणी।।",
+            "hindi": "जो व्यक्ति सभी कार्यों को कामनाओं से रहित करके ज्ञान योग के माध्यम से भक्ति में लगा रहता है, वह सभी कर्मों से बच जाता है।",
+            "english": "He who performs all actions without attachment to desires and dedicates them to the path of wisdom and devotion is free from the bondage of actions."
+        },
+        {
+            "number": 33,
+            "sanskrit": "न बुद्धिभेदं जनयेदज्ञानं कर्मसंयोगे।\nअजस्रजं यथा कर्माज्ञा तस्य कर्म्णी।।",
+            "hindi": "जो व्यक्ति ज्ञान से वंचित है, उसे कर्मों का बंधन करने से बचने के लिए किसी प्रकार से बुद्धि का बोध नहीं कराना चाहिए।",
+            "english": "Do not disturb the mind of the ignorant by directing them away from the path of actions, for such a disturbance could bring them to ruin."
+        },
+        {
+            "number": 34,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्मान्यशेषत:।\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते।।",
+            "hindi": "जब तक किसी व्यक्ति के समस्त कर्म त्यागे न जाएं, वह कर्मों का मुक्त नहीं हो सकता।",
+            "english": "As long as all the actions of a person are not renounced, the person cannot be liberated from the cycle of actions."
+        },
+        {
+            "number": 35,
+            "sanskrit": "व्यापारं नचि पालेन विदो नरेष।\nअग्निमेस्ति य: पुण्यं।",
+            "hindi": "ज्ञान, सुख और कार्यों का पंथ स्वस्थ रूप से पकड़ते हैं, निष्कलंक धर्म की ओर चलते हैं।",
+            "english": "Following the righteous path of action, the person reaches the ultimate peace and the highest knowledge."
+        },
+        {
+            "number": 36,
+            "sanskrit": "अर्जुन उवाच:\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन।\nतत्किं कर्मणि घोरे माङ्गे न्याये क्रियां तप:।।",
+            "hindi": "अर्जुन ने कहा: \nहे जनार्दन, यदि कर्म ही सर्वोत्तम है, तो उन कर्मों के लिए क्या करना होगा? किस प्रकार क्रियाएँ आत्मा के शुद्ध करने के लिए उचित होंगी?",
+            "english": "Arjuna said:\nO Janardana, if action is indeed superior, then what is the right way to perform actions? How can actions purify the soul?"
+        },
+        {
+            "number": 37,
+            "sanskrit": "श्रीभगवान उवाच:\nसर्वकर्माणि मयि संन्यस्य आद्यात्मचेतसा।\nनिराशीरनमस्त्वं यत्नं समग्रं योगनिर्भृतम्।।",
+            "hindi": "श्रीभगवान ने कहा: \nकिसी भी कर्म को मुझे अर्पित करके, अपने आत्मभाव से कार्य करते हुए, पूरी तरह से अपनी इच्छाओं को त्यागकर, तुम योगमार्ग से कर्मों में निरंतर लगे रहो।",
+            "english": "The Blessed Lord said:\nBy dedicating all your actions to me, with a spiritual consciousness, abandoning all desires, engage in the practice of yoga with full effort."
+        },
+        {
+            "number": 38,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीतिप्रकीर्तित:।।",
+            "hindi": "शरीरधारी मनुष्य के लिए सम्पूर्ण कर्मों को त्यागना सम्भव नहीं है। परन्तु जो व्यक्ति कर्मों के फल को त्याग देता है, वही त्यागी कहलाता है।",
+            "english": "For a person embodied in this body, it is impossible to renounce all actions completely. But one who renounces the fruits of action is called a renunciant."
+        },
+        {
+            "number": 39,
+            "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखमात्मन:।\nनकिं कर्माणि करोति पन्थ: समुद्रं बत।",
+            "hindi": "सभी कर्मों को मन से समर्पण करके, आत्मा की सुखद अवस्था में स्थित होता है।",
+            "english": "Renouncing all actions mentally, one remains in the bliss of the self."
+        },
+        {
+            "number": 40,
+            "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।\nयस्तु कर्मफलत्यागी स त्यागीतिप्रकीर्तित:।।",
+            "hindi": "शरीरधारी मनुष्य के लिए सम्पूर्ण कर्मों को त्यागना सम्भव नहीं है। परन्तु जो व्यक्ति कर्मों के फल को त्याग देता है, वही त्यागी कहलाता है।",
+            "english": "For an embodied being, it is impossible to renounce all action completely. But the one who renounces the fruits of action is called a renunciant."
+        },
+        {
+            "number": 41,
+            "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्य: परं मन:।\nमनसस्तु परा बुद्धिर्यो बुद्धे: परतस्तु स:।।",
+            "hindi": "इन्द्रियाँ सर्वोत्तम हैं, और इन्द्रियों से भी श्रेष्ठ मन है। मन से भी उच्च बुद्धि है, और बुद्धि से भी श्रेष्ठ आत्मा है।",
+            "english": "It is said that the senses are superior, but the mind is higher than the senses. The intellect is even higher than the mind, and the soul is even higher than the intellect."
+        },
+        {
+            "number": 42,
+            "sanskrit": "एवं बुद्धे: परं बुद्ध्वा संस्तभ्यात्मानमात्मना।\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्।।",
+            "hindi": "इस प्रकार, बुद्धि से आत्मा को जानकर, वह व्यक्ति अपनी आत्मा को नियंत्रित करता है और कठिन इच्छाओं का संहार करता है।",
+            "english": "Thus, by controlling the mind with the intellect, one should destroy the desire that is the formidable enemy, in the form of desire."
+        },
+        {
+            "number": 43,
+            "sanskrit": "इति श्रीभगवद्गीतासु उपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे त्रयोदशोऽध्याय:।",
+            "hindi": "इस प्रकार श्रीभगवद्गीता के उपनिषदों में ब्रह्मविद्या और योगशास्त्र में श्रीकृष्ण और अर्जुन के संवाद में तेरहवां अध्याय पूरा हुआ।",
+            "english": "Thus, in the Upanishads of the Bhagavad Gita, the science of the knowledge of Brahman and Yoga, in the dialogue between Lord Krishna and Arjuna, the thirteenth chapter is completed."
+        }
+
+    ]
+}

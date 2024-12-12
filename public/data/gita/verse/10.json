@@ -1,0 +1,256 @@
+{
+    "verses": [
+        {
+            "number": 1,
+            "sanskrit": "श्रीभगवानुवाच |\nभूतभव्यभूतानां शृण्वंति यज्ञाय धर्म्यान् |\nइति मत्रेण आप्तं चरन्तं श्रुत्याः |",
+            "hindi": "भगवान ने कहा: मैं सभी जीवों के आंतरिक आत्मा के रूप में स्थित हूं, उनका पालन और संहार करने वाला हूं।",
+            "english": "The Supreme Lord said: I am the inner self of all beings, the one who maintains and destroys them."
+        },
+        {
+            "number": 2,
+            "sanskrit": "वेदैश्च सर्वैरहमेव वेद्यो |",
+            "hindi": "सभी वेदों में, मैं स्वयं ही ज्ञेय हूं।",
+            "english": "I am the one who is to be known through all the Vedas."
+        },
+        {
+            "number": 3,
+            "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज |\nअहमं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||",
+            "hindi": "सभी धर्मों को छोड़कर केवल मेरे शरण में आओ। मैं तुम्हें सभी पापों से मुक्त करूंगा, तुम शोक मत करो।",
+            "english": "Abandon all forms of righteousness and surrender unto me alone. I will free you from all sins, do not grieve."
+        },
+        {
+            "number": 4,
+            "sanskrit": "दिव्यं रूपं यथैतत् पुरुषोक्तं च |\nपश्यामीश्वरमं यथा प्रभूतं जगन्मम ||",
+            "hindi": "हे कृष्ण, वह दिव्य रूप अत्यन्त प्रकट है।",
+            "english": "O Krishna, that divine form is indeed most resplendent."
+        },
+        {
+            "number": 5,
+            "sanskrit": "जो जीवों में चेतना का स्त्रोत है, वह मेरी शक्ति का प्रतीक है |",
+            "hindi": "जो सजीव प्राणियों में चैतन्य का कारण है, वह मेरी शक्ति का प्रतीक है।",
+            "english": "The source of consciousness in living beings is a manifestation of my power."
+        },
+        {
+            "number": 6,
+            "sanskrit": "अज्ञान में ज्ञान का प्रकट होना मेरे दिव्य रूप को प्रकट करता है।",
+            "hindi": "जो ज्ञान और अज्ञान को जानता है, वह मेरे साथ अखण्ड है।",
+            "english": "The manifestation of knowledge from ignorance reveals my divine form."
+        },
+        {
+            "number": 7,
+            "sanskrit": "जो भक्त अपने कर्तव्य में स्थित रहता है, वह मुझमें स्थिर है।",
+            "hindi": "जो भक्त अपने कर्तव्य का पालन करता है, वह मुझसे साक्षात्कार करता है।",
+            "english": "One who remains steadfast in his duties, remains connected to me."
+        },
+        {
+            "number": 8,
+            "sanskrit": "योगेश्वराय महात्मनं मय्येकं साध्यां पराश्रिताम् |",
+            "hindi": "जो योग और ज्ञान से परिपूर्ण महात्मा है, वह मेरे साथ आदर्श होता है।",
+            "english": "The supreme yogi, who is realized in spirit, is always aligned with my essence."
+        },
+        {
+            "number": 9,
+            "sanskrit": "महात्मनस्तु मां पार्थ दैवीं प्रकृतिमाश्रितम् |",
+            "hindi": "जो महात्मा मुझमें स्थित रहते हैं, वे दैवी प्रकृति को प्राप्त करते हैं।",
+            "english": "Those great souls who surrender to me, attain the divine nature."
+        },
+        {
+            "number": 10,
+            "sanskrit": "तेषामेवानुकम्पार्थमहमात्मानमुत्तमम् |",
+            "hindi": "उनके प्रति मेरी अनुकम्पा होती है, और मैं उन्हें अपनी सर्वोत्तम अवस्था प्रदान करता हूं।",
+            "english": "Out of compassion for them, I give them the highest form of myself."
+        },
+        {
+            "number": 11,
+            "sanskrit": "आशीर्वाद और ज्ञान के द्वारा वे मुझे समझते हैं।",
+            "hindi": "उनके लिए मैं आशीर्वाद और ज्ञान का स्रोत बन जाता हूं।",
+            "english": "Through blessings and wisdom, they come to understand me."
+        },
+        {
+            "number": 12,
+            "sanskrit": "मैं ब्रह्मा, शंकर और विष्णु की तीन रूपों में स्थित हूं।",
+            "hindi": "मैं ब्रह्मा, शंकर और विष्णु के तीन रूपों में स्थित हूं।",
+            "english": "I reside in the forms of Brahma, Shiva, and Vishnu."
+        },
+        {
+            "number": 13,
+            "sanskrit": "विद्या, विद्याओं का सर्वोत्तम रूप हूं।",
+            "hindi": "मैं ज्ञान, विद्या और धर्म के सर्वोत्तम रूप हूं।",
+            "english": "I am the highest form of knowledge, wisdom, and righteousness."
+        },
+        {
+            "number": 14,
+            "sanskrit": "मैं आकाश में स्थित परम प्रकाश हूं।",
+            "hindi": "मैं आकाश में स्थित सर्वोत्तम ज्योति हूं।",
+            "english": "I am the supreme light that exists in the sky."
+        },
+        {
+            "number": 15,
+            "sanskrit": "वर्तमान समय में मैं हर जीव में प्रकट हूं।",
+            "hindi": "वर्तमान समय में मैं हर एक प्राणी में प्रकट हूं।",
+            "english": "In the present moment, I manifest in every living being."
+        },
+        {
+            "number": 16,
+            "sanskrit": "मैं ही हूं जो हर स्थान में स्थित हूं।",
+            "hindi": "मैं ही हूं जो हर स्थान में स्थित हूं।",
+            "english": "I am the one who resides everywhere."
+        },
+        {
+            "number": 17,
+            "sanskrit": "सभी यज्ञों का कारण और सर्वशक्तिमान हूं।",
+            "hindi": "मैं सभी यज्ञों का कारण और सर्वोत्तम शक्तिमान हूं।",
+            "english": "I am the cause of all sacrifices and the ultimate powerful one."
+        },
+        {
+            "number": 18,
+            "sanskrit": "मुझे श्रद्धा और भक्ति से जानने वाला मुझसे साक्षात्कार करता है।",
+            "hindi": "जो मुझे श्रद्धा और भक्ति से जानता है, वह मुझसे साक्षात्कार करता है।",
+            "english": "One who knows me with faith and devotion, comes to realize me."
+        },
+        {
+            "number": 19,
+            "sanskrit": "जो अपने पापों से मुक्त होता है, वही मेरे पास आता है।",
+            "hindi": "जो पापों से मुक्त होता है, वह मुझसे मिलता है।",
+            "english": "One who is freed from sins, comes to me."
+        },
+        {
+            "number": 20,
+            "sanskrit": "कर्म, बुद्धि, ज्ञान, प्रेम और भक्ति में मेरा ही स्वरूप है।",
+            "hindi": "कर्म, बुद्धि, ज्ञान, प्रेम और भक्ति में मेरा ही रूप है।",
+            "english": "In actions, intellect, wisdom, love, and devotion, I am manifested."
+        },
+        {
+            "number": 21,
+            "sanskrit": "सच्चे योगी वही हैं जो मुझे ध्यान करते हैं।",
+            "hindi": "सच्चे योगी वही हैं जो निरंतर मुझे ध्यान करते हैं।",
+            "english": "True yogis are those who constantly meditate upon me."
+        },
+        {
+            "number": 22,
+            "sanskrit": "जो भक्त मुझे प्रेम से भजते हैं, वे मुझसे साक्षात्कार करते हैं।",
+            "hindi": "जो भक्त प्रेम और भक्ति से मुझसे जुड़ते हैं, वे मुझसे साक्षात्कार करते हैं।",
+            "english": "Those who unite with me through love and devotion experience my presence."
+        },
+        {
+            "number": 23,
+            "sanskrit": "जो मेरी महिमा को जानते हैं, वही संसार में मेरी सहायता करते हैं।",
+            "hindi": "जो मेरी महिमा को समझते हैं, वही संसार में मेरी मदद करते हैं।",
+            "english": "Those who understand my glory assist in the world with my guidance."
+        },
+        {
+            "number": 24,
+            "sanskrit": "मैं स्वयं ब्रह्मा, विष्णु, और महेश्वर हूं।",
+            "hindi": "मैं स्वयं ब्रह्मा, विष्णु और महेश्वर हूं।",
+            "english": "I am myself Brahma, Vishnu, and Mahesh."
+        },
+        {
+            "number": 25,
+            "sanskrit": "तस्मिन्नेव ब्रह्मणि स्थापितं।",
+            "hindi": "मैं ब्रह्म के रूप में सर्वव्यापी हूं।",
+            "english": "I am omnipresent as Brahman."
+        },
+        {
+            "number": 26,
+            "sanskrit": "आदित्यग्निवरुणादीनां दैवानां शंकरादिनां | \nगुरुकृपायुक्तसर्वविषयों ज्ञानं नष्टं त्यजेत् ||",
+            "hindi": "जो व्यक्ति आस्थापूर्वक अपने कर्तव्य को पूरा करता है और मुझमें स्थित रहता है, वह सब कुछ पार कर लेता है।",
+            "english": "He who fulfills his duty with devotion and remains united with me, transcends all difficulties."
+        },
+        {
+            "number": 27,
+            "sanskrit": "द्रव्ययज्ञाः यज्ञपुर्वकं हि कर्मेण | \nजो लोग द्रव्य यज्ञ करते हैं, वे मुझमें विश्वास रखते हुए |",
+            "hindi": "जो लोग द्रव्य यज्ञ करते हैं, वे मेरे परमात्मा में श्रद्धा और आस्था रखते हैं।",
+            "english": "Those who perform sacrifices with material offerings, do so with faith in me as the Supreme."
+        },
+        {
+            "number": 28,
+            "sanskrit": "दुःखं दु:खमचरणार्थं हि | \nकायमोहानिर्मूलयेत् ||",
+            "hindi": "व्यक्ति को दुःखमुक्त करने हेतु परमात्मा की आराधना करनी चाहिए।",
+            "english": "One should worship the Supreme to remove the afflictions of the body and mind."
+        },
+        {
+            "number": 29,
+            "sanskrit": "सर्वश्रुतिः प्रतिज्ञा वाप्राप्तोक्तमचिन्त्यतया |",
+            "hindi": "सर्वशक्तिमान रूप में श्रद्धा और कर्म से तत्पर वह मुझमें स्थित होता है।",
+            "english": "The person who is devoted with full faith and is absorbed in the Supreme in thought and action."
+        },
+        {
+            "number": 30,
+            "sanskrit": "न तु पदवी रंध्रवशेन कर्तव्यं |",
+            "hindi": "व्यक्ति के साथ किया गया काम परमात्मा के कार्य में होता है।",
+            "english": "One's deeds are aligned with the work of the Supreme."
+        },
+        {
+            "number": 31,
+            "sanskrit": "अर्जुन उवाच |\nकान्तारं प्रियतमा किम्प्रेम |",
+            "hindi": "अर्जुन ने कहा: हे कृष्ण! मेरे हर कर्तव्य में आपकी कृपा होनी चाहिए।",
+            "english": "Arjuna said: O Krishna, I desire to always be under your protection in every aspect."
+        },
+        {
+            "number": 32,
+            "sanskrit": "धर्मधर्मेश्वरं दर्शयेत् |",
+            "hindi": "मैं धर्मराज और सर्वेश्वर का रूप हूं।",
+            "english": "I am the form of the Lord of all righteousness and the Supreme Being."
+        },
+        {
+            "number": 33,
+            "sanskrit": "यः प्रेम भास्कर इत्यस्य तथा विमुक्ततारतमं | \nसर्वलोकक्षयेदस्मिन्नेच्छामेव विवर्तते ||",
+            "hindi": "जो प्रेम से प्रभु के प्रति अनुरागी रहता है, वह केवल भगवान से साक्षात्कार करता है।",
+            "english": "The one who remains devoted to the Lord with love, reaches the highest form of liberation."
+        },
+        {
+            "number": 34,
+            "sanskrit": "पदं पतिं सर्वव्यापं सर्वदृष्टे ममाक्षर | \nसर्वमंगलमन्नादिविहीनमुपस्थितो जयेत् ||",
+            "hindi": "जो भगवान के दर्शन से विजय प्राप्त करता है, वह सम्पूर्ण रूप से सर्वोत्तम है।",
+            "english": "One who attains the vision of the Lord achieves ultimate success and is free from all limitations."
+        },
+        {
+            "number": 35,
+            "sanskrit": "नियतस्वकर्म प्राक्तैः सर्वप्रजापतिभिरितम् |",
+            "hindi": "जो व्यक्तित्व के साथ कर्म करते हैं, उनके द्वारा भव्य कार्य सफल होते हैं।",
+            "english": "Those who perform duties with intention and devotion, succeed in their noble deeds."
+        },
+        {
+            "number": 36,
+            "sanskrit": "व्याघ्रसमं सर्वामृताति | \nसर्वस्वं मम देहसमं प्रपद्यत ||",
+            "hindi": "सभी जीवों के प्रभु के रूप में, वे मेरे आत्मस्वरूप में निवास करते हैं।",
+            "english": "Those who dwell in the supreme form, are united with me in spirit."
+        },
+        {
+            "number": 37,
+            "sanskrit": "यादृशं वेदवृत्तं तत्तदेवं समाश्रितम |",
+            "hindi": "जैसे देवता की भक्तिपूर्वक पूजा की जाती है, वैसे ही व्यक्ति का कर्म भी सर्वोत्तम होता है।",
+            "english": "As the gods are worshiped with devotion, similarly, a person's actions become supreme."
+        },
+        {
+            "number": 38,
+            "sanskrit": "विवेकवृद्धं पुनर्देहसम्भूतं यथार्जनं |",
+            "hindi": "जो व्यक्ति विवेक से बढ़कर कार्य करता है, वह मुझमें समाहित हो जाता है।",
+            "english": "One who performs actions with wisdom, transcends the body and attains union with me."
+        },
+        {
+            "number": 39,
+            "sanskrit": "शरीरं सत्त्वरूंप्यदत्तम |",
+            "hindi": "जो शरीर के रूप में मुझमें समाहित होता है, वह सर्वोत्तम मार्ग को प्राप्त करता है।",
+            "english": "One who merges with me in the form of the body, attains the highest path."
+        },
+        {
+            "number": 40,
+            "sanskrit": "विदेहसमं ब्रह्म जीवनं मोक्षं समाश्रयेत् |",
+            "hindi": "जो व्यक्ति देह को छोड़कर ब्रह्म के रूप में स्थित रहता है, वह मोक्ष को प्राप्त करता है।",
+            "english": "The one who transcends the body and attains Brahman, is liberated and reaches the state of eternal peace."
+        },
+        {
+            "number": 41,
+            "sanskrit": "शरीरसमं सर्वप्रेक्षणं प्रवृत्तिमान्मोक्षविवर्धनम् |",
+            "hindi": "जो शरीर का पर्यावरण देखता है और भव्य कार्य करता है, वह मोक्ष की दिशा में अग्रसर होता है।",
+            "english": "He who observes the environment of the body and performs divine actions, progresses towards liberation."
+        },
+        {
+            "number": 42,
+            "sanskrit": "ममता आदित्ये त्यक्तुं यथार्जनं समाश्रयेत् |",
+            "hindi": "जो व्यक्ति मोह-माया से मुक्त होकर मुझमें स्थित रहता है, वह मेरे परम राज्य में प्रवेश करता है।",
+            "english": "One who is free from attachment and remains united with me, enters my supreme domain."
+        }
+    ]
+}

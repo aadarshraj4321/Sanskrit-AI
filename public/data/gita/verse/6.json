@@ -1,0 +1,286 @@
+{
+    "verses": [
+        {
+            "number": 1,
+            "sanskrit": "आत्मयोगं निष्ठाप्य स्तितो योगी किलाश्नुते।\nशरीरवाङ्मनोभिर्यत्संभावयति तत्प्रपण्नं।।",
+            "hindi": "जो व्यक्ति आत्मा में स्थित होकर योग में अभ्यास करता है, वह आत्मज्ञान प्राप्त करता है।",
+            "english": "The person who performs self-discipline through meditation attains true peace."
+        },
+        {
+            "number": 2,
+            "sanskrit": "यदा हि नेन्द्रियार्थेभ्यः कर्मयोगं समाश्रितम्।\nनिरायास आत्मनं नाथन्वयंन्वंशाः।।",
+            "hindi": "जो व्यक्ति कर्मयोग के द्वारा नित्य आत्मा में साधना करता है वह कर्म में विघ्नजनक या कष्टों से बच जाता है।",
+            "english": "One who practices Karma Yoga and is detached from sensory distractions attains spiritual peace."
+        },
+        {
+            "number": 3,
+            "sanskrit": "न हि देहवियोगेण निर्वर्तते ब्रह्मपद्धति।\nवसाने साध्यानाम् सर्वानिद्राणाम् प्रतिवहं।।",
+            "hindi": "जो व्यक्ति अपने मन और शरीर से अलग रहता है, वह सच्चे योगी कहलाता है।",
+            "english": "The one who is detached from both the body and mind is called a true yogi."
+        },
+        {
+            "number": 4,
+            "sanskrit": "कर्मयोग के रहमानी वस्त्र सहज प्रकटे प्रकटते येवकम्।",
+            "hindi": "कर्मयोग और मानसिक अभ्यास द्वारा आत्मा के विकास का मार्ग है।",
+            "english": "Through Karma Yoga and mental discipline, the path of self-development is achieved."
+        },
+        {
+            "number": 5,
+            "sanskrit": "कर्मविरुद्ध कर्म धर्मविरुद्ध कर्म धर्मनशायनं।",
+            "hindi": "जो कार्यों के माध्यम से आत्मा में स्थापित होकर कर्ता के कर्मों को छोड़ता है वह परमात्मा के निकट रहता है।",
+            "english": "The one who renounces actions while living in the soul is close to the Supreme."
+        },
+        {
+            "number": 6,
+            "sanskrit": "उधरेणात्मनं आत्मनं नात्मनम्धन्यवांसीं श्रद्धा।।",
+            "hindi": "जो व्यक्ति आत्मा के भीतर श्रद्धा में स्थापित होकर काम करता है, वह नष्ट नहीं होता है।",
+            "english": "One who works with faith and dedication, with the soul as the guiding force, is not subject to failure."
+        },
+        {
+            "number": 7,
+            "sanskrit": "सर्वस्वक्षेपत्वदात्मतुष्टि।",
+            "hindi": "जो व्यक्ति अपनी आत्मा में संतुष्ट रहता है वह परिष्कृत दर्शन प्राप्त करता है।",
+            "english": "One who remains content and satisfied with the self attains refined vision."
+        },
+        {
+            "number": 8,
+            "sanskrit": "प्रणयमेन्द्रियसंवृति।।",
+            "hindi": "जो आत्मा की वृत्ति से स्वयं को नियंत्रित करता है, वह निरंतर आनंद में स्थित रहता है।",
+            "english": "The one who controls the senses through the disciplined mind remains in constant bliss."
+        },
+        {
+            "number": 9,
+            "sanskrit": "कुण्डली वक्रासं भिन्धनवतीकमं शयनपय।",
+            "hindi": "जो व्यक्ति आत्मा के मार्ग को सत्य न मानते हुए दूसरों की निंदा करता है, वह आत्मा से दूर होता है।",
+            "english": "The one who criticizes others while deviating from the true path of the soul remains far from divine truth."
+        },
+        {
+            "number": 10,
+            "sanskrit": "आत्मवृत्या मनुष्यत्वयाता विहंगमन्त्र कष्टदीहम।",
+            "hindi": "जो आत्मा में स्थापित होकर कर्म करता है, वह निर्विकार और कष्ट से मुक्त होता है।",
+            "english": "The one who performs actions with a mind set on the soul remains unaffected and free from suffering."
+        },
+        {
+            "number": 11,
+            "sanskrit": "ब्राह्मणसंयोग ध्यानवासनां सद्भिर्मेद्यामिन्हस्वरुपसमाप्त।।",
+            "hindi": "जो व्यक्ति ब्राह्मण के साथ ध्यान में मनोबल के विकास के लिए स्थित रहता है वह मानसिक सुख के ध्यान के समीप पहुचता है।",
+            "english": "The one who associates with wisdom and focuses on meditation reaches inner peace and realization."
+        },
+        {
+            "number": 12,
+            "sanskrit": "नास्ति निश्चित आकलवदाद्विकलोऽन्धे॥",
+            "hindi": "जो व्यक्ति सिद्ध आत्मानुभूति के लिए सच्चे कार्य करता है, उसे विजय की प्राप्ति होती है।",
+            "english": "The person who performs true actions with a goal of spiritual realization attains victory."
+        },
+        {
+            "number": 13,
+            "sanskrit": "त्वं कृष्ण शिष्यम व्रजन्निष्कामीविप्रिनत्वत्म।।",
+            "hindi": "प्रेम और अध्यात्मिक संतुष्टि के साथ कृष्ण के चरणों में स्थित रहते हुए आत्मा सन्मार्ग पर अग्रसर रहता है।",
+            "english": "One who remains dedicated to Krishna with love and spiritual fulfillment progresses on the right path."
+        },
+        {
+            "number": 14,
+            "sanskrit": "चरणे निश्चित निष्कामित्वस्यद्य हीदा।।",
+            "hindi": "जो व्यक्ति कष्टपूर्ण मेहनत के साथ महान कार्यों में सफलता पाता है, वह आत्मा में अधिक स्थिर होता है।",
+            "english": "Through persistent effort in challenging tasks, one who achieves success becomes more grounded in the soul."
+        },
+        {
+            "number": 15,
+            "sanskrit": "ध्यानं दृढिर्धृतस्य में कर्म।",
+            "hindi": "जो व्यक्ति मन के प्रबंधन से समर्पित कर्म करता है, वह सर्वोत्तम रूप में आनंद प्राप्त करता है।",
+            "english": "Through disciplined practice, one attains the highest bliss by managing the mind and dedicating actions."
+        },
+        {
+            "number": 16,
+            "sanskrit": "सश्रमिणं भक्तिमर्थं।",
+            "hindi": "जो व्यक्ति सच्चे भक्तिभाव से भगवान में स्थित रहता है वह निर्दोष अनुभव करता है।",
+            "english": "The one who remains with true devotion in God experiences purity and joy."
+        },
+        {
+            "number": 17,
+            "sanskrit": "सकृद्भक्तौ कर्ममहात्म त्वंध्यायना।",
+            "hindi": "भक्तिपूर्वक और साधना के साथ जो कार्य करता है वह जीवन में सफल होता है।",
+            "english": "Through devotion and disciplined practice, one who works succeeds in life."
+        },
+        {
+            "number": 18,
+            "sanskrit": "श्रेष्ठमार्ग सर्वयोगयूनां।",
+            "hindi": "जो व्यक्ति सभी प्रकार के योग की संपूर्णता में स्थापित रहता है, वह सर्वोत्तम मार्ग में है।",
+            "english": "The one who unites all forms of yoga remains on the supreme path."
+        },
+        {
+            "number": 19,
+            "sanskrit": "आत्मविश्वास आत्मा।",
+            "hindi": "जो व्यक्ति आत्मा में विश्वास रखता है, वह स्थिर और शांत होता है।",
+            "english": "One who has faith in the soul remains steady and calm."
+        },
+        {
+            "number": 20,
+            "sanskrit": "ध्यानकारिणों आत्मस्वामि धर्मार्थतवस्थालम।",
+            "hindi": "जो व्यक्ति ध्यान में स्थित रहता है, वह आत्मा में स्थिर और स्थायी आनंद को प्राप्त करता है।",
+            "english": "The one who remains absorbed in meditation attains stability and eternal bliss in the soul."
+        },
+        {
+            "number": 21,
+            "sanskrit": "विरक्षियम्भयामाधातम।",
+            "hindi": "जो व्यक्ति अपने चित्त और इंद्रियों के माध्यम से अंतर्निहित शांति का अनुभव करता है वह आनंद प्राप्त करता है।",
+            "english": "Through discipline and detachment, the one who attains inner peace experiences joy."
+        },
+        {
+            "number": 22,
+            "sanskrit": "यस्यात्मा उपैति रमणां।",
+            "hindi": "जो व्यक्ति आत्मा में रमण करता है वह कभी भी आत्मसमर्पण और शांति से दूर नहीं जाता है।",
+            "english": "One who dwells in the soul never deviates from surrender and peace."
+        },
+        {
+            "number": 23,
+            "sanskrit": "अच्छं योगयोगिनाम् समुत्क्रांतिम्।\nध्यानमयमागच्छादान्किल संगां।",
+            "hindi": "जो व्यक्ति ध्यान और योग के माध्यम से संयमित रहता है, वह परमात्मा के साथ योग का अनुभव करता है।",
+            "english": "The one who practices self-discipline through meditation and yoga experiences union with the Supreme."
+        },
+        {
+            "number": 24,
+            "sanskrit": "नास्ति कर्मावर्तने शाकत्यकर्म प्रजापक्षम्।\nद्वादशां नमः स्थानवद्ध ।",
+            "hindi": "कर्म और इंद्रियों पर नियंत्रण से आत्मा को शांति और आनंद की प्राप्ति होती है।",
+            "english": "By controlling actions and the senses, one attains peace and joy."
+        },
+        {
+            "number": 25,
+            "sanskrit": "शरीरमध्यविष्टं हस्तवाचनमस्तु।।",
+            "hindi": "जिस व्यक्ति की वाणी और कर्म ध्यान में स्थित रहती हैं, वह शांति प्राप्त करता है।",
+            "english": "The one whose words and actions are dedicated to meditation achieves peace."
+        },
+        {
+            "number": 26,
+            "sanskrit": "अनुशास्य शरीरनं काशते विश्वे पामरं।",
+            "hindi": "जो व्यक्ति शरीर को अनुशासन में रखता है, वह आत्मा में जागरूकता और शांति का अनुभव करता है।",
+            "english": "The one who keeps the body disciplined experiences awareness and peace in the soul."
+        },
+        {
+            "number": 27,
+            "sanskrit": "शरीरव्याप्तिर्विकिं रक्षणद्भास्वरं।",
+            "hindi": "जो व्यक्ति अपने शरीर और मन को व्यस्त नहीं रखता वह ध्यान में स्थिर और सुखी होता है।",
+            "english": "The person who does not distract the body and mind remains stable and joyful in meditation."
+        },
+        {
+            "number": 28,
+            "sanskrit": "ध्यानयुक्तो योगी पुण्यः सर्वव्याप्ति को।।",
+            "hindi": "जो व्यक्ति ध्यानयोग से जुड़ा रहता है वह पुण्य में संलिप्त होता है और परमात्मा से मिल जाता है।",
+            "english": "The one who is devoted to meditation becomes sanctified and unites with the Supreme."
+        },
+        {
+            "number": 29,
+            "sanskrit": "मनो सशक्ताश्वशुल्क उपशामयश्ट।",
+            "hindi": "जो व्यक्ति अपने मन को नियंत्रित और शांत करता है, वह शांति और सफलता प्राप्त करता है।",
+            "english": "The one who controls and calms the mind attains peace and success."
+        },
+        {
+            "number": 30,
+            "sanskrit": "सोम्यनाथः श्रुतं शुद्धतया।।",
+            "hindi": "जो व्यक्ति श्रद्धा और शुद्धता के साथ भगवान की भक्ति करता है, वह परम सुख और आनंद प्राप्त करता है।",
+            "english": "The person who worships God with faith and purity experiences supreme happiness and bliss."
+        },
+        {
+            "number": 31,
+            "sanskrit": "अर्जुनः प्रवाहशीलप्रदायां पार्थयुगेश्वरज।",
+            "hindi": "जो व्यक्ति कर्मयोग और मानसिक अभ्यास से जुड़ा रहता है, वह जीवन के प्रत्येक क्षेत्र में सफल होता है।",
+            "english": "One who is dedicated to Karma Yoga and mental discipline succeeds in every aspect of life."
+        },
+        {
+            "number": 32,
+            "sanskrit": "सर्वसामां कर्मशिलानाम्।",
+            "hindi": "जो व्यक्ति प्रत्येक कार्य में समर्पण और श्रद्धा से कार्य करता है वह सच्चे योगी के रूप में प्रतिष्ठित होता है।",
+            "english": "The one who performs every action with devotion and dedication is established as a true yogi."
+        },
+        {
+            "number": 33,
+            "sanskrit": "निर्विग्नप्रकृत्यम् वर्धिष्णुकण्टकजं॥",
+            "hindi": "जो व्यक्ति संतुलित और मानसिक नियंत्रण के साथ कार्य करता है वह कर्मविहीन होता है।",
+            "english": "The one who works with balance and mental control remains detached from the results."
+        },
+        {
+            "number": 34,
+            "sanskrit": "दिश्यास्तां सहन्व्रजत्॥",
+            "hindi": "जो व्यक्ति योग और साधना में लगातार कार्य करता है, वह जीवन के प्रत्येक पहलू में सफलता प्राप्त करता है।",
+            "english": "The one who practices yoga and meditation continuously attains success in all aspects of life."
+        },
+        {
+            "number": 35,
+            "sanskrit": "मणिकिर्णयानां कल्यूँकीलबृक्कमःस्संप्राप्त ।",
+            "hindi": "जो व्यक्ति आत्मा और शरीर के संबंध को महसूस कर जीवन में शांति और सफलता का अनुभव करता है, वह शांति प्राप्त करता है।",
+            "english": "The one who feels the connection between the body and soul attains peace and success."
+        },
+        {
+            "number": 36,
+            "sanskrit": "वशिष्ठप्रतीक्षाभवति कर्मस्वय.विप्र।",
+            "hindi": "जो व्यक्ति संतुष्ट रहता है और आत्मा के साथ समर्पण करता है वह जीवन में खुशी और आनंद की स्थिति में रहता है।",
+            "english": "The one who remains satisfied and surrenders to the soul remains in a state of happiness and joy."
+        },
+        {
+            "number": 37,
+            "sanskrit": "समयाशीनयतेद्रष्टा।",
+            "hindi": "जो व्यक्ति योग में निष्ठा और सत्य के साथ स्थिति रहता है, वह मनोबल और उच्च कार्यकुशलता प्राप्त करता है।",
+            "english": "The one who stays true and dedicated to yoga with sincerity attains spiritual strength and proficiency in all tasks."
+        },
+        {
+            "number": 38,
+            "sanskrit": "योगी भाग्यात्मनियम्न मानतव्या",
+            "hindi": "जो व्यक्ति ध्यान के माध्यम से आत्मा में स्थित रहता है, वह भाग्य और योग के आशीर्वाद से मिलता है।",
+            "english": "The one who remains in the soul through meditation attains the blessings of destiny and yoga."
+        },
+        {
+            "number": 39,
+            "sanskrit": "कर्मलोकभाववादी श्री।",
+            "hindi": "जो व्यक्ति कर्म में स्थिर रहता है, वह शांति और परम योग का अनुभव करता है।",
+            "english": "One who remains steadfast in action experiences peace and the ultimate form of yoga."
+        },
+        {
+            "number": 40,
+            "sanskrit": "सृजनीयतिगमनं शेषार्थवं आत्मरोग।",
+            "hindi": "जो व्यक्ति आत्मा में स्थिर रहता है, वह एकाकार अनुभव से स्वतंत्र होता है।",
+            "english": "The one who remains fixed in the soul is liberated from all worldly bonds."
+        },
+        {
+            "number": 41,
+            "sanskrit": "प्रयत्नाद्यात्मनं धर्मरक्षायाः",
+            "hindi": "जो व्यक्ति ध्यान में स्थित होकर अपनी आत्मा की रक्षा करता है, वह परम सुख और शांति प्राप्त करता है।",
+            "english": "The one who protects the soul through meditation attains supreme peace and bliss."
+        },
+        {
+            "number": 42,
+            "sanskrit": "माहात्मानं लभते भव्यं",
+            "hindi": "जो व्यक्ति ध्यान द्वारा अपने आत्मा से जुड़ता है, वह महान आत्मज्ञान प्राप्त करता है।",
+            "english": "The one who connects with the soul through meditation attains great self-realization."
+        },
+        {
+            "number": 43,
+            "sanskrit": "न मुहं मन्न्येव पार्थ।",
+            "hindi": "जो व्यक्ति अपने मानसिक संकल्प को स्थिर करके अभ्यास करता है, वह किसी भी बाधा से परे होता है।",
+            "english": "The one who maintains mental resolve in meditation remains unaffected by obstacles."
+        },
+        {
+            "number": 44,
+            "sanskrit": "संपूर्णमणि योगनिर्वेतित्तियव्यख्यानांतिवाः।",
+            "hindi": "जो व्यक्ति आत्मा में स्थित होकर जीवन के हर कार्य को एकाकार करता है वह जीवन में उत्कृष्ट स्थिति को प्राप्त करता है।",
+            "english": "The one who unites every action with the soul attains the highest state of being."
+        },
+        {
+            "number": 45,
+            "sanskrit": "योयोगं निरंतरते! तं यद्वा अन्यनिवर्तनस्मृत्त।।",
+            "hindi": "जो व्यक्ति निरंतर ध्यान में स्थिर रहता है, वह परमयोग में स्थित रहता है।",
+            "english": "The one who remains constantly in meditation attains the supreme union with the Divine."
+        },
+        {
+            "number": 46,
+            "sanskrit": "यात्राकुर्बेगात्रे विघ्नम् अद्विर्बन्धर्निर्णेत।",
+            "hindi": "जो व्यक्ति आत्मा में स्थिर होकर योग और साधना से संलग्न रहता है वह परम शांति में स्थित होता है।",
+            "english": "The one who stays established in the soul, engaging in yoga and meditation, remains in supreme peace."
+        },
+        {
+            "number": 47,
+            "sanskrit": "ईश्वरप्रणिधानम् अत्यगानंतुला.स्य。",
+            "hindi": "जो व्यक्ति परमात्मा में समर्पण करके योग में स्थित रहता है, वह परम सुख का अनुभव करता है।",
+            "english": "The one who remains devoted to the Supreme Being through meditation attains the highest bliss."
+        }
+    ]
+}

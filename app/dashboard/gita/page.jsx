@@ -1301,7 +1301,7 @@ const sidebarItems = [
 
 export default function BhagavadGitaPage() {
   const [chapters, setChapters] = useState([]);
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("hi");
   const [theme, setTheme] = useState("dark");
 
   // Fetch the chapters data from the JSON file
